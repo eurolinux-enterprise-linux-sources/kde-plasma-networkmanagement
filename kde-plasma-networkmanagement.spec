@@ -1,7 +1,7 @@
 Name:           kde-plasma-networkmanagement
 Epoch:          1
 Version:        0.9.0.9
-Release:        2%{?dist}
+Release:        7%{?dist}
 Summary:        NetworkManager KDE 4 integration
 
 License:        (GPLv2 or GPLv3) and GPLv2+ and LGPLv2+ and LGPLv2
@@ -16,6 +16,10 @@ Source10: 00-fedora-networkmanagement.js
 ## upstream patches
 # Display IPv6 information in details
 Patch1: kde-plasma-networkmanagement-0.9.0.9-ipv6-details.patch
+#Fix crash when creating WPA2 Enterprise connections
+Patch2: kde-plasma-networkmanagement-0.9.0.0-bz#916275.patch
+#Add Libreswan VPN support
+Patch3: kde-plasma-networkmanagement-0.9.0.9-libreswan.patch
 
 BuildRequires:  gettext
 BuildRequires:  kdelibs4-devel
@@ -96,11 +100,19 @@ Requires:       NetworkManager-openconnect
 %{summary}.
 %endif
 
+%package libreswan
+Summary:        Libreswan support for %{name}
+Requires:       %{name}-libs%{?_isa} = %{?epoch:%{epoch}:}%{version}-%{release} 
+Requires:       NetworkManager-libreswan
+%description libreswan
+%{summary}.
 
 %prep
 %setup -q -n networkmanagement-%{version}
 
 %patch1 -p1 -b .ipv6-details
+%patch2 -p1 -b .bz#916275
+%patch3 -p1 -b .libreswan
 
 %build
 if [ -x %{_bindir}/plasma-dataengine-depextractor ] ; then
@@ -143,10 +155,12 @@ rm -fv %{buildroot}%{_kde4_datadir}/kde4/services/networkmanagement_strongswanui
 
 # clean unpackaged VPN related files in RHEL
 %if 0%{?rhel}
-rm -fv %{buildroot}%{_kde4_libdir}/kde4/networkmanagement_open*
+rm -fv %{buildroot}%{_kde4_libdir}/kde4/networkmanagement_openvpn*
+rm -fv %{buildroot}%{_kde4_libdir}/kde4/networkmanagement_openconnect*
 rm -fv %{buildroot}%{_kde4_libdir}/kde4/networkmanagement_pptp*
 rm -fv %{buildroot}%{_kde4_libdir}/kde4/networkmanagement_vpnc*
-rm -fv %{buildroot}%{_kde4_datadir}/kde4/services/networkmanagement_open*
+rm -fv %{buildroot}%{_kde4_datadir}/kde4/services/networkmanagement_openvpn*
+rm -fv %{buildroot}%{_kde4_datadir}/kde4/services/networkmanagement_openconnect*
 rm -fv %{buildroot}%{_kde4_datadir}/kde4/services/networkmanagement_pptp*
 rm -fv %{buildroot}%{_kde4_datadir}/kde4/services/networkmanagement_vpnc*
 %endif
@@ -223,8 +237,28 @@ gtk-update-icon-cache %{_kde4_iconsdir}/oxygen &> /dev/null || :
 %{_kde4_datadir}/kde4/services/networkmanagement_pptpui.desktop
 %endif
 
+%files libreswan
+%{_kde4_libdir}/kde4/networkmanagement_libreswanui.so
+%{_kde4_datadir}/kde4/services/networkmanagement_libreswanui.desktop
 
 %changelog
+* Wed Mar 12 2014 Jan Grulich <jgrulich@redhat.com> 0.9.0.0-7
+- Rename openswan to libreswan
+
+* Mon Feb 10 2014 Jan Grulich <jgrulich@redhat.com> 0.9.0.0-6
+- Add OpenSwan VPN support
+- Resolves #1061697
+
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1:0.9.0.9-5
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:0.9.0.9-4
+- Mass rebuild 2013-12-27
+
+* Thu Nov 28 2013 Jan Grulich <jgrulich@redhat.com> 0.9.0.0-3
+- Fix crash when creating WPA2 Enterprise connections
+- Resolves #916275
+
 * Fri Sep 27 2013 Jan Grulich <jgrulich@redhat.com> 0.9.0.9-2
 - Display IPv6 information in connection details
 - Resolves #916245
