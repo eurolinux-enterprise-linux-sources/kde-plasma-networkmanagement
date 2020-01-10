@@ -1,0 +1,1484 @@
+# translation of plasma_applet_networkmanager.po to Turkish
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Serdar Soytetir <tulliana@gmail.com>, 2008, 2009.
+# Osman Tosun <rainman.neu@gmail.com>, 2009.
+# Serdar SOYTETİR <tulliana@gmail.com>, 2010, 2011, 2012.
+# Gökçen Eraslan <gokcen@pardus.org.tr>, 2011.
+# Ozan Çağlayan <ozan@pardus.org.tr>, 2011.
+# Volkan Gezer <volkangezer@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_networkmanager\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-05-05 10:27+0200\n"
+"PO-Revision-Date: 2013-01-31 15:18+0100\n"
+"Last-Translator: Volkan Gezer <volkangezer@gmail.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: activatableitem.cpp:117
+msgctxt ""
+"@info:status Notification when the networking subsystem (NetworkManager, "
+"etc) is disabled"
+msgid "Networking system disabled"
+msgstr "Ağ altyapısı kapatıldı"
+
+#: activatableitem.cpp:121
+msgctxt "@info:status Notification for radio kill switch turned off"
+msgid "Wireless hardware disabled"
+msgstr "Kablosuz donanım kapatıldı"
+
+#: gsminterfaceconnectionitem.cpp:143
+#, kde-format
+msgid "Signal quality: %1%"
+msgstr "Sinyal kalitesi: %1%"
+
+#: hiddenwirelessnetworkitem.cpp:77
+msgctxt "label for creating a connection to a hidden wireless network"
+msgid "<hidden network>"
+msgstr "<gizli ağ>"
+
+#: hiddenwirelessnetworkitem.cpp:81
+#, fuzzy
+#| msgctxt "@label for hidden wireless network SSID entry"
+#| msgid "Enter network name and press <placeholder>enter</placeholder>"
+msgctxt ""
+"default KLineEdit::clickMessage() for hidden wireless network SSID entry"
+msgid "Enter network name and press <enter>"
+msgstr "Ağ adını girin ve <placeholder>enter</placeholder> tuşuna basın"
+
+#: hiddenwirelessnetworkitem.cpp:82
+#, fuzzy
+#| msgctxt "@info:tooltip for hidden wireless network SSID entry"
+#| msgid "Enter network name and press <placeholder>enter</placeholder>"
+msgctxt "@info:tooltip for hidden wireless network SSID entry"
+msgid "Enter network name and press <enter>"
+msgstr "Ağ adını girin ve <placeholder>enter</placeholder> tuşuna basın"
+
+#: interfaceconnectionitem.cpp:71
+msgctxt "name of the connection not known"
+msgid "Unknown"
+msgstr "Bilinmeyen"
+
+#: interfacedetailswidget.cpp:119
+msgctxt "interface details"
+msgid "<b>Traffic</b>"
+msgstr "<b>Trafik</b>"
+
+#: interfacedetailswidget.cpp:155
+msgid "Go Back"
+msgstr "Geri git"
+
+#: interfacedetailswidget.cpp:180 interfacedetailswidget.cpp:303
+msgctxt "entry not available"
+msgid "not available"
+msgstr "kullanılabilir değil"
+
+#: interfacedetailswidget.cpp:185
+msgctxt "traffic received empty"
+msgid "Received"
+msgstr "Alınan"
+
+#: interfacedetailswidget.cpp:187
+msgctxt "traffic transmitted empty"
+msgid "Transmitted"
+msgstr "Gönderilen"
+
+#: interfacedetailswidget.cpp:294
+msgctxt "state of mobile broadband connection"
+msgid "not enabled"
+msgstr "kullanılabilir değil"
+
+#: interfacedetailswidget.cpp:310 interfacedetailswidget.cpp:358
+msgctxt "interface details"
+msgid "Type"
+msgstr "Tür"
+
+#: interfacedetailswidget.cpp:311 interfacedetailswidget.cpp:359
+msgctxt "interface details"
+msgid "Connection State"
+msgstr "Bağlantı Durumu"
+
+#: interfacedetailswidget.cpp:312
+#, fuzzy
+#| msgctxt "interface details"
+#| msgid "IPv4 Address"
+msgctxt "interface details"
+msgid "IP Address"
+msgstr "IPv4 Adresi"
+
+#: interfacedetailswidget.cpp:313
+#, fuzzy
+#| msgctxt "interface details"
+#| msgid "IPv4 Gateway"
+msgctxt "interface details"
+msgid "IP Gateway"
+msgstr "IPv4 Ağ Geçidi"
+
+#: interfacedetailswidget.cpp:314 interfacedetailswidget.cpp:361
+msgctxt "interface details"
+msgid "Connection Speed"
+msgstr "Bağlantı Hızı"
+
+#: interfacedetailswidget.cpp:314
+msgctxt "bitrate"
+msgid "Unknown"
+msgstr "Bilinmeyen"
+
+#: interfacedetailswidget.cpp:315 interfacedetailswidget.cpp:362
+msgctxt "interface details"
+msgid "System Name"
+msgstr "Sistem Adı"
+
+#: interfacedetailswidget.cpp:316
+msgctxt "interface details"
+msgid "MAC Address"
+msgstr "MAC Adresi"
+
+#: interfacedetailswidget.cpp:317 interfacedetailswidget.cpp:364
+msgctxt "interface details"
+msgid "Driver"
+msgstr "Sürücü"
+
+#: interfacedetailswidget.cpp:323
+msgctxt "interface details"
+msgid "Access Point (SSID)"
+msgstr "Erişim Noktası (SSID)"
+
+#: interfacedetailswidget.cpp:324
+msgctxt "interface details"
+msgid "Access Point (MAC)"
+msgstr "Erişim Noktası (MAC)"
+
+#: interfacedetailswidget.cpp:332
+msgctxt "@item:intable wireless band"
+msgid "Band"
+msgstr "Bant"
+
+#: interfacedetailswidget.cpp:333
+msgctxt "@item:intable wireless channel"
+msgid "Channel"
+msgstr "Kanal"
+
+#: interfacedetailswidget.cpp:340
+msgctxt "interface details"
+msgid "Operator"
+msgstr "Operatör"
+
+#: interfacedetailswidget.cpp:341
+msgctxt "interface details"
+msgid "Signal Quality"
+msgstr "Sinyal Kalitesi"
+
+#: interfacedetailswidget.cpp:342
+msgctxt "interface details"
+msgid "Access Technology"
+msgstr "Erişim Teknolojisi"
+
+#: interfacedetailswidget.cpp:360
+msgctxt "interface details"
+msgid "Network Address (IP)"
+msgstr "Ağ Adresi (IP)"
+
+#: interfacedetailswidget.cpp:363
+msgctxt "interface details"
+msgid "Hardware Address (MAC)"
+msgstr "Donanım Adresi (MAC)"
+
+#: interfacedetailswidget.cpp:382 interfaceitem.cpp:286
+msgctxt "label of the network interface"
+msgid "No IP address."
+msgstr "IP Adresi yok."
+
+#: interfacedetailswidget.cpp:393 interfacedetailswidget.cpp:409
+#: interfacedetailswidget.cpp:421 interfaceitem.cpp:297
+msgctxt "label of the network interface"
+msgid "IP display error."
+msgstr "IP görüntüleme hatası."
+
+#: interfacedetailswidget.cpp:404 interfacedetailswidget.cpp:417
+#: interfacedetailswidget.cpp:433
+#, fuzzy
+#| msgctxt "label of the network interface"
+#| msgid "No gateway."
+msgctxt "label of the network interface"
+msgid "No IP gateway."
+msgstr "Ağ Geçidi yok."
+
+#: interfacedetailswidget.cpp:510
+msgid "KBit/s"
+msgstr "KBit/s"
+
+#: interfacedetailswidget.cpp:512
+msgid "MBit/s"
+msgstr "MBit/s"
+
+#: interfacedetailswidget.cpp:516
+msgid "GBit/s"
+msgstr "GBit/s"
+
+#: interfacedetailswidget.cpp:540
+#, kde-format
+msgctxt ""
+"traffic, e.g. n KB/s\n"
+" m KB/s"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: interfacedetailswidget.cpp:549
+msgid "Received"
+msgstr "Alınan"
+
+#: interfacedetailswidget.cpp:552
+msgid "Transmitted"
+msgstr "Gönderilen"
+
+#: interfaceitem.cpp:75
+msgctxt "tooltip on the LHS widgets"
+msgid "Click here for interface details"
+msgstr "Arayüz ayrıntıları için buraya tıklayın"
+
+#: interfaceitem.cpp:112
+msgctxt "tooltip on disconnect icon"
+msgid "Disconnect"
+msgstr "Bağlantıyı Kes"
+
+#: interfaceitem.cpp:250
+msgctxt "generic label for an interface"
+msgid "<b>Network Interface</b>"
+msgstr "<b>Ağ Arayüzü</b>"
+
+#: interfaceitem.cpp:254
+msgctxt "network interface name unknown"
+msgid "<b>Unknown Network Interface</b>"
+msgstr "<b>Bilinmeyen Ağ Arabirimi</b>"
+
+#: interfaceitem.cpp:402
+msgctxt "wired interface network cable unplugged"
+msgid "Cable Unplugged"
+msgstr "Kablo takılı değil"
+
+#: networkmanager.cpp:678
+msgctxt "Tooltip sub text"
+msgid "No network interfaces"
+msgstr "Ağ arayüzü yok"
+
+#: networkmanager.cpp:730
+msgid "VPN Connections"
+msgstr "VPN Bağlantıları"
+
+#: networkmanager.cpp:744
+msgctxt "tooltip, all interfaces are down"
+msgid "Disconnected"
+msgstr "Bağlantı kesildi"
+
+#: networkmanager.cpp:747
+msgctxt "tooltip, wireless is disabled in software"
+msgid "Wireless disabled in software"
+msgstr "Kablosuz yazılımsal olarak kapalı"
+
+#: networkmanager.cpp:750
+msgctxt "tooltip, all interfaces are down"
+msgid "Networking disabled"
+msgstr "Ağ yönetimi kapalı"
+
+#: networkmanager.cpp:753
+msgctxt "tooltip, wireless is disabled by hardware"
+msgid "Wireless disabled by hardware"
+msgstr "Kablosuz donanımsal olarak kapalı"
+
+#: nmpopup.cpp:90 nmpopup.cpp:732
+msgctxt "title on the LHS of the plasmoid"
+msgid "<h3>Interfaces</h3>"
+msgstr "<h3>Arayüzler</h3>"
+
+#: nmpopup.cpp:96
+msgctxt "title on the RHS of the plasmoid"
+msgid "<h3>Connections</h3>"
+msgstr "<h3>Bağlantılar</h3>"
+
+#: nmpopup.cpp:124
+msgctxt "CheckBox to enable or disable networking completely"
+msgid "Enable networking"
+msgstr "Ağı etkinleştir"
+
+#: nmpopup.cpp:133
+msgctxt "CheckBox to enable or disable wwan (mobile broadband) interface)"
+msgid "Enable mobile broadband"
+msgstr "Mobil geniş bant ağları etkinleştir"
+
+#: nmpopup.cpp:146
+msgctxt "CheckBox to enable or disable wireless interface (rfkill)"
+msgid "Enable wireless"
+msgstr "Kablosuz bağlantıyı etkinleştir"
+
+#: nmpopup.cpp:158
+msgctxt "tabbar on the left side"
+msgid "Interfaces"
+msgstr "Arayüzler"
+
+#: nmpopup.cpp:168
+msgctxt "details for the interface"
+msgid "Details"
+msgstr "Ayrıntılar"
+
+#: nmpopup.cpp:197
+msgctxt "manage connections button in the applet's popup"
+msgid "Manage Connections..."
+msgstr "Bağlantıları Yönet..."
+
+#: nmpopup.cpp:205
+#, fuzzy
+#| msgctxt "@info:tooltip tooltip for the 'Show More' button"
+#| msgid "Show all available networks"
+msgctxt "@info:tooltip tooltip for the 'Show More' button"
+msgid "Show all available networks"
+msgstr "&Kullanılabilir tüm ağları göster"
+
+#: nmpopup.cpp:210
+msgctxt "show more button in the applet's popup"
+msgid "Show More..."
+msgstr "Daha Fazla Göster..."
+
+#: nmpopup.cpp:214
+msgctxt "show more button in the applet's popup"
+msgid "Show Less..."
+msgstr "Daha Az Göster..."
+
+#: nmpopup.cpp:294
+msgctxt "Warning about wrong NetworkManager version"
+msgid "NetworkManager is not running. Please start it."
+msgstr "NetworkManager çalışmıyor. Lütfen servisi başlatın."
+
+#: nmpopup.cpp:300
+#, kde-format
+msgctxt "Warning about wrong NetworkManager version"
+msgid ""
+"We need at least NetworkManager-%1 to work properly, found '%2'. Please "
+"upgrade to a newer version."
+msgstr ""
+"Bu uygulamanın düzgün çalışabilmesi için en azından NetworkManager-"
+"%1gerekiyor, sistemdeki '%2'. Lütfen daha yeni bir sürüme yükseltin."
+
+#: nmpopup.cpp:644
+msgctxt "pressed show more button"
+msgid "Show Less..."
+msgstr "Daha Az Göster..."
+
+#: nmpopup.cpp:649
+msgctxt "unpressed show more button"
+msgid "Show More..."
+msgstr "Daha Fazla Göster..."
+
+#: vpninterfaceitem.cpp:42
+msgctxt "initial label for VPN connection name"
+msgid "Not Available"
+msgstr "Kullanılabilir Değil"
+
+#: vpninterfaceitem.cpp:92
+msgctxt "ip of vpn interface item"
+msgid "not available"
+msgstr "kullanılabilir değil"
+
+#: vpninterfaceitem.cpp:99
+#, kde-format
+msgctxt "VPN label in interfaces"
+msgid "<b>%1</b>"
+msgstr "<b>%1</b>"
+
+#: vpninterfaceitem.cpp:101
+msgctxt "VPN state label"
+msgid "Connected"
+msgstr "Bağlandı"
+
+#: vpninterfaceitem.cpp:104
+msgctxt "VPN state label"
+msgid "Connecting..."
+msgstr "Bağlanıyor..."
+
+#: vpninterfaceitem.cpp:110
+msgctxt "VPN connections interface"
+msgid "<b>Virtual Private Network</b>"
+msgstr "<b>Sanal Özel Ağ</b>"
+
+#: vpninterfaceitem.cpp:111
+msgctxt "VPN state label"
+msgid "Not Connected..."
+msgstr "Bağlanmadı..."
+
+#: wirelessnetworkitem.cpp:121 wirelessnetworkitem.cpp:161
+#, kde-format
+msgid "Strength: %1%"
+msgstr "Güç: %1%"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+#, fuzzy
+
+
+
+
+
+
+
+
+#, fuzzy

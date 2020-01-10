@@ -1,0 +1,5074 @@
+# translation of libknetworkmanager.po to Khmer
+# Khoem Sokhem <khoemsokhem@khmeros.info>, 2009, 2012.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Seng Sutha <sutha@khmeros.info>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: libknetworkmanager\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-06-15 05:01+0000\n"
+"PO-Revision-Date: 2012-01-13 14:12+0700\n"
+"Last-Translator: Seng Sutha <sutha@khmeros.info>\n"
+"Language-Team: Khmer <supprot@khmeros.info>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: WordForge 0.8 RC1\n"
+"X-Language: km-KH\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ខឹម សុខែម, ម៉ន ម៉េត, សេង សុត្ថា, អេង វណ្ណៈ, អោក ពិសិដ្ឋ..."
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "khoemsokhem@khmeros.info,​​mornmet@khmeros.info,sutha@khmeros.info, ..."
+
+#. i18n: ectx: label, entry (Connections), group (General)
+#: libs/internals/knmserviceprefs.kcfg:11
+msgid "Connections"
+msgstr "ការ​តភ្ជាប់​​"
+
+#. i18n: ectx: label, entry (SecretStorageMode), group (General)
+#: libs/internals/knmserviceprefs.kcfg:15
+msgid "Store secrets in wallet"
+msgstr "ទុក​ការ​សម្ងាត់​នៅ​ក្នុង​កាបូប"
+
+#. i18n: ectx: label, entry (securityType), group (802-11-wireless-security)
+#: libs/internals/schemas/802-11-wireless-security.kcfg:19
+msgid "Security type"
+msgstr "ប្រភេទ​សុវត្ថិភាព"
+
+#. i18n: ectx: label, entry (keymgmt), group (802-11-wireless-security)
+#: libs/internals/schemas/802-11-wireless-security.kcfg:23
+msgid "Key management"
+msgstr "ការគ្រប់គ្រង​សោ"
+
+#. i18n: ectx: label, entry (weptxkeyindex), group (802-11-wireless-security)
+#: libs/internals/schemas/802-11-wireless-security.kcfg:36
+msgid "WEP TX key index"
+msgstr "លិបិក្រម​សោ WEP TX"
+
+#. i18n: ectx: label, entry (authalg), group (802-11-wireless-security)
+#: libs/internals/schemas/802-11-wireless-security.kcfg:40
+msgid "Authentication algorithm"
+msgstr "ក្បួន​ដោះស្រាយ​ការ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ​​​"
+
+#. i18n: ectx: label, entry (proto), group (802-11-wireless-security)
+#: libs/internals/schemas/802-11-wireless-security.kcfg:50
+msgid "Protocols"
+msgstr "ពិធីការ"
+
+#. i18n: ectx: label, entry (pairwise), group (802-11-wireless-security)
+#: libs/internals/schemas/802-11-wireless-security.kcfg:54
+msgid "Pairwise"
+msgstr "Pairwise"
+
+#. i18n: ectx: label, entry (group), group (802-11-wireless-security)
+#: libs/internals/schemas/802-11-wireless-security.kcfg:58
+msgid "Group"
+msgstr "ក្រុម"
+
+#. i18n: ectx: label, entry (leapusername), group (802-11-wireless-security)
+#: libs/internals/schemas/802-11-wireless-security.kcfg:62
+msgid "LEAP Username"
+msgstr "ឈ្មោះ​អ្នក​ប្រើ​ LEAP ​​"
+
+#. i18n: ectx: label, entry (wepkey0), group (802-11-wireless-security)
+#: libs/internals/schemas/802-11-wireless-security.kcfg:66
+msgid "WEP key 0"
+msgstr "សោ WEP ០"
+
+#. i18n: ectx: label, entry (wepkey1), group (802-11-wireless-security)
+#: libs/internals/schemas/802-11-wireless-security.kcfg:70
+msgid "WEP key 1"
+msgstr "សោ WEP ១"
+
+#. i18n: ectx: label, entry (wepkey2), group (802-11-wireless-security)
+#: libs/internals/schemas/802-11-wireless-security.kcfg:74
+msgid "WEP key 2"
+msgstr "សោ WEP ២"
+
+#. i18n: ectx: label, entry (wepkey3), group (802-11-wireless-security)
+#: libs/internals/schemas/802-11-wireless-security.kcfg:78
+msgid "WEP key 3"
+msgstr "សោ WEP ៣"
+
+#. i18n: ectx: label, entry (psk), group (802-1x)
+#. i18n: ectx: label, entry (psk), group (802-11-wireless-security)
+#: libs/internals/schemas/802-11-wireless-security.kcfg:82
+#: libs/internals/schemas/802-1x.kcfg:134
+msgid "PSK"
+msgstr "PSK"
+
+#. i18n: ectx: label, entry (leappassword), group (802-11-wireless-security)
+#: libs/internals/schemas/802-11-wireless-security.kcfg:86
+msgid "LEAP Password"
+msgstr "ពាក្យ​សម្ងាត់ LEAP ​​"
+
+#. i18n: ectx: label, entry (weppassphrase), group (802-11-wireless-security)
+#: libs/internals/schemas/802-11-wireless-security.kcfg:90
+msgid "WEP Passphrase"
+msgstr "ឃ្លា​សម្ងាត់ WEP"
+
+#. i18n: ectx: label, entry (ssid), group (802-11-wireless)
+#: libs/internals/schemas/802-11-wireless.kcfg:9
+msgid "SSID"
+msgstr "SSID"
+
+#. i18n: ectx: whatsthis, entry (ssid), group (802-11-wireless)
+#: libs/internals/schemas/802-11-wireless.kcfg:10
+msgid "Service Set IDentifier (network name) "
+msgstr "កម្មវិធី​កំណត់​អត្តសញ្ញាណ​សេវា​ (ឈ្មោះ​បណ្ដាញ​) ​"
+
+#. i18n: ectx: label, entry (mode), group (802-11-wireless)
+#: libs/internals/schemas/802-11-wireless.kcfg:18
+msgid "Mode"
+msgstr "របៀប "
+
+#. i18n: ectx: label, entry (band), group (802-11-wireless)
+#. i18n: ectx: label, entry (band), group (gsm)
+#: libs/internals/schemas/802-11-wireless.kcfg:27
+#: libs/internals/schemas/gsm.kcfg:34
+msgid "Band"
+msgstr "ក្រុម"
+
+#. i18n: ectx: property (toolTip), widget (Wireless80211WidgetBand, channel)
+#. i18n: ectx: label, entry (channel), group (802-11-wireless)
+#: libs/internals/schemas/802-11-wireless.kcfg:31
+#: libs/ui/802-11-wireless.ui:146
+msgid "Channel"
+msgstr "ឆានែល"
+
+#. i18n: ectx: label, entry (bssid), group (802-11-wireless)
+#: libs/internals/schemas/802-11-wireless.kcfg:35
+msgid "BSSID"
+msgstr "BSSID"
+
+#. i18n: ectx: whatsthis, entry (bssid), group (802-11-wireless)
+#: libs/internals/schemas/802-11-wireless.kcfg:36
+msgid "Basic Service Set IDentifier of the access point to use"
+msgstr "កម្មវិធី​កំណត់​អត្តសញ្ញាណ​សេវា​មូលដ្ឋាន នៃ​ចំណុច​ចូល​ដំណើរការ​ត្រូវ​ប្រើ​"
+
+#. i18n: ectx: label, entry (rate), group (802-11-wireless)
+#: libs/internals/schemas/802-11-wireless.kcfg:39
+msgid "Data rate"
+msgstr "អត្រា​ទិន្នន័យ​"
+
+#. i18n: ectx: label, entry (txpower), group (802-11-wireless)
+#: libs/internals/schemas/802-11-wireless.kcfg:43
+msgid "Transmit power"
+msgstr "បញ្ជូន​ថាមពល"
+
+#. i18n: ectx: label, entry (macaddress), group (802-3-ethernet)
+#. i18n: ectx: label, entry (macaddress), group (802-11-wireless)
+#: libs/internals/schemas/802-11-wireless.kcfg:47
+#: libs/internals/schemas/802-3-ethernet.kcfg:38
+msgid "MAC Address"
+msgstr "អាសយដ្ឋាន MAC"
+
+#. i18n: ectx: whatsthis, entry (macaddress), group (802-11-wireless)
+#: libs/internals/schemas/802-11-wireless.kcfg:48
+msgid "Hardware address to set on the wireless network interface"
+msgstr "អាសយដ្ឋាន​​ផ្នែក​រឹង​ត្រូវ​កំណត់​លើ​ចំណុច​ប្រទាក់​បណ្ដាញ​​ឥត​ខ្សែ​​ "
+
+#. i18n: ectx: label, entry (mtu), group (802-3-ethernet)
+#. i18n: ectx: label, entry (mtu), group (ppp)
+#. i18n: ectx: label, entry (mtu), group (802-11-wireless)
+#: libs/internals/schemas/802-11-wireless.kcfg:51
+#: libs/internals/schemas/802-3-ethernet.kcfg:42
+#: libs/internals/schemas/ppp.kcfg:69
+msgid "MTU"
+msgstr "MTU"
+
+#. i18n: ectx: whatsthis, entry (mtu), group (802-11-wireless)
+#: libs/internals/schemas/802-11-wireless.kcfg:53
+msgid "Maximum Transmit Unit"
+msgstr "ឯកតា​​​បញ្ជូន​អតិបរមា"
+
+#. i18n: ectx: label, entry (seenbssids), group (802-11-wireless)
+#: libs/internals/schemas/802-11-wireless.kcfg:57
+msgid "Seen BSSIDs"
+msgstr "BSSIDs ដែល​បាន​ឃើញ"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbMethod)
+#. i18n: ectx: property (text), item, widget (QListWidget, listWidget)
+#. i18n: ectx: property (text), widget (QCheckBox, eap)
+#. i18n: ectx: label, entry (eap), group (802-1x)
+#: libs/internals/schemas/802-1x.kcfg:9 libs/ui/ppp.ui:69
+#: vpnplugins/pptp/pptpadvanced.ui:68
+#: vpnplugins/strongswan/strongswanprop.ui:86
+msgid "EAP"
+msgstr "EAP"
+
+#. i18n: ectx: label, entry (identity), group (802-1x)
+#: libs/internals/schemas/802-1x.kcfg:13
+msgid "Identity"
+msgstr "អត្តសញ្ញាណ"
+
+#. i18n: ectx: label, entry (anonymousidentity), group (802-1x)
+#: libs/internals/schemas/802-1x.kcfg:17
+msgid "Anonymous identity"
+msgstr "អត្តសញ្ញាណ​អនាមិក"
+
+#. i18n: ectx: label, entry (cacert), group (802-1x)
+#: libs/internals/schemas/802-1x.kcfg:21
+msgid "CA Cert"
+msgstr "វិញ្ញាបនប័ត្រ CA"
+
+#. i18n: ectx: label, entry (capath), group (802-1x)
+#: libs/internals/schemas/802-1x.kcfg:25
+msgid "CA Path"
+msgstr "ផ្លូវ CA"
+
+#. i18n: ectx: label, entry (clientcert), group (802-1x)
+#: libs/internals/schemas/802-1x.kcfg:29
+msgid "Client Cert"
+msgstr "វិញ្ញាបនប័ត្រ​ម៉ាស៊ីន​ភ្ញៀវ​"
+
+#. i18n: ectx: label, entry (clientcertpath), group (802-1x)
+#: libs/internals/schemas/802-1x.kcfg:33
+msgid "Client Cert Path"
+msgstr "ផ្លូវ​វិញ្ញាបនប័ត្រម៉ាស៊ីន​ភ្ញៀវ​"
+
+#. i18n: ectx: label, entry (phase1peapver), group (802-1x)
+#: libs/internals/schemas/802-1x.kcfg:37
+msgid "Phase 1 PEAP version"
+msgstr "កំណែ PEAP ដំណាក់កាល​ទី ១"
+
+#. i18n: ectx: label, entry (phase1peaplabel), group (802-1x)
+#: libs/internals/schemas/802-1x.kcfg:46
+msgid "Phase 1 PEAP label"
+msgstr "ស្លាក PEAP ដំណាក់កាល​ទី ១"
+
+#. i18n: ectx: label, entry (phase1fastprovisioning), group (802-1x)
+#: libs/internals/schemas/802-1x.kcfg:55
+msgid "Phase 1 fast provisioning"
+msgstr "ការ​ផ្ដល់​ដំណាក់​កាល​ទី ១ លឿន​​"
+
+#. i18n: ectx: label, entry (phase2auth), group (802-1x)
+#: libs/internals/schemas/802-1x.kcfg:59
+msgid "Phase 2 auth"
+msgstr "ដំណាក់​កាល​ទី​ ២ auth​"
+
+#. i18n: ectx: label, entry (phase2autheap), group (802-1x)
+#: libs/internals/schemas/802-1x.kcfg:73
+msgid "Phase 2 auth eap"
+msgstr "ដំណាក់កាល​ទី ២ auth eap"
+
+#. i18n: ectx: label, entry (phase2cacert), group (802-1x)
+#: libs/internals/schemas/802-1x.kcfg:86
+msgid "Phase 2 CA Cert"
+msgstr "វិញ្ញាបនប័ត្រ CA ដំណាក់កាល​ទី ២"
+
+#. i18n: ectx: label, entry (phase2capath), group (802-1x)
+#: libs/internals/schemas/802-1x.kcfg:90
+msgid "Phase 2 CA Path"
+msgstr "ផ្លូវ CA ដំណាក់កាល​ទី ២"
+
+#. i18n: ectx: label, entry (phase2clientcert), group (802-1x)
+#: libs/internals/schemas/802-1x.kcfg:94
+msgid "Phase 2 client cert"
+msgstr "វិញ្ញាបនប័ត្រ​ម៉ាស៊ីន​ភ្ញៀវ​​​ដំណាក់កាល​ទី ២​"
+
+#. i18n: ectx: label, entry (phase2clientcertpath), group (802-1x)
+#: libs/internals/schemas/802-1x.kcfg:98
+msgid "Phase 2 client cert path"
+msgstr "ផ្លូវ​វិញ្ញាបនបត្រ​ប័ត្រ​ម៉ាស៊ីន​ភ្ញៀវ​​ដំណាក់កាល​ទី ២​"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cmbConnectionType)
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: label, entry (password), group (cdma)
+#. i18n: ectx: label, entry (password), group (802-1x)
+#. i18n: ectx: label, entry (password), group (pppoe)
+#. i18n: ectx: label, entry (password), group (gsm)
+#: libs/internals/schemas/802-1x.kcfg:102 libs/internals/schemas/cdma.kcfg:17
+#: libs/internals/schemas/gsm.kcfg:18 libs/internals/schemas/pppoe.kcfg:17
+#: vpnplugins/openvpn/openvpnprop.ui:84 vpnplugins/openvpn/openvpnprop.ui:498
+msgid "Password"
+msgstr "ពាក្យ​សម្ងាត់"
+
+#. i18n: ectx: label, entry (privatekey), group (802-1x)
+#: libs/internals/schemas/802-1x.kcfg:106
+msgid "Private key"
+msgstr "សោ​ផ្ទាល់​ខ្លួន​"
+
+#. i18n: ectx: label, entry (privatekeypath), group (802-1x)
+#: libs/internals/schemas/802-1x.kcfg:110
+msgid "Private key Path"
+msgstr "ផ្លូវ​សោ​ផ្ទាល់​ខ្លួន​​"
+
+#. i18n: ectx: label, entry (privatekeypassword), group (802-1x)
+#: libs/internals/schemas/802-1x.kcfg:114
+msgid "Private key password"
+msgstr "ពាក្យ​សម្ងាត់​សោ​​ផ្ទាល់​ខ្លួន​​"
+
+#. i18n: ectx: label, entry (phase2privatekey), group (802-1x)
+#: libs/internals/schemas/802-1x.kcfg:118
+msgid "Phase 2 private key"
+msgstr "សោ​​​ផ្ទាល់​ខ្លួន​​ដំណាក់កាល​ទី ២​"
+
+#. i18n: ectx: label, entry (phase2privatekeypath), group (802-1x)
+#: libs/internals/schemas/802-1x.kcfg:122
+msgid "Phase 2 Private key Path"
+msgstr "ផ្លូវ​សោ​ផ្ទាល់​ខ្លួន​ដំណាក់​កាល​ទី ២​​"
+
+#. i18n: ectx: label, entry (phase2privatekeypassword), group (802-1x)
+#: libs/internals/schemas/802-1x.kcfg:126
+msgid "Phase 2 private key password"
+msgstr "ពាក្យ​សម្ងាត់​សោ​ផ្ទាល់​ខ្លួន​ដំណាក់​កាល​ទី ២​​"
+
+#. i18n: ectx: label, entry (pin), group (802-1x)
+#. i18n: ectx: label, entry (pin), group (gsm)
+#: libs/internals/schemas/802-1x.kcfg:130 libs/internals/schemas/gsm.kcfg:38
+msgid "PIN"
+msgstr "PIN"
+
+#. i18n: ectx: label, entry (UseSystemCaCerts), group (802-1x)
+#: libs/internals/schemas/802-1x.kcfg:138
+msgid "Use System CA Certs"
+msgstr "ប្រើ​វិញ្ញាបនប័ត្រ​​ CA ប្រព័ន្ធ​"
+
+#. i18n: ectx: label, entry (enabled), group (802-1x)
+#: libs/internals/schemas/802-1x.kcfg:142
+msgid "Connection uses 802.1x"
+msgstr "ប្រើ​ការ​តភ្ជាប់​​ 802.1x"
+
+#. i18n: ectx: label, entry (port), group (802-3-ethernet)
+#: libs/internals/schemas/802-3-ethernet.kcfg:9
+msgid "Port"
+msgstr "ច្រក "
+
+#. i18n: ectx: property (text), widget (QLabel, labelSpeed)
+#. i18n: ectx: label, entry (speed), group (802-3-ethernet)
+#: libs/internals/schemas/802-3-ethernet.kcfg:19 libs/ui/wired.ui:104
+msgid "Speed"
+msgstr "ល្បឿន"
+
+#. i18n: ectx: property (text), widget (QLabel, labelDuplex)
+#. i18n: ectx: label, entry (duplex), group (802-3-ethernet)
+#: libs/internals/schemas/802-3-ethernet.kcfg:23 libs/ui/wired.ui:133
+msgid "Duplex"
+msgstr "ទ្វេ"
+
+#. i18n: ectx: whatsthis, entry (duplex), group (802-3-ethernet)
+#: libs/internals/schemas/802-3-ethernet.kcfg:24
+msgid "Whether the Ethernet interface should use duplex communications"
+msgstr "ថា​តើ​ចំណុច​ប្រទាក់​អ៊ីសឺរណិត​គួរ​ប្រើ​ការ​ទំនាក់ទំនង​ទ្វេ​ដែរ​ឬទេ"
+
+#. i18n: ectx: label, entry (autonegotiate), group (802-3-ethernet)
+#: libs/internals/schemas/802-3-ethernet.kcfg:32
+msgid "Auto negotiate"
+msgstr "ចរចា​​​ដោយ​ស្វ័យ​ប្រវត្តិ"
+
+#. i18n: ectx: whatsthis, entry (mtu), group (802-3-ethernet)
+#: libs/internals/schemas/802-3-ethernet.kcfg:44
+msgid "Maximum Transfer Unit to use"
+msgstr "ឯកតា​ផ្ទេរ​អតិបរមា​ត្រូវ​ប្រើ"
+
+#. i18n: ectx: label, entry (networkname), group (bluetooth)
+#: libs/internals/schemas/bluetooth.kcfg:9
+msgid "Network Name"
+msgstr "ឈ្មោះ​បណ្ដាញ​​"
+
+#. i18n: ectx: label, entry (bdaddr), group (bluetooth)
+#: libs/internals/schemas/bluetooth.kcfg:14
+msgid "Bdaddr"
+msgstr "Bdaddr"
+
+#. i18n: ectx: label, entry (networktype), group (bluetooth)
+#. i18n: ectx: label, entry (networktype), group (gsm)
+#: libs/internals/schemas/bluetooth.kcfg:19 libs/internals/schemas/gsm.kcfg:30
+msgid "Network Type"
+msgstr "ប្រភេទ​​បណ្ដាញ ​"
+
+#. i18n: ectx: label, entry (number), group (cdma)
+#. i18n: ectx: label, entry (number), group (gsm)
+#: libs/internals/schemas/cdma.kcfg:9 libs/internals/schemas/gsm.kcfg:9
+msgid "Number"
+msgstr "លេខ"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel9_2)
+#. i18n: ectx: label, entry (username), group (cdma)
+#. i18n: ectx: label, entry (username), group (pppoe)
+#. i18n: ectx: label, entry (UserName), group (vpn)
+#. i18n: ectx: label, entry (username), group (gsm)
+#: libs/internals/schemas/cdma.kcfg:13 libs/internals/schemas/gsm.kcfg:14
+#: libs/internals/schemas/pppoe.kcfg:13 libs/internals/schemas/vpn.kcfg:17
+#: vpnplugins/openvpn/openvpnprop.ui:482
+msgid "Username"
+msgstr "ឈ្មោះ​អ្នកប្រើ"
+
+#. i18n: ectx: label, entry (id), group (connection)
+#: libs/internals/schemas/connection.kcfg:9
+msgid "Identifier"
+msgstr "កម្មវិធី​​​កំណត់​អត្តសញ្ញាណ​"
+
+#. i18n: ectx: whatsthis, entry (id), group (connection)
+#: libs/internals/schemas/connection.kcfg:10
+msgid "A name that uniquely identifies a connection"
+msgstr "ឈ្មោះ​ដែល​​ធ្វើ​ឲ្យ​ដូច​​គ្នា​​ការ​តភ្ជាប់​មាន​​តែ​មួយ​គត់ "
+
+#. i18n: ectx: label, entry (type), group (connection)
+#: libs/internals/schemas/connection.kcfg:13
+msgid "Type"
+msgstr "ប្រភេទ "
+
+#. i18n: ectx: whatsthis, entry (type), group (connection)
+#: libs/internals/schemas/connection.kcfg:14
+msgid ""
+"Specifies the connection type, defines which devices it can activate and "
+"which other settings the connection should contain"
+msgstr ""
+"បញ្ជាក់​ប្រភេទ​តភ្ជាប់ កំណត់​ឧបករណ៍​ណាមួយ​ដែល​វា​អាច​ធ្វើ​ឲ្យ​សកម្ម ហើយ​កា​រ​កំណត់​ផ្សេង​ដែល​កា​រ​តភ្ជាប់​គួរ​មាន"
+
+#. i18n: ectx: label, entry (autoconnect), group (connection)
+#: libs/internals/schemas/connection.kcfg:17
+msgid "Connect automatically"
+msgstr "តភ្ជាប់​ដោយ​ស្វ័យ​ប្រវត្តិ​"
+
+#. i18n: ectx: whatsthis, entry (autoconnect), group (connection)
+#: libs/internals/schemas/connection.kcfg:18
+msgid "Should the networking system always try to activate this connection?"
+msgstr "តើ​ប្រព័ន្ធ​បណ្ដាញ​គួរ​តែ​ព្យាយាម​ធ្វើ​ឲ្យ​ការ​តភ្ជាប់​នេះ​សកម្ម​ឬ ?"
+
+#. i18n: ectx: label, entry (timestamp), group (connection)
+#: libs/internals/schemas/connection.kcfg:21
+msgid "Last used"
+msgstr "បាន​ប្រើ​ចុងក្រោយ"
+
+#. i18n: ectx: whatsthis, entry (timestamp), group (connection)
+#: libs/internals/schemas/connection.kcfg:22
+msgid "The date and time that the connection was last activated"
+msgstr "ពេលវេលា និង​កាលបរិច្ឆេទ​ដែល​ការ​តភ្ជាប់​ត្រូវ​បាន​ធ្វើ​ឲ្យ​សកម្ម​ចុងក្រោយ "
+
+#. i18n: ectx: label, entry (uuid), group (connection)
+#: libs/internals/schemas/connection.kcfg:25
+msgid "UUID"
+msgstr "UUID"
+
+#. i18n: ectx: whatsthis, entry (uuid), group (connection)
+#: libs/internals/schemas/connection.kcfg:26
+msgid "Unique connection identifier"
+msgstr "កម្មវិធី​​កំណត់​អត្តសញ្ញាណ​តភ្ជាប់​តែ​មួយ​គត់ "
+
+#. i18n: ectx: label, entry (apn), group (gsm)
+#: libs/internals/schemas/gsm.kcfg:22
+msgid "APN"
+msgstr "APN"
+
+#. i18n: ectx: label, entry (networkid), group (gsm)
+#: libs/internals/schemas/gsm.kcfg:26
+msgid "Network ID"
+msgstr "លេខ​សម្គាល់​បណ្ដាញ "
+
+#. i18n: ectx: label, entry (puk), group (gsm)
+#: libs/internals/schemas/gsm.kcfg:42
+msgid "PUK"
+msgstr "PUK"
+
+#. i18n: ectx: label, entry (method), group (ipv4)
+#: libs/internals/schemas/ipv4.kcfg:9 libs/internals/schemas/ipv6.kcfg:9
+msgid "Method"
+msgstr "វិធីសាស្ត្រ"
+
+#. i18n: ectx: whatsthis, entry (method), group (ipv4)
+#: libs/internals/schemas/ipv4.kcfg:10 libs/internals/schemas/ipv6.kcfg:10
+msgid "Choose the way to set the IP address of this connection"
+msgstr "ជ្រើស​វិធី​ត្រូវ​កំណត់​អាសយដ្ឋាន IP នៃ​ការ​តភ្ជាប់​នេះ"
+
+#. i18n: ectx: label, entry (dns), group (ipv4)
+#: libs/internals/schemas/ipv4.kcfg:21 libs/internals/schemas/ipv6.kcfg:22
+#: libs/ui/ipv4widget.cpp:479 libs/ui/ipv6widget.cpp:430
+msgid "DNS Servers"
+msgstr "ម៉ាស៊ីន​បម្រើ DNS "
+
+#. i18n: ectx: whatsthis, entry (dns), group (ipv4)
+#: libs/internals/schemas/ipv4.kcfg:22 libs/internals/schemas/ipv6.kcfg:23
+msgid "List of Domain Name System servers to use"
+msgstr "រាយ​ម៉ាស៊ីន​បម្រើ​ប្រព័ន្ធ​ឈ្មោះ​ដែន​ដើម្បី​ប្រើ​"
+
+#. i18n: ectx: label, entry (dnssearch), group (ipv4)
+#: libs/internals/schemas/ipv4.kcfg:25 libs/internals/schemas/ipv6.kcfg:26
+msgid "Search Domains"
+msgstr "ដែន​ស្វែងរក​"
+
+#. i18n: ectx: whatsthis, entry (dnssearch), group (ipv4)
+#: libs/internals/schemas/ipv4.kcfg:26 libs/internals/schemas/ipv6.kcfg:27
+msgid "List of domains to search for a hostname"
+msgstr "បញ្ជី​​ដែន​ដែល​ត្រូវ​ស្វែងរក​​ឈ្មោះ​ម៉ាស៊ីន"
+
+#. i18n: ectx: label, entry (addresses), group (ipv4)
+#: libs/internals/schemas/ipv4.kcfg:30 libs/internals/schemas/ipv6.kcfg:31
+msgid "IP Addresses"
+msgstr "អាសយដ្ឋាន IP​"
+
+#. i18n: ectx: whatsthis, entry (addresses), group (ipv4)
+#: libs/internals/schemas/ipv4.kcfg:31 libs/internals/schemas/ipv6.kcfg:32
+msgid "List of IP addresses to configure on this connection"
+msgstr "រាយ​អាសយដ្ឋាន IP ដើម្បី​កំណត់​រចនាសម្ព័ន្ធ​នៅ​លើ​ការ​តភ្ជាប់​នេះ"
+
+#. i18n: ectx: label, entry (ignoredhcpdns), group (ipv4)
+#: libs/internals/schemas/ipv4.kcfg:34 libs/internals/schemas/ipv6.kcfg:35
+msgid "Ignore DHCP DNS"
+msgstr "មិន​អើពើ DHCP DNS"
+
+#. i18n: ectx: whatsthis, entry (ignoredhcpdns), group (ipv4)
+#: libs/internals/schemas/ipv4.kcfg:35 libs/internals/schemas/ipv6.kcfg:36
+msgid ""
+"Ignore DNS servers returned by DHCP and use the configured servers instead"
+msgstr ""
+"មិន​អើពើ​ម៉ាស៊ីន​បម្រើ DNS បាន​ត្រឡប់​ដោយ DHCP ហើយ​ប្រើ​ម៉ាស៊ីន​បម្រើ​ដែល​បាន​កំណត់​រចនាសម្ព័ន្ធ​ជំនួស​វិញ​"
+
+#. i18n: ectx: label, entry (ignoreautoroute), group (ipv4)
+#: libs/internals/schemas/ipv4.kcfg:38 libs/internals/schemas/ipv6.kcfg:39
+msgid "Ignore Automatic Routes"
+msgstr "មិន​អើពើ​ផ្លូវ​ស្វ័យ​ប្រវត្តិ​​"
+
+#. i18n: ectx: whatsthis, entry (ignoreautoroute), group (ipv4)
+#: libs/internals/schemas/ipv4.kcfg:39 libs/internals/schemas/ipv6.kcfg:40
+msgid ""
+"Ignore routes returned by automatic configuration mechanisms and use the "
+"manually configured routes instead"
+msgstr ""
+"មិន​អើពើ​ផ្លូវ​ដែល​បាន​ត្រឡប់​ដោយ​យន្តការ​កំណត់​រចនាសម្ព័ន្ធ​ស្វ័យប្រវត្តិ និង​ប្រើ​ផ្លូវ​ដែល​បាន​កំណត់​រចនាសម្ព័ន្ធ​"
+"ដោយដៃ​ជំនួស​វិញ​​"
+
+#. i18n: ectx: label, entry (neverdefault), group (ipv4)
+#: libs/internals/schemas/ipv4.kcfg:42 libs/internals/schemas/ipv6.kcfg:43
+msgid "Never Default Route"
+msgstr "ផ្លូវ​លំនាំដើម​មិន​​​ដែល​​"
+
+#. i18n: ectx: whatsthis, entry (neverdefault), group (ipv4)
+#: libs/internals/schemas/ipv4.kcfg:43 libs/internals/schemas/ipv6.kcfg:44
+msgid "Never assign the default route to this connection"
+msgstr "មិនដែល​​កំណត់​ផ្លូវ​លំនាំដើម ​​ដើម្បី​ការ​តភ្ជាប់​នេះ​​​ឡើយ​"
+
+#. i18n: ectx: label, entry (dhcpclientid), group (ipv4)
+#: libs/internals/schemas/ipv4.kcfg:46
+msgid "DHCP Client ID"
+msgstr "លេខ​សម្គាល់​ម៉ាស៊ីន​ភ្ញៀវ​ DHCP ​​"
+
+#. i18n: ectx: label, entry (dhcpsendhostname), group (ipv4)
+#: libs/internals/schemas/ipv4.kcfg:50
+msgid "Send hostname to DHCP server"
+msgstr "ផ្ញើ​ឈ្មោះ​ម៉ាស៊ីន​ទៅកាន់​ម៉ាស៊ីន​បម្រើ​​ DHCP ​​"
+
+#. i18n: ectx: label, entry (dhcphostname), group (ipv4)
+#: libs/internals/schemas/ipv4.kcfg:54
+msgid "DHCP hostname"
+msgstr "ឈ្មោះ​ម៉ាស៊ីន​ DHCP ​​"
+
+#. i18n: ectx: label, entry (mayfail), group (ipv4)
+#: libs/internals/schemas/ipv4.kcfg:57 libs/internals/schemas/ipv6.kcfg:47
+msgid "Required for this connection"
+msgstr "បាន​ទាមទារ​សម្រាប់​ការ​តភ្ជាប់​នេះ​"
+
+#. i18n: ectx: label, entry (noauth), group (ppp)
+#: libs/internals/schemas/ppp.kcfg:9
+msgid "No Auth"
+msgstr "គ្មាន Auth"
+
+#. i18n: ectx: label, entry (refuseeap), group (ppp)
+#: libs/internals/schemas/ppp.kcfg:13
+msgid "Refuse EAP"
+msgstr "បដិសេធ EAP"
+
+#. i18n: ectx: label, entry (refusepap), group (ppp)
+#: libs/internals/schemas/ppp.kcfg:17
+msgid "Refuse PAP"
+msgstr "បដិសេធ PAP"
+
+#. i18n: ectx: label, entry (refusechap), group (ppp)
+#: libs/internals/schemas/ppp.kcfg:21
+msgid "Refuse CHAP"
+msgstr "បដិសេធ CHAP"
+
+#. i18n: ectx: label, entry (refusemschap), group (ppp)
+#: libs/internals/schemas/ppp.kcfg:25
+msgid "Refuse MS CHAP"
+msgstr "បដិសេធ MS CHAP"
+
+#. i18n: ectx: label, entry (refusemschapv2), group (ppp)
+#: libs/internals/schemas/ppp.kcfg:29
+msgid "Refuse MS CHAP V2"
+msgstr "បដិសេធ MS CHAP V2"
+
+#. i18n: ectx: label, entry (nobsdcomp), group (ppp)
+#: libs/internals/schemas/ppp.kcfg:33
+msgid "No BSD comp."
+msgstr "គ្មាន BSD comp."
+
+#. i18n: ectx: label, entry (nodeflate), group (ppp)
+#: libs/internals/schemas/ppp.kcfg:37
+msgid "No deflate"
+msgstr "គ្មាន deflate​"
+
+#. i18n: ectx: label, entry (novjcomp), group (ppp)
+#: libs/internals/schemas/ppp.kcfg:41
+msgid "No VJ comp."
+msgstr "គ្មាន VJ comp."
+
+#. i18n: ectx: label, entry (requiremppe), group (ppp)
+#: libs/internals/schemas/ppp.kcfg:45
+msgid "Require MPPE"
+msgstr "ត្រូវការ MPPE"
+
+#. i18n: ectx: label, entry (requiremppe128), group (ppp)
+#: libs/internals/schemas/ppp.kcfg:49
+msgid "Require MPPE 128"
+msgstr "ត្រូវការ MPPE 128"
+
+#. i18n: ectx: label, entry (mppestateful), group (ppp)
+#: libs/internals/schemas/ppp.kcfg:53
+msgid "MPPE Stateful"
+msgstr "MPPE Stateful"
+
+#. i18n: ectx: label, entry (crtscts), group (ppp)
+#: libs/internals/schemas/ppp.kcfg:57
+msgid "CRTSCTS"
+msgstr "CRTSCTS"
+
+#. i18n: ectx: label, entry (baud), group (ppp)
+#. i18n: ectx: label, entry (baud), group (serial)
+#: libs/internals/schemas/ppp.kcfg:61 libs/internals/schemas/serial.kcfg:9
+msgid "Baud"
+msgstr "Baud"
+
+#. i18n: ectx: label, entry (mru), group (ppp)
+#: libs/internals/schemas/ppp.kcfg:65
+msgid "MRU"
+msgstr "MRU"
+
+#. i18n: ectx: label, entry (lcpechofailure), group (ppp)
+#: libs/internals/schemas/ppp.kcfg:73
+msgid "LCP echo Failure"
+msgstr "បរាជ័យ LCP echo"
+
+#. i18n: ectx: label, entry (lcpechointerval), group (ppp)
+#: libs/internals/schemas/ppp.kcfg:77
+msgid "LCP echo interval"
+msgstr "ចន្លោះ​ LCP echo"
+
+#. i18n: ectx: label, entry (service), group (pppoe)
+#: libs/internals/schemas/pppoe.kcfg:9
+msgid "Service"
+msgstr "សេវា"
+
+#. i18n: ectx: label, entry (Data), group (vpn)
+#. i18n: ectx: label, entry (bits), group (serial)
+#: libs/internals/schemas/serial.kcfg:14 libs/internals/schemas/vpn.kcfg:13
+msgid "Data bits"
+msgstr "ប៊ីត​ទិន្នន័យ"
+
+#. i18n: ectx: label, entry (parity), group (serial)
+#: libs/internals/schemas/serial.kcfg:19
+msgid "Parity"
+msgstr "ភាព​ដូចគ្នា"
+
+#. i18n: ectx: label, entry (stopbits), group (serial)
+#: libs/internals/schemas/serial.kcfg:29
+msgid "Stop bits"
+msgstr "បញ្ឈប់​ប៊ីត"
+
+#. i18n: ectx: label, entry (senddelay), group (serial)
+#: libs/internals/schemas/serial.kcfg:34
+msgid "Send delay"
+msgstr "ពន្យារពេល​ផ្ញើ"
+
+#. i18n: ectx: label, entry (ServiceType), group (vpn)
+#: libs/internals/schemas/vpn.kcfg:9
+msgid "Service Type"
+msgstr "ប្រភេទ​សេវា​"
+
+#. i18n: ectx: whatsthis, entry (UserName), group (vpn)
+#: libs/internals/schemas/vpn.kcfg:18
+msgid "System username, not stored"
+msgstr "ឈ្មោះ​អ្នក​ប្រើ​ប្រព័ន្ធ​ មិន​បាន​ទុក​"
+
+#. i18n: ectx: label, entry (VpnSecrets), group (vpn)
+#: libs/internals/schemas/vpn.kcfg:21
+msgid "Vpnsecrets"
+msgstr "Vpnsecrets"
+
+#. i18n: ectx: label, entry (PluginName), group (vpn)
+#: libs/internals/schemas/vpn.kcfg:25
+msgid "VPN Plugin Name"
+msgstr "ឈ្មោះ​កម្មវិធី​ជំនួយ​ VPN "
+
+#: libs/internals/tooltips.cpp:43
+msgctxt "@info:tooltip"
+msgid "Interface type"
+msgstr "ប្រភេទ​ចំណុច​ប្រទាក់​​"
+
+#: libs/internals/tooltips.cpp:44
+msgctxt "@info:tooltip"
+msgid "System device name"
+msgstr "ឈ្មោះ​ឧបករណ៍​ប្រព័ន្ធ​​"
+
+#: libs/internals/tooltips.cpp:45
+msgctxt "@info:tooltip"
+msgid "System driver name"
+msgstr "ឈ្មោះ​កម្ម​វិធី​បញ្ជា​ប្រព័ន្ធ​​"
+
+#: libs/internals/tooltips.cpp:46
+msgctxt "@info:tooltip"
+msgid "Network interface status"
+msgstr "ស្ថាន​ភាព​ចំណុច​ប្រទាក់​បណ្ដាញ​​"
+
+#: libs/internals/tooltips.cpp:47
+msgctxt "@info:tooltip"
+msgid "Hardware address of a network interface"
+msgstr "អាសយដ្ឋាន​​ផ្នែក​រឹង​នៃ​ចំណុច​ប្រទាក់​បណ្ដាញ"
+
+#: libs/internals/tooltips.cpp:48
+msgctxt "@info:tooltip"
+msgid "Network interface current bit rate"
+msgstr "អត្រា​ប៊ីត​បច្ចុប្បន្ន​ចំណុច​ប្រទាក់​បណ្ដាញ​​"
+
+#: libs/internals/tooltips.cpp:49
+msgctxt "@info:tooltip"
+msgid "Maximum speed of the network interface"
+msgstr "ល្បឿន​អតិបរមា​របស់​ចំណុច​ប្រទាក់​​បណ្ដាញ ​"
+
+#: libs/internals/tooltips.cpp:50
+msgctxt "@info:tooltip"
+msgid "IPv4 network address"
+msgstr "អាសយដ្ឋាន​បណ្ដាញ​ IPv4 ​​"
+
+#: libs/internals/tooltips.cpp:51
+msgctxt "@info:tooltip"
+msgid "Network name servers"
+msgstr "សេវា​ឈ្មោះ​បណ្ដាញ​​"
+
+#: libs/internals/tooltips.cpp:52
+msgctxt "@info:tooltip"
+msgid "Network domains"
+msgstr "ដែន​បណ្ដាញ​"
+
+#: libs/internals/tooltips.cpp:53
+msgctxt "@info:tooltip"
+msgid "Network routes"
+msgstr "ផ្លូវ​បណ្ដាញ​​"
+
+#: libs/internals/tooltips.cpp:55
+msgctxt "@info:tooltip"
+msgid "Signal strength of the wifi network"
+msgstr "កម្រិត​សញ្ញា​របស់​បណ្ដាញ​ wifi​"
+
+#: libs/internals/tooltips.cpp:56
+msgctxt "@info:tooltip"
+msgid "Name of the wireless network in use"
+msgstr "ឈ្មោះ​បណ្ដាញ​ឥត​ខ្សែ​កំពុង​ប្រើ​​"
+
+#: libs/internals/tooltips.cpp:57
+msgctxt "@info:tooltip"
+msgid "Operation mode of wireless network"
+msgstr "របៀប​ប្រតិបត្តិការ​នៃ​បណ្ដាញ​​ឥត​​​ខ្សែ​​"
+
+#: libs/internals/tooltips.cpp:58
+msgctxt "@info:tooltip"
+msgid "Hardware address of the active access point"
+msgstr "អាសយដ្ឋាន​ផ្នែក​រឹង​ នៃ​ចំណុច​ចូល​ដំណើរការ​សកម្ម​​"
+
+#: libs/internals/tooltips.cpp:59
+msgctxt "@info:tooltip"
+msgid "The radio channel frequency that the access point is operating on"
+msgstr "ប្រេកង់​​​​ឆានែល​វិទ្យុ​ដែល​ជា​ចំណុច​ចូល​ដំណើរការ​កំពុង​ប្រតិបត្តិ​លើ​​"
+
+#: libs/internals/tooltips.cpp:60
+msgctxt "@info:tooltip"
+msgid "Subjective network security level description"
+msgstr "សេចក្ដី​ពិពណ៌នា​អំពី​កម្រិត​សុវត្ថិភាព​បណ្ដាញ​ដែល​ជា​ប្រធាន​​​បទ​ "
+
+#: libs/internals/tooltips.cpp:61
+msgctxt "@info:tooltip"
+msgid ""
+"Flags describing the access point's capabilities according to WPA (Wifi "
+"Protected Access)"
+msgstr "សមត្ថភាព​​នៃ​ចំណុច​ចូល​​ដំណើរការ​ទង់​ពណ៌នា គឺ​យោង​ទៅ​តាម​​ WPA (Wifi Protected Access ​)"
+
+#: libs/internals/tooltips.cpp:62
+msgctxt "@info:tooltip"
+msgid ""
+"Flags describing the access point's capabilities according to RSN (Robust "
+"Secure Network)"
+msgstr "សមត្ថភាព​នៃ​ចំណុច​​ចូល​ដំណើរការ​ទង់​ពណ៌នា គឺ​យោងទៅតាម​​ RSN (Robust Secure Network​​)"
+
+#: libs/internals/tooltips.cpp:65
+msgctxt " interface type"
+msgid "Type"
+msgstr "ប្រភេទ"
+
+#: libs/internals/tooltips.cpp:66
+msgctxt " network device name eg eth0"
+msgid "Interface"
+msgstr "ចំណុច​ប្រទាក់"
+
+#: libs/internals/tooltips.cpp:67
+msgctxt " system driver name"
+msgid "Driver"
+msgstr "កម្ម​វិធី​បញ្ជា"
+
+#: libs/internals/tooltips.cpp:68
+msgctxt " network interface status"
+msgid "Status"
+msgstr "ស្ថាន​ភាព"
+
+#: libs/internals/tooltips.cpp:70
+msgctxt " this is the hardware address of a network interface"
+msgid "Hardware address (Wired)"
+msgstr "អាសយដ្ឋាន​​ផ្នែក​រឹង​​ (មាន​​ខ្សែ​)​"
+
+#: libs/internals/tooltips.cpp:71
+msgctxt " network connection bit rate"
+msgid "Bit rate"
+msgstr "អត្រា​ប៊ីត"
+
+#: libs/internals/tooltips.cpp:73
+msgctxt " The network device's maximum speed"
+msgid "Max speed"
+msgstr "ល្បឿន​អតិបរមា"
+
+#: libs/internals/tooltips.cpp:74
+msgctxt " IPv4 address"
+msgid "IP address"
+msgstr "អាសយដ្ឋាន IP"
+
+#: libs/internals/tooltips.cpp:75
+msgctxt " network name servers"
+msgid "Name servers"
+msgstr "ឈ្មោះ​ម៉ាស៊ីន​បម្រើ"
+
+#: libs/internals/tooltips.cpp:76
+msgctxt " network domains"
+msgid "Domains"
+msgstr "ដែន"
+
+#: libs/internals/tooltips.cpp:77
+msgctxt " network routes"
+msgid "Routes"
+msgstr "ផ្លូវ​"
+
+#: libs/internals/tooltips.cpp:80
+msgctxt " The signal strength of the wifi network"
+msgid "Strength"
+msgstr "កម្លាំង"
+
+#: libs/internals/tooltips.cpp:82
+msgctxt " SSID is a friendly name that identifies a 802.11 WLAN."
+msgid "SSID"
+msgstr "SSID"
+
+#: libs/internals/tooltips.cpp:83
+msgctxt " the operation mode of wi-fi network"
+msgid "Mode"
+msgstr "របៀប"
+
+#: libs/internals/tooltips.cpp:85
+msgctxt " Active access point MAC address"
+msgid "Access point"
+msgstr "ចំណុច​ចូលដំណើរការ"
+
+#: libs/internals/tooltips.cpp:87
+msgctxt ""
+" the frequency of the radio channel that the access point is operating on"
+msgid "Frequency"
+msgstr "ប្រេកង់"
+
+#: libs/internals/tooltips.cpp:88
+msgctxt " network security level, e.g. high, low"
+msgid "Security"
+msgstr "សុវត្ថិភាព"
+
+#: libs/internals/tooltips.cpp:90
+msgctxt ""
+" Flags describing the access point's capabilities according to WPA (Wifi "
+"Protected Access)"
+msgid "WPA flags"
+msgstr "ទង់​ WPA"
+
+#: libs/internals/tooltips.cpp:92
+msgctxt ""
+"Flags describing the access point's capabilities according to RSN (Robust "
+"Secure Network)"
+msgid "RSN(WPA2) flags"
+msgstr "ទង់​ RSN(WPA2)"
+
+#: libs/internals/uiutils.cpp:51 libs/internals/uiutils.cpp:80
+msgctxt "title of the interface widget in nm's popup"
+msgid "Wired Ethernet"
+msgstr "អ៊ីសឺរ​ណិតមាន​​ខ្សែ​​"
+
+#: libs/internals/uiutils.cpp:54
+msgctxt "title of the interface widget in nm's popup"
+msgid "Wireless 802.11"
+msgstr "ឥត​ខ្សែ​​ 802.11​"
+
+#: libs/internals/uiutils.cpp:57 libs/internals/uiutils.cpp:70
+msgctxt "title of the interface widget in nm's popup"
+msgid "Mobile Broadband"
+msgstr "រលកអាកាស​ចល័ត"
+
+#: libs/internals/uiutils.cpp:65
+msgctxt "title of the interface widget in nm's popup"
+msgid "Serial Modem"
+msgstr "ម៉ូដឹម​សៀរៀល​"
+
+#: libs/internals/uiutils.cpp:171
+msgctxt "description of unknown network interface state"
+msgid "Unknown"
+msgstr "មិន​ស្គាល់​"
+
+#: libs/internals/uiutils.cpp:174
+msgctxt "description of unmanaged network interface state"
+msgid "Unmanaged"
+msgstr "មិន​គ្រប់​គ្រង​​"
+
+#: libs/internals/uiutils.cpp:177
+msgctxt "description of unavailable network interface state"
+msgid "Unavailable"
+msgstr "ដែល​មិន​អាច​រក​បាន​​"
+
+#: libs/internals/uiutils.cpp:180
+msgctxt "description of unconnected network interface state"
+msgid "Not connected"
+msgstr "មិន​បាន​តភ្ជាប់​​"
+
+#: libs/internals/uiutils.cpp:183
+msgctxt "description of preparing to connect network interface state"
+msgid "Preparing to connect"
+msgstr "ការ​រៀប​ចំ​តភ្ជាប់​​"
+
+#: libs/internals/uiutils.cpp:186
+msgctxt "description of configuring hardware network interface state"
+msgid "Configuring interface"
+msgstr "ការកំណត់​រចនា​សម្ព័ន្ធ​ចំណុច​ប្រទាក់​​"
+
+#: libs/internals/uiutils.cpp:189
+msgctxt "description of waiting for authentication network interface state"
+msgid "Waiting for authorization"
+msgstr "រង់​ចាំ​សេចក្ដី​អនុញ្ញាត​"
+
+#: libs/internals/uiutils.cpp:192
+msgctxt "network interface doing dhcp request in most cases"
+msgid "Setting network address"
+msgstr "ការ​កំណត់​អាសយដ្ឋាន​បណ្ដាញ​​"
+
+#: libs/internals/uiutils.cpp:195
+msgctxt "is other action required to fully connect? captive portals, etc."
+msgid "Checking further connectivity"
+msgstr "ពិនិត្យមើល​ការ​តភ្ជាប់​បន្ថែម"
+
+#: libs/internals/uiutils.cpp:198
+msgctxt ""
+"a secondary connection (e.g. VPN) has to be activated first to continue"
+msgid "Waiting for a secondary connection"
+msgstr "រង់​ចាំ​ការ​តភ្ជាប់​រង"
+
+#: libs/internals/uiutils.cpp:202
+msgctxt "network interface connected state label"
+msgid "Connected"
+msgstr "បាន​តភ្ជាប់​​"
+
+#: libs/internals/uiutils.cpp:204
+#, kde-format
+msgctxt "network interface connected state label"
+msgid "Connected to %1"
+msgstr "បាន​តភ្ជាប់​ទៅកាន់​​ %1​​"
+
+#: libs/internals/uiutils.cpp:208
+msgctxt "network interface disconnecting state label"
+msgid "Deactivating connection"
+msgstr "ធ្វើឲ្យ​ការ​តភ្ជាប់​​អសកម្ម"
+
+#: libs/internals/uiutils.cpp:211
+msgctxt "network interface connection failed state label"
+msgid "Connection Failed"
+msgstr "បាន​បរាជ័យ​ការ​តភ្ជាប់​​"
+
+#: libs/internals/uiutils.cpp:214
+msgctxt "interface state"
+msgid "Error: Invalid state"
+msgstr "កំហុស​ ៖​ ភាព​មិន​ត្រឹមត្រូវ​​"
+
+#: libs/internals/uiutils.cpp:278
+#, kde-format
+msgctxt "Format for <Vendor> <Product>"
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: libs/internals/uiutils.cpp:347
+msgctxt "wireless network operation mode"
+msgid "Unassociated"
+msgstr "ដែល​មិន​ភ្ជាប់​គ្នា​"
+
+#: libs/internals/uiutils.cpp:350
+msgctxt "wireless network operation mode"
+msgid "Adhoc"
+msgstr "Adhoc"
+
+#: libs/internals/uiutils.cpp:353
+msgctxt "wireless network operation mode"
+msgid "Managed"
+msgstr "បាន​គ្រប់​គ្រង​​"
+
+#: libs/internals/uiutils.cpp:356
+msgctxt "wireless network operation mode"
+msgid "Master"
+msgstr "មេ​"
+
+#: libs/internals/uiutils.cpp:359
+msgctxt "wireless network operation mode"
+msgid "Repeater"
+msgstr "កម្ម​វិធី​ធ្វើ​ម្ដង​ទៀត​"
+
+#: libs/internals/uiutils.cpp:362
+msgid "INCORRECT MODE FIX ME"
+msgstr "ខ្ញុំ​ជួសជុល​របៀប​មិន​ត្រឹមត្រូវ​​"
+
+#: libs/internals/uiutils.cpp:384
+msgctxt "wireless network cipher"
+msgid "Pairwise WEP40"
+msgstr "Pairwise WEP40"
+
+#: libs/internals/uiutils.cpp:386
+msgctxt "wireless network cipher"
+msgid "Pairwise WEP104"
+msgstr "Pairwise WEP104"
+
+#: libs/internals/uiutils.cpp:388
+msgctxt "wireless network cipher"
+msgid "Pairwise TKIP"
+msgstr "Pairwise TKIP"
+
+#: libs/internals/uiutils.cpp:390
+msgctxt "wireless network cipher"
+msgid "Pairwise CCMP"
+msgstr "Pairwise CCMP"
+
+#: libs/internals/uiutils.cpp:392
+msgctxt "wireless network cipher"
+msgid "Group WEP40"
+msgstr "ក្រុម​ WEP40​​"
+
+#: libs/internals/uiutils.cpp:394
+msgctxt "wireless network cipher"
+msgid "Group WEP104"
+msgstr "ក្រុម​​ WEP104​"
+
+#: libs/internals/uiutils.cpp:396
+msgctxt "wireless network cipher"
+msgid "Group TKIP"
+msgstr "ក្រុម​​ TKIP​"
+
+#: libs/internals/uiutils.cpp:398
+msgctxt "wireless network cipher"
+msgid "Group CCMP"
+msgstr "ក្រុម​​ CCMP​"
+
+#: libs/internals/uiutils.cpp:400
+msgctxt "wireless network cipher"
+msgid "PSK"
+msgstr "PSK"
+
+#: libs/internals/uiutils.cpp:402
+msgctxt "wireless network cipher"
+msgid "802.1x"
+msgstr "802.1x"
+
+#: libs/internals/uiutils.cpp:411
+#, kde-format
+msgctxt "connection speed"
+msgid "%1 Bit/s"
+msgstr "%1 ប៊ីត/វិ."
+
+#: libs/internals/uiutils.cpp:413
+#, kde-format
+msgctxt "connection speed"
+msgid "%1 MBit/s"
+msgstr "%1 មេកាប៊ីត/វិ."
+
+#: libs/internals/uiutils.cpp:415
+#, kde-format
+msgctxt "connection speed"
+msgid "%1 GBit/s"
+msgstr "%1 ជីកាប៊ីត/វិ."
+
+#: libs/internals/wirelesssecurityidentifier.cpp:248
+msgctxt "@label no security"
+msgid "Insecure"
+msgstr "គ្មាន​សុវត្ថិភាព​"
+
+#: libs/internals/wirelesssecurityidentifier.cpp:251
+msgctxt "@label WEP security"
+msgid "WEP"
+msgstr "WEP"
+
+#: libs/internals/wirelesssecurityidentifier.cpp:254
+msgctxt "@label LEAP security"
+msgid "LEAP"
+msgstr "LEAP"
+
+#: libs/internals/wirelesssecurityidentifier.cpp:257
+msgctxt "@label Dynamic WEP security"
+msgid "Dynamic WEP"
+msgstr "WEP ថាមវន្ត​"
+
+#: libs/internals/wirelesssecurityidentifier.cpp:260
+msgctxt "@label WPA-PSK security"
+msgid "WPA-PSK"
+msgstr "WPA-PSK"
+
+#: libs/internals/wirelesssecurityidentifier.cpp:263
+msgctxt "@label WPA-EAP security"
+msgid "WPA-EAP"
+msgstr "WPA-EAP"
+
+#: libs/internals/wirelesssecurityidentifier.cpp:266
+msgctxt "@label WPA2-PSK security"
+msgid "WPA2-PSK"
+msgstr "WPA2-PSK"
+
+#: libs/internals/wirelesssecurityidentifier.cpp:269
+msgctxt "@label WPA2-EAP security"
+msgid "WPA2-EAP"
+msgstr "WPA2-EAP"
+
+#: libs/internals/wirelesssecurityidentifier.cpp:273
+msgctxt "@label unknown security"
+msgid "Unknown security type"
+msgstr "មិន​ស្គាល់​ប្រភេទ​សុវត្ថិភាព​​"
+
+#: libs/internals/wirelesssecurityidentifier.cpp:284
+msgctxt "@info:tooltip no security"
+msgid "Insecure"
+msgstr "គ្មាន​សុវត្ថិភាព​"
+
+#: libs/internals/wirelesssecurityidentifier.cpp:287
+msgctxt "@info:tooltip WEP security"
+msgid "WEP"
+msgstr "WEP"
+
+#: libs/internals/wirelesssecurityidentifier.cpp:290
+msgctxt "@info:tooltip LEAP security"
+msgid "LEAP"
+msgstr "LEAP"
+
+#: libs/internals/wirelesssecurityidentifier.cpp:293
+msgctxt "@info:tooltip Dynamic WEP security"
+msgid "Dynamic WEP"
+msgstr "WEP ថាមវន្ត​​"
+
+#: libs/internals/wirelesssecurityidentifier.cpp:296
+msgctxt "@info:tooltip WPA-PSK security"
+msgid "WPA-PSK"
+msgstr "WPA-PSK"
+
+#: libs/internals/wirelesssecurityidentifier.cpp:299
+msgctxt "@info:tooltip WPA-EAP security"
+msgid "WPA-EAP"
+msgstr "WPA-EAP"
+
+#: libs/internals/wirelesssecurityidentifier.cpp:302
+msgctxt "@info:tooltip WPA2-PSK security"
+msgid "WPA2-PSK"
+msgstr "WPA2-PSK"
+
+#: libs/internals/wirelesssecurityidentifier.cpp:305
+msgctxt "@info:tooltip WPA2-EAP security"
+msgid "WPA2-EAP"
+msgstr "WPA2-EAP"
+
+#: libs/internals/wirelesssecurityidentifier.cpp:309
+msgctxt "@info:tooltip unknown security"
+msgid "Unknown security type"
+msgstr "មិន​ស្គាល់​ប្រភេទ​សុវត្ថិភាព​"
+
+#: libs/service/networkinterfacemonitor.cpp:214
+#, kde-format
+msgctxt "Text in GSM PIN/PUK unlock error dialog"
+msgid "Error unlocking modem: %1"
+msgstr "កំហុស​ក្នុង​ការ​ដោះ​សោ​ម៉ូដឹម ៖ %1"
+
+#: libs/service/networkinterfacemonitor.cpp:214
+msgctxt "Title for GSM PIN/PUK unlock error dialog"
+msgid "PIN/PUK unlock error"
+msgstr "កំហុស​ក្នុង​ការ​ដោះ​សោ PIN/PUK"
+
+#: libs/service/notificationmanager.cpp:114
+#: libs/service/notificationmanager.cpp:449
+#, kde-format
+msgctxt "@info:status Notification text when connecting"
+msgid "Activating %1"
+msgstr "ការ​ធ្វើ​ឲ្យ​សកម្ម​​ %1​"
+
+#: libs/service/notificationmanager.cpp:118
+#: libs/service/notificationmanager.cpp:453
+#, kde-format
+msgctxt "@info:status Notification text when a connection has been activated"
+msgid "%1 activated"
+msgstr "%1 បាន​ធ្វើ​ឲ្យ​សកម្ម​​"
+
+#: libs/service/notificationmanager.cpp:122
+#: libs/service/notificationmanager.cpp:460
+#, kde-format
+msgctxt "@info:status Notification text when deactivating a connection"
+msgid "%1 deactivated"
+msgstr "%1 ធ្វើ​ឲ្យ​អសកម្ម​​"
+
+#: libs/service/notificationmanager.cpp:128
+#: libs/service/notificationmanager.cpp:458
+#, kde-format
+msgctxt "@info:status Notification text when connection has failed"
+msgid "Connection %1 failed"
+msgstr "បាន​បរាជ័យ​ការ​តភ្ជាប់​ %1"
+
+#: libs/service/notificationmanager.cpp:146
+#, kde-format
+msgctxt "@info:status Notification text when wireless/gsm signal is low"
+msgid "Low signal on %1"
+msgstr "សញ្ញា​ទាប​ជាង​លើ %1"
+
+#: libs/service/notificationmanager.cpp:205
+#, kde-format
+msgctxt ""
+"@info:status interface (%2) status notification title when a connection (%1) "
+"is activating"
+msgid "Activating %1 on %2"
+msgstr "ការ​ធ្វើ​ឲ្យ​សកម្ម​ %1 លើ​ %2"
+
+#: libs/service/notificationmanager.cpp:215
+#, kde-format
+msgctxt ""
+"@info:status interface (%2) status notification title when a connection (%1) "
+"has successfully activated"
+msgid "%1 on %2"
+msgstr "%1 លើ​​ %2"
+
+#: libs/service/notificationmanager.cpp:229
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"NowManagedReason"
+msgid "%1 because it is now being managed"
+msgstr "%1 ពី​ព្រោះ​ឥឡូវ​នេះ​វា​កំពុង​ត្រូវ​បាន​គ្រប់​គ្រង​​"
+
+#: libs/service/notificationmanager.cpp:232
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"NowUnmanagedReason"
+msgid "%1 because it is no longer being managed"
+msgstr "%1 ពី​ព្រោះ​វា​មិន​កំពុង​ត្រូវ​​បាន​គ្រប់​គ្រង​ទៀត​ទេ​​"
+
+#: libs/service/notificationmanager.cpp:235
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"ConfigFailedReason"
+msgid "%1 because configuration failed"
+msgstr "%1 ពី​ព្រោះ​បាន​បរាជ័យ​ការកំណត់​រចនា​សម្ព័ន្ធ​​"
+
+#: libs/service/notificationmanager.cpp:238
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"ConfigUnavailableReason"
+msgid "%1 because the configuration is unavailable"
+msgstr "%1 ពី​ព្រោះ​មិន​អាច​កំណត់​រចនាសម្ព័ន្ធ​បាន​​ទេ​"
+
+#: libs/service/notificationmanager.cpp:241
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"ConfigExpiredReason"
+msgid "%1 because the configuration has expired"
+msgstr "%1 ពី​ព្រោះ​ការកំណត់​រចនា​សម្ព័ន្ធ​បាន​ផុត​កំណត់​​"
+
+#: libs/service/notificationmanager.cpp:244
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"NoSecretsReason"
+msgid "%1 because secrets were not provided"
+msgstr "%1 ពីព្រោះ​សម្ងាត់​មិន​ត្រូវ​បាន​ផ្ដល់​​"
+
+#: libs/service/notificationmanager.cpp:247
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"AuthSupplicantDisconnectReason"
+msgid "%1 because the authorization supplicant disconnected"
+msgstr "%1 ពី​ព្រោះ​បាន​ផ្ដាច់​កម្ម​វិធី​​សុំ​សេចក្ដី​អនុញ្ញាត​"
+
+#: libs/service/notificationmanager.cpp:250
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"AuthSupplicantConfigFailedReason"
+msgid "%1 because the authorization supplicant's configuration failed"
+msgstr "%1 ពី​ព្រោះ​បាន​បរាជ័យ​ការកំណត់​រចនាសម្ព័ន្ធ​របស់​កម្ម​វី​ធី​សុំ​​សេចក្ដី​អនុញ្ញាត​​"
+
+#: libs/service/notificationmanager.cpp:253
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"AuthSupplicantFailedReason"
+msgid "%1 because the authorization supplicant failed"
+msgstr "%1 ពី​ព្រោះ​បាន​បរាជ័យ​កម្ម​វិធី​​សុំ​សេចក្ដី​អនុញ្ញាត​"
+
+#: libs/service/notificationmanager.cpp:256
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"AuthSupplicantTimeoutReason"
+msgid "%1 because the authorization supplicant timed out"
+msgstr "%1 ពី​ព្រោះ​អស់​ពេល​កម្ម​វិធី​សុំ​សេចក្ដី​អនុញ្ញាត​"
+
+#: libs/service/notificationmanager.cpp:259
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"PppStartFailedReason"
+msgid "%1 because PPP failed to start"
+msgstr "%1 ពី​ព្រោះ​ចាប់ផ្ដើម​​​ PPP បាន​បរាជ័យ​​"
+
+#: libs/service/notificationmanager.cpp:262
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"PppDisconnectReason"
+msgid "%1 because PPP disconnected"
+msgstr "%1 ពី​ព្រោះ​បាន​ផ្ដាច់​​ PPP ​​"
+
+#: libs/service/notificationmanager.cpp:265
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"PppFailedReason"
+msgid "%1 because PPP failed"
+msgstr "%1 ពី​ព្រោះ​បាន​បរាជ័យ​​ PPP ​​"
+
+#: libs/service/notificationmanager.cpp:268
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"DhcpStartFailedReason"
+msgid "%1 because DHCP failed to start"
+msgstr "%1 ពី​ព្រោះ​ចាប់​ផ្ដើម​​ DHCP បាន​បរាជ័យ​​"
+
+#: libs/service/notificationmanager.cpp:271
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"DhcpErrorReason"
+msgid "%1 because a DHCP error occurred"
+msgstr "%1 ពី​ព្រោះ​បាន​កើត​មាន​កំហុស​​​ DHCP ​​"
+
+#: libs/service/notificationmanager.cpp:274
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"DhcpFailedReason"
+msgid "%1 because DHCP failed "
+msgstr "%1 ពី​ព្រោះ​បាន​បរាជ័យ​​ DHCP ​​"
+
+#: libs/service/notificationmanager.cpp:277
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"SharedStartFailedReason"
+msgid "%1 because the shared service failed to start"
+msgstr "%1 ពី​ព្រោះ​ចាប់​ផ្ដើម​សេវា​ចែក​រំលែក​បាន​បរាជ័យ​​"
+
+#: libs/service/notificationmanager.cpp:280
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"SharedFailedReason"
+msgid "%1 because the shared service failed"
+msgstr "%1 ពី​ព្រោះ​បាន​បរាជ័យ​សេវា​ដែល​បាន​ចែករំលែក​​"
+
+#: libs/service/notificationmanager.cpp:283
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"AutoIpStartFailedReason"
+msgid "%1 because the auto IP service failed to start"
+msgstr "%1 ពីព្រោះ​ចាប់​ផ្ដើម​សេវា​ IP ស្វ័យ​ប្រវត្តិ​បាន​បរាជ័យ​​"
+
+#: libs/service/notificationmanager.cpp:286
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"AutoIpErrorReason"
+msgid "%1 because the auto IP service reported an error"
+msgstr "%1 ពី​ព្រោះ​បាន​រាយ​ការណ៍​កំហុស​សេវា​​ IP ស្វ័យ​ប្រវត្តិ​​"
+
+#: libs/service/notificationmanager.cpp:289
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"AutoIpFailedReason"
+msgid "%1 because the auto IP service failed"
+msgstr "%1 ពី​ព្រោះ​បាន​បរាជ័យ​សេវា​​ IP ស្វ័យ​ប្រវត្តិ​​"
+
+#: libs/service/notificationmanager.cpp:292
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"ModemBusyReason"
+msgid "%1 because the modem is busy"
+msgstr "%1 ពី​ព្រោះ​​ម៉ូដឹម​ជាប់​រវល់​"
+
+#: libs/service/notificationmanager.cpp:295
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"ModemNoDialToneReason"
+msgid "%1 because the modem has no dial tone"
+msgstr "%1 ពី​ព្រោះ​ម៉ូដឹម​​គ្មាន​សំឡេង​ហៅ​​​"
+
+#: libs/service/notificationmanager.cpp:298
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"ModemNoCarrierReason"
+msgid "%1 because the modem shows no carrier"
+msgstr "%1 ពី​ព្រោះ​ម៉ូដឹម​បង្ហាញ​គ្មាន​អ្នក​ដឹក​ជញ្ជូន​​"
+
+#: libs/service/notificationmanager.cpp:301
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"ModemDialTimeoutReason"
+msgid "%1 because the modem dial timed out"
+msgstr "%1 ពី​ព្រោះ​​អស់​ពេលវេលា​ហៅ​ម៉ូដឹម​​"
+
+#: libs/service/notificationmanager.cpp:304
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"ModemInitFailedReason"
+msgid "%1 because the modem could not be initialized"
+msgstr "%1 ពី​ព្រោះ​ម៉ូដឹម​មិន​អាច​ត្រូវ​បាន​ចាប់​ផ្ដើម​ឡើយ​​"
+
+#: libs/service/notificationmanager.cpp:307
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"GsmApnSelectFailedReason"
+msgid "%1 because the GSM APN could not be selected"
+msgstr "%1 ពី​ព្រោះ​​ GSM APN មិន​អាច​ត្រូវ​បាន​ជ្រើស​ឡើយ​"
+
+#: libs/service/notificationmanager.cpp:310
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"GsmNotSearchingReason"
+msgid "%1 because the GSM modem is not searching"
+msgstr "%1 ពី​ព្រោះ​ម៉ូដឹម​​ GSM មិន​កំពុង​ស្វែង​រក​​ឡើយ​"
+
+#: libs/service/notificationmanager.cpp:313
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"GsmRegistrationDeniedReason"
+msgid "%1 because GSM network registration was denied"
+msgstr "%1 ពីព្រោះ​​ការ​ចុះឈ្មោះ​បណ្ដាញ​​​​ GSM ​ត្រូវ​បាន​បដិសេធ​​"
+
+#: libs/service/notificationmanager.cpp:316
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"GsmRegistrationTimeoutReason"
+msgid "%1 because GSM network registration timed out"
+msgstr "%1 ​ពី​ព្រោះ​អស់​ពេលវេលា​ចុះឈ្មោះ​បណ្ដាញ​​ GSM ​​"
+
+#: libs/service/notificationmanager.cpp:319
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"GsmRegistrationFailedReason"
+msgid "%1 because GSM registration failed"
+msgstr "%1 ពី​ព្រោះ​បាន​បរាជ័យ​ការ​ចុះឈ្មោះ​​ GSM ​​"
+
+#: libs/service/notificationmanager.cpp:322
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"GsmPinCheckFailedReason"
+msgid "%1 because the GSM PIN check failed"
+msgstr "%1 ពី​ព្រោះ​បាន​បរាជ័យ​​​ពិនិត្យ​មើល​​ GSM PIN ​"
+
+#: libs/service/notificationmanager.cpp:325
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"FirmwareMissingReason"
+msgid "%1 because firmware is missing"
+msgstr "%1 ពី​ព្រោះ​បាត់​កម្មវិធី​បង្កប់​​​"
+
+#: libs/service/notificationmanager.cpp:328
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"DeviceRemovedReason"
+msgid "%1 because the device was removed"
+msgstr "%1 ពី​​ព្រោះ​ឧបករណ៍​ត្រូវ​បា​ន​យក​ចេញ​​"
+
+#: libs/service/notificationmanager.cpp:331
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"SleepingReason"
+msgid "%1 because the networking system is now sleeping"
+msgstr "%1 ពី​ព្រោះ​ប្រ​ព័ន្ធ​ធ្វើ​បណ្ដាញ​កំពុង​តែ​​ផ្អាក​ឥឡូវ​នេះ​​"
+
+#: libs/service/notificationmanager.cpp:334
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"ConnectionRemovedReason"
+msgid "%1 because the connection was removed"
+msgstr "%1 ពី​ព្រោះ​ការ​តភ្ជាប់​ត្រូវ​បាន​យកចេញ​ "
+
+#: libs/service/notificationmanager.cpp:337
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"UserRequestedReason"
+msgid "%1 by request"
+msgstr "%1 ដោយ​សំណើ​ "
+
+#: libs/service/notificationmanager.cpp:340
+#, kde-format
+msgctxt ""
+"@info:status Notification when an interface changes state (%1) due to "
+"CarrierReason"
+msgid "%1 because the cable was disconnected"
+msgstr "%1 ពី​ព្រោះ​ខ្សែ​ត្រូវ​បាន​ផ្ដាច់​​"
+
+#: libs/service/notificationmanager.cpp:508
+#: libs/service/notificationmanager.cpp:520
+#, kde-format
+msgctxt "@info:status Notification for hardware added"
+msgid "%1 attached"
+msgstr "%1 ដែល​​ភ្ជាប់​ជាមួយ​​​"
+
+#: libs/service/notificationmanager.cpp:509
+msgctxt "@action"
+msgid "Create Connection"
+msgstr "ធ្វើ​ការ​តភ្ជាប់​"
+
+#: libs/service/notificationmanager.cpp:509
+msgctxt "@action"
+msgid "Close"
+msgstr "បិទ"
+
+#: libs/service/notificationmanager.cpp:556
+#, kde-format
+msgctxt ""
+"@info:status Notification for hardware removed giving vendor supplied "
+"product name"
+msgid "%1 removed"
+msgstr "%1 បាន​យក​ចេញ​"
+
+#: libs/service/notificationmanager.cpp:560
+msgctxt ""
+"@info:status Notification for hardware removed used if we don't have its "
+"user-visible name"
+msgid "Network interface removed"
+msgstr "បាន​យក​ចំណុច​ប្រទាក់​បណ្ដាញ​ចេញ​​"
+
+#: libs/service/notificationmanager.cpp:593
+#, kde-format
+msgctxt ""
+"@info:status Notification text when a single wireless network was found"
+msgid "Wireless network %1 found"
+msgstr "រក​ឃើញ​បណ្ដាញ​​ឥត​ខ្សែ​​ %1 ​ ​"
+
+#: libs/service/notificationmanager.cpp:596
+#, kde-format
+msgctxt ""
+"@info:status Notification text when multiple wireless networks are found. %2 "
+"is a list of networks, and the %1 value (not printed) is just used to "
+"determine the plural form of network."
+msgid "<b>New wireless network:</b><br /> %2"
+msgid_plural "<b>New wireless networks:</b><br /> %2"
+msgstr[0] "<b>បណ្ដាញ​ឥតខ្សែ​ថ្មី ៖</b><br /> %2"
+
+#: libs/service/notificationmanager.cpp:611
+#, kde-format
+msgctxt ""
+"@info:status Notification text when a single wireless network disappeared"
+msgid "Wireless network %1 disappeared"
+msgstr "បាន​បាត់​បណ្ដាញ​ឥត​ខ្សែ​​ %1 ​​"
+
+#: libs/service/notificationmanager.cpp:615
+#, kde-format
+msgctxt ""
+"@info:status Notification text when multiple wireless networks have "
+"disappeared.  %2 is a list of networks, and the %1 value (not printed) is "
+"just used to determine the plural form of network."
+msgid "<b>Wireless network disappeared:</b><br /> %2"
+msgid_plural "<b>Wireless networks disappeared:</b><br /> %2"
+msgstr[0] "<b>បាត់​បណ្ដាញ​ឥតខ្សែ ៖</b><br /> %2"
+
+#: libs/service/notificationmanager.cpp:627
+msgctxt "@info:status Notification for radio kill switch turned on"
+msgid "Wireless hardware enabled"
+msgstr "បើក​ផ្នែក​រឹង​ឥត​ខ្សែ​ "
+
+#: libs/service/notificationmanager.cpp:634
+msgctxt "@info:status Notification for radio kill switch turned off"
+msgid "Wireless hardware disabled"
+msgstr "បិទ​ផ្នែក​រឹង​ឥត​ខ្សែ​   "
+
+#: libs/service/notificationmanager.cpp:641
+msgctxt ""
+"@info:status Notification when the networking subsystem (NetworkManager, "
+"etc) is disabled"
+msgid "Networking system disabled"
+msgstr "បិទ​ប្រព័ន្ធ​ធ្វើ​បណ្ដាញ​ "
+
+#: libs/service/notificationmanager.cpp:647
+msgctxt ""
+"@info:status Notification when the networking subsystem (NetworkManager, "
+"etc) is already running"
+msgid "Networking system already running"
+msgstr "កំពុង​តែ​ដំណើរការ​ប្រព័ន្ធ​បណ្ដាញ​ហើយ"
+
+#: libs/service/pindialog.cpp:72
+msgctxt "As in 'Unlock cell phone with this pin code'"
+msgid "Unlock"
+msgstr "ដោះ​សោ "
+
+#: libs/service/pindialog.cpp:76
+msgid "SIM PUK unlock required"
+msgstr "បាន​ទាមទារ​ដោះ​សោ SIM PUK"
+
+#: libs/service/pindialog.cpp:77
+msgid "SIM PUK Unlock Required"
+msgstr "បាន​ទាមទារ​ដោះ​សោ​ SIM PUK "
+
+#: libs/service/pindialog.cpp:78
+#, kde-format
+msgid ""
+"The mobile broadband device '%1' requires a SIM PUK code before it can be "
+"used."
+msgstr "ឧបករណ៍​រលក​អាកាស​​ចល័ត​ '%1' ទាមទារ​កូដ​ SIM PUK មុន​ពេល​វា​​អាច​​ប្រើ​បាន ។"
+
+#: libs/service/pindialog.cpp:79
+msgid "PUK code:"
+msgstr "កូដ​របស់ PUK ៖"
+
+#: libs/service/pindialog.cpp:80
+msgid "New PIN code:"
+msgstr "កូដ​របស់​​ PIN ថ្មី ៖"
+
+#: libs/service/pindialog.cpp:81
+msgid "Re-enter new PIN code:"
+msgstr "បញ្ចូល​កូដ​របស់​ PIN ថ្មី ៖"
+
+#: libs/service/pindialog.cpp:82
+msgid "Show PIN/PUK code"
+msgstr "បង្ហាញ​កូដ​របស់​ PIN/PUK"
+
+#: libs/service/pindialog.cpp:90
+msgid "SIM PIN unlock required"
+msgstr "បាន​ទាមទារ​ដោះ​សោ​ PIN ​"
+
+#: libs/service/pindialog.cpp:91
+msgid "SIM PIN Unlock Required"
+msgstr "បាន​ទាមទារ​ដោះ​សោ SIM PIN​"
+
+#: libs/service/pindialog.cpp:92
+#, kde-format
+msgid ""
+"The mobile broadband device '%1' requires a SIM PIN code before it can be "
+"used."
+msgstr "ឧបករណ៍​រលក​អាកាស​ចល័ត​ '%1' ទាមទារ​កូដ​ SIM PIN មុន​ពេល​វា​អាច​ប្រើ​បាន ។"
+
+#: libs/service/pindialog.cpp:93
+msgid "PIN code:"
+msgstr "កូដ​របស់​ PIN ៖"
+
+#: libs/service/pindialog.cpp:94
+msgid "Show PIN code"
+msgstr "បង្ហាញ​កូដ​របស់​ PIN"
+
+#: libs/service/pindialog.cpp:178
+msgid "PIN code too short. It should be at least 4 digits."
+msgstr "កូដ​របស់​ PIN ​ខ្លី​ពេក ។ វា​គួរ​តែ​មាន​យ៉ាងហោចណាស់​ ៤ តួលេខ ។​"
+
+#: libs/service/pindialog.cpp:182
+msgid "The two PIN codes do not match"
+msgstr "កូដ​របស់​ PIN ពីរ​មិន​ផ្គូផ្គង​ឡើយ​"
+
+#: libs/service/pindialog.cpp:186
+msgid "PUK code too short. It should be 8 digits."
+msgstr "កូដ​របស់​ PUK ខ្លី​ពេក​ ។ ​វា​គួរ​តែ​មាន​យ៉ាងហោចណាស់​ ៨ តូលេខ ។"
+
+#: libs/service/pindialog.cpp:190
+msgid "Unknown Error"
+msgstr "កំហុស​ដែល​មិន​ស្គាល់​"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabWireless)
+#. i18n: ectx: property (windowTitle), widget (QWidget, Wireless80211Config)
+#: libs/ui/802-11-wireless.ui:14 settings/config/manageconnectionwidget.ui:65
+msgid "Wireless"
+msgstr "ឥត​ខ្សែ"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: libs/ui/802-11-wireless.ui:23
+msgid "&SSID:"
+msgstr "&SSID ៖"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, ssid)
+#: libs/ui/802-11-wireless.ui:38
+msgid "The name of the wireless network"
+msgstr "ឈ្មោះ​របស់​បណ្ដាញ​ឥត​ខ្សែ"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, ssid)
+#: libs/ui/802-11-wireless.ui:41
+msgid "The Service Set IDentifier is the name of a wireless network."
+msgstr "កម្មវិធី​កំណត់​អត្តសញ្ញាណ​សេវា​គឺ​ជា​ឈ្មោះ​របស់​បណ្ដាញឥតខ្សែ ។"
+
+#. i18n: ectx: property (text), widget (KPushButton, btnScan)
+#: libs/ui/802-11-wireless.ui:48
+msgid "S&can"
+msgstr "វិភាគ​រក​"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: libs/ui/802-11-wireless.ui:57
+msgid "M&ode:"
+msgstr "របៀប ៖"
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, cmbMode)
+#: libs/ui/802-11-wireless.ui:70
+msgid "Operating mode of the wireless network"
+msgstr "របៀប​ក្នុង​ការ​​ប្រតិបត្តិការ​របស់​បណ្ដាញ​ឥត​ខ្សែ"
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, cmbMode)
+#: libs/ui/802-11-wireless.ui:73
+#, fuzzy
+#| msgid ""
+#| "Infrastructure mode is the most common setting.  To form a peer-to-peer "
+#| "wireless network with another computer when there is no infrastructure, "
+#| "choose Ad-hoc."
+msgid ""
+"Infrastructure mode is the most common setting.  To form a peer-to-peer "
+"wireless network with another computer when there is no infrastructure, "
+"choose Ap-mode (requires NetworkManager >= 0.9.8 and a suitable wifi driver) "
+"or Ad-hoc. Also read https://bugs.kde.org/show_bug.cgi?id=311705."
+msgstr ""
+"របៀប​ហេដ្ឋារចនាសម្ពន្ធ​គឺ​ជា​ការ​កំណត់​ធម្មតា​បំផុត ។ ដើម្បី​បង្កើត​បណ្ដាញ​ឥត​ខ្សែ​ពី​កុំព្យូទ័រ​ទៅ​កាន់​កុំព្យូទ័រ ជា​"
+"មួយ​នឹង​កុំព្យូទ័រ​ផ្សេង​ទៀត​ នៅ​ពេល​​គ្មាន​ហេដ្ឋារចនាសម្ពន្ធ​ សូម​ជ្រើស Ad-hoc ។​"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mode)
+#. i18n: ectx: property (text), item, widget (KComboBox, cmbMode)
+#: libs/ui/802-11-wireless.ui:77 libs/ui/wireless.ui:49
+msgid "Infrastructure"
+msgstr "ហេដ្ឋារចនាសម្ពន្ធ"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mode)
+#. i18n: ectx: property (text), item, widget (KComboBox, cmbMode)
+#: libs/ui/802-11-wireless.ui:82 libs/ui/wireless.ui:54
+msgid "Ad-hoc"
+msgstr "Ad-hoc"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mode)
+#. i18n: ectx: property (text), item, widget (KComboBox, cmbMode)
+#: libs/ui/802-11-wireless.ui:87 libs/ui/wireless.ui:58
+msgid "Ap-mode"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: libs/ui/802-11-wireless.ui:95
+msgid "B&and:"
+msgstr "ក្រុម ៖​"
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, band)
+#: libs/ui/802-11-wireless.ui:108
+msgid "Frequency band of the wireless network."
+msgstr "ក្រុម​ប្រេកង់​នៃ​បណ្ដាញ​ឥត​ខ្សែ​ ។"
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, band)
+#: libs/ui/802-11-wireless.ui:111
+msgid "b/g is the most common band around 2.4 GHz. Less common is a at 5 GHz."
+msgstr "b/g គឺ​ជា​ក្រុម​ទូទៅ​ភាគ​ច្រើន​ប្រហែល​ជា​ ២.៤ ជីកាហឺត​ ។ ទូទៅ​តិច​ជាង​ ៥​ជីកាហឺត ។"
+
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, sbCustomPort)
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, sbMtu)
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, sbUdpFragmentSize)
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, spbLocalPort)
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, spbCiscoUdpEncPort)
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, mtu)
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, speed)
+#. i18n: ectx: property (text), item, widget (KComboBox, method)
+#. i18n: ectx: property (text), item, widget (KComboBox, cboPeapVersion)
+#. i18n: ectx: property (text), item, widget (KComboBox, band)
+#. i18n: ectx: property (specialValueText), widget (Wireless80211WidgetBand, channel)
+#: libs/ui/802-11-wireless.ui:115 libs/ui/802-11-wireless.ui:152
+#: libs/ui/802-11-wireless.ui:252 libs/ui/ipv6.ui:112
+#: libs/ui/security/eapmethodpeapbase.ui:72 libs/ui/wired.ui:88
+#: libs/ui/wired.ui:120 vpnplugins/openvpn/openvpnprop.ui:629
+#: vpnplugins/openvpn/openvpnprop.ui:653 vpnplugins/openvpn/openvpnprop.ui:677
+#: vpnplugins/vpnc/vpncprop.ui:445 vpnplugins/vpnc/vpncprop.ui:467
+msgid "Automatic"
+msgstr "ស្វ័យ​ប្រវត្តិ"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, band)
+#: libs/ui/802-11-wireless.ui:120
+msgid "a"
+msgstr "a"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, band)
+#: libs/ui/802-11-wireless.ui:125
+msgid "b/g"
+msgstr "b/g"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: libs/ui/802-11-wireless.ui:133
+msgid "&Channel:"
+msgstr "ឆានែល ៖"
+
+#. i18n: ectx: property (whatsThis), widget (Wireless80211WidgetBand, channel)
+#: libs/ui/802-11-wireless.ui:149
+msgid "Sets the channel of the network."
+msgstr "កំណត់​ឆានែល​នៃ​បណ្ដាញ ។​"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: libs/ui/802-11-wireless.ui:165 libs/ui/wireless.ui:66
+msgid "&BSSID:"
+msgstr "&BSSID:"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, bssid)
+#: libs/ui/802-11-wireless.ui:180
+msgid "Only connect to the access point with this hardware address"
+msgstr "តភ្ជាប់​ទៅកាន់​ចំណុច​ចូល​ដំណើរការ​ដែល​មាន​អាសយដ្ឋាន​ផ្នែក​រឹង​នេះ​តែប៉ុណ្ណោះ"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, bssid)
+#: libs/ui/802-11-wireless.ui:183
+msgid ""
+"Setting a BSSID (Basic Service Set Identification) forces this connection to "
+"connect only to the access point with the specified hardware address, even "
+"if other access points are part of the same network."
+msgstr ""
+"ការ​កំណត់ BSSID (Basic Service Set Identification) នឹង​បង្ខំ​ការ​តភ្ជាប់​នេះ​ឲ្យ​តភ្ជាប់​ទៅកាន់​"
+"ចំណុច​ចូល​ដំណើរការ​ជាមួយ​អាសយដ្ឋាន​ផ្នែក​រឹង​ដែល​បាន​បញ្ជាក់​តែប៉ុណ្ណោះ សូម្បីតែ​ចំណុច​ចូល​ដំណើរការ​ផ្សេង​ដែល​ជា​"
+"ផ្នែក​របស់​បណ្ដាញ​ដូចគ្នា​នេះ​​ក៏​មិន​តភ្ជាប់​ដែរ ។"
+
+#. i18n: ectx: property (inputMask), widget (KLineEdit, clonedMacAddress)
+#. i18n: ectx: property (inputMask), widget (KLineEdit, bssid)
+#: libs/ui/802-11-wireless.ui:186 libs/ui/802-11-wireless.ui:280
+#: libs/ui/wired.ui:177
+msgid "HH:HH:HH:HH:HH:HH;_"
+msgstr "HH:HH:HH:HH:HH:HH;_"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnSelectBssid)
+#: libs/ui/802-11-wireless.ui:193
+msgid "&Select"
+msgstr "ជ្រើស"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btnSelectBssid)
+#: libs/ui/802-11-wireless.ui:199
+msgid "Select the BSSID (access point) with the strongest signal."
+msgstr "ជ្រើស BSSID (ចំណុច​ចូល​ដំណើរការ) ដែល​មាន​សញ្ញា​​ខ្លាំង​បំផុត ។"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btnSelectBssid)
+#: libs/ui/802-11-wireless.ui:202
+msgid ""
+"This button will select the access point with the ssid specified in the "
+"field above and with the strongest signal."
+msgstr ""
+"ប៊ូតុង​នេះ​នឹង​ជ្រើស​ចំណុច​ចូល​ដំណើរការ​ដែល ssid បាន​បញ្ជាក់​នៅ​ក្នុង​វាល​ខាងលើ និង​ដែល​មាន​សញ្ញា​ខ្លាំង​បំផុត ។"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: libs/ui/802-11-wireless.ui:211 libs/ui/wired.ui:34
+msgid "&Restrict To Interface:"
+msgstr "ដាក់​កម្រិត​ទៅកាន់​ចំណុច​ប្រទាក់​ ៖"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cb_MPPECrypto)
+#. i18n: ectx: property (text), item, widget (KComboBox, type)
+#. i18n: ectx: property (text), item, widget (KComboBox, cmbMacAddress)
+#: libs/ui/802-11-wireless.ui:225 libs/ui/gsm.ui:183 libs/ui/wired.ui:48
+#: vpnplugins/pptp/pptpadvanced.ui:120
+msgid "Any"
+msgstr "ណាមួយ"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: libs/ui/802-11-wireless.ui:233
+msgid "MT&U:"
+msgstr "MT&U:"
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, mtu)
+#: libs/ui/802-11-wireless.ui:246 libs/ui/wired.ui:79
+msgid "Maximum Transmission Unit"
+msgstr "ឯកតា​ក្នុង​ការ​បញ្ជូន​អតិបរមា"
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, mtu)
+#: libs/ui/802-11-wireless.ui:249 libs/ui/wired.ui:82
+msgid ""
+"Sets the size of the largest packet that can be transmitted on this network. "
+"'0' sets the MTU automatically."
+msgstr ""
+"កំណត់​ទំហំ​របស់​កញ្ចប់​​ធំ​បំផុត ដែល​អាច​ត្រូវ​បាន​បញ្ជូន​លើ​បណ្ដាញ​នេះ ។ '០' កំណត់​ MTU ដោយ​ស្វ័យ​ប្រវត្តិ ។"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: libs/ui/802-11-wireless.ui:265 libs/ui/wired.ui:56
+msgid "Cloned MAC address"
+msgstr "អាសយដ្ឋាន MAC ដែល​បាន​ក្លូន ៖"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, clonedMacAddress)
+#: libs/ui/802-11-wireless.ui:274 libs/ui/wired.ui:171
+msgid "Custom MAC address for the hardware to use"
+msgstr "អាសយដ្ឋាន MAC ផ្ទាល់ខ្លួន​សម្រាប់​ផ្នែក​រឹង​ដែល​ត្រូវ​ប្រើ"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, clonedMacAddress)
+#: libs/ui/802-11-wireless.ui:277 libs/ui/wired.ui:174
+msgid ""
+"The MAC address entered here will be used as hardware address for the "
+"network device this connection is activated on. This feature is known as MAC "
+"cloning or spoofing."
+msgstr ""
+"អាសយដ្ឋាន MAC ដែល​បាន​បញ្ចូល​នៅ​ទីនេះ នឹង​ត្រូវ​បាន​ប្រើ​ជា​អាសយដ្ឋាន​ផ្នែក​រឹង​សម្រាប់​ឧបករណ៍​បណ្ដាញ ការ​"
+"តភ្ជាប់​នេះ​ត្រូវ​បាន​ធ្វើឲ្យ​សកម្ម​នៅ​លើ ។ លក្ខណៈ​ពិសេស​នេះ​ត្រូវ​បាន​ស្គាល់​ថា​ជា​ការ​ក្លូន ឬ​ការ​បញ្ឆោត MAC "
+"។"
+
+#. i18n: ectx: property (text), widget (KPushButton, clonedMacAddressRandom)
+#: libs/ui/802-11-wireless.ui:293 libs/ui/wired.ui:190
+msgid "Random"
+msgstr "ចៃដន្យ"
+
+#: libs/ui/802_11_wirelesswidget.cpp:64 libs/ui/wiredwidget.cpp:55
+msgid " byte"
+msgid_plural " bytes"
+msgstr[0] " បៃ​"
+
+#: libs/ui/802_11_wirelesswidget.cpp:140 libs/ui/wiredwidget.cpp:76
+#, kde-format
+msgctxt ""
+"@item:inlist item for hardware that is currently not attached to the machine "
+"with MAC address"
+msgid "Disconnected interface (%1)"
+msgstr "ចំណុច​ប្រទាក់​ដែល​បាន​ផ្ដាច់​​ (%1)​​"
+
+#: libs/ui/802_11_wirelesswidget.cpp:206
+msgctxt "@title:window wireless network scan dialog"
+msgid "Available Networks"
+msgstr "បណ្ដាញ​ដែល​អាច​​ភ្ជាប់​បាន"
+
+#: libs/ui/advancedpermissionswidget.cpp:97
+msgctxt "@item:intable shortcut for Not Available"
+msgid "N/A"
+msgstr "N/A"
+
+#: libs/ui/advancedpermissionswidget.cpp:98
+msgctxt "@info:tooltip real user name is not available"
+msgid "Not Available"
+msgstr "បណ្ដាញ​ដែល​មិន​អាច​ភ្ជាប់​បាន"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: libs/ui/advancedpermissionswidget.ui:34
+msgid "Available Users"
+msgstr "អ្នកប្រើ​ដែល​អាច​រក​បាន​"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, availUsers)
+#. i18n: ectx: property (text), widget (QTreeWidget, currentUsers)
+#: libs/ui/advancedpermissionswidget.ui:78
+#: libs/ui/advancedpermissionswidget.ui:192
+msgid "Real Name"
+msgstr "ឈ្មោះ​ពិត"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, availUsers)
+#. i18n: ectx: property (text), widget (QTreeWidget, currentUsers)
+#: libs/ui/advancedpermissionswidget.ui:83
+#: libs/ui/advancedpermissionswidget.ui:197
+msgid "User Name"
+msgstr "ឈ្មោះ​អ្នកប្រើ"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: libs/ui/advancedpermissionswidget.ui:145
+msgid "Users allowed to activate the connection"
+msgstr "អ្នកប្រើ​បាន​អនុញ្ញាត​ដើម្បី​ធ្វើឲ្យ​ការ​តភ្ជាប់​សកម្ម ?"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, Bluetooth)
+#: libs/ui/bluetooth.ui:14
+msgid "Bluetooth"
+msgstr "ប៊្លូធូស​"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: libs/ui/bluetooth.ui:23
+msgid "Hardware Address"
+msgstr "អាសយដ្ឋាន​ផ្នែករឹង​"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: libs/ui/bluetooth.ui:43 libs/ui/gsm.ui:163
+#: vpnplugins/novellvpn/novellvpnprop.ui:72
+msgid "&Type:"
+msgstr "ប្រភេទ ៖"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, networktype)
+#: libs/ui/bluetooth.ui:57
+msgid "Dialup Network (DUN)"
+msgstr "Dialup Network (DUN)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, networktype)
+#: libs/ui/bluetooth.ui:62
+msgid "Personal Area Network (PANU)"
+msgstr "បណ្ដាញ​តំបន់​​ផ្ទាល់ខ្លួន (PANU)"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: libs/ui/bluetooth.ui:86
+msgid "Name"
+msgstr "ឈ្មោះ​"
+
+#: libs/ui/bluetoothconnectioneditor.cpp:68
+#, kde-format
+msgid "%1 Network"
+msgstr "បណ្ដាញ %1​"
+
+#: libs/ui/bluetoothconnectioneditor.cpp:70
+msgid "New Bluetooth Connection"
+msgstr "ការ​តភ្ជាប់​ប៊្លូធូស​ថ្មី"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabCellular)
+#. i18n: ectx: property (windowTitle), widget (QWidget, Cdma)
+#. i18n: ectx: property (windowTitle), widget (QWidget, Gsm)
+#: libs/ui/cdma.ui:14 libs/ui/gsm.ui:14
+#: settings/config/manageconnectionwidget.ui:106
+msgid "Mobile Broadband"
+msgstr "រលកអាកាស​​​​ចល័ត"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: libs/ui/cdma.ui:22 libs/ui/gsm.ui:38
+msgid "&Number:"
+msgstr "លេខ ៖"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: ectx: property (text), widget (QLabel, userNameLabel)
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: libs/ui/cdma.ui:38 libs/ui/gsm.ui:58 libs/ui/pppoe.ui:36
+#: libs/ui/security/eapmethodleapbase.ui:22
+#: libs/ui/security/eapmethodsimplebase.ui:17 libs/ui/security/leap.ui:17
+#: vpnplugins/novellvpn/novellvpnprop.ui:103
+#: vpnplugins/strongswan/strongswanprop.ui:244 vpnplugins/vpnc/vpncauth.ui:89
+#: vpnplugins/vpnc/vpncprop.ui:46
+msgid "&Username:"
+msgstr "ឈ្មោះ​អ្នកប្រើ ៖​"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: ectx: property (text), widget (QLabel, lbl_password)
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#. i18n: ectx: property (text), widget (QLabel, label_14)
+#: libs/ui/cdma.ui:54 libs/ui/gsm.ui:74 libs/ui/pppoe.ui:56
+#: libs/ui/security/eapmethodleapbase.ui:42
+#: libs/ui/security/eapmethodsimplebase.ui:33 libs/ui/security/leap.ui:33
+#: libs/ui/security/wpapsk.ui:25 vpnplugins/pptp/pptpauth.ui:26
+#: vpnplugins/pptp/pptpprop.ui:103
+msgid "&Password:"
+msgstr "ពាក្យ​សម្ងាត់ ៖​"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkShowPassword)
+#. i18n: ectx: property (text), widget (QCheckBox, cb_showPassword)
+#. i18n: ectx: property (text), widget (QCheckBox, chkShowPass)
+#: libs/ui/cdma.ui:79 libs/ui/pppoe.ui:72 libs/ui/security/leap.ui:46
+#: libs/ui/security/security8021xauth.cpp:91 libs/ui/security/wep.ui:144
+#: libs/ui/security/wirelesssecurityauth.cpp:109 libs/ui/security/wpapsk.ui:45
+#: vpnplugins/openconnect/openconnectauth.cpp:399
+#: vpnplugins/openvpn/openvpnauth.cpp:124 vpnplugins/pptp/pptpauth.ui:39
+#: vpnplugins/pptp/pptpprop.ui:144
+msgid "&Show password"
+msgstr "បង្ហាញ​ពាក្យ​សម្ងាត់​"
+
+#: libs/ui/cdmaconnectioneditor.cpp:52 libs/ui/gsmconnectioneditor.cpp:73
+msgid "New Cellular Connection"
+msgstr "ការ​តភ្ជាប់​ទូរស័ព្ទចល័ត​"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: libs/ui/connection.ui:32
+msgid "&Firewall zone:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoconnect)
+#: libs/ui/connection.ui:64
+msgid "Connect &automatically"
+msgstr "តភ្ជាប់​ដោយស្វ័យប្រវត្តិ"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, system)
+#: libs/ui/connection.ui:76
+msgid "Save secrets in system storage"
+msgstr "រក្សា​ការ​សម្ងាត់​នៅ​ក្នុង​ប្រព័ន្ធ​ផ្ទុក"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, system)
+#: libs/ui/connection.ui:79
+msgid ""
+"If checked, secrets (passwords and encryption keys) will be saved in system "
+"storage, which allows the connection to work without a KDE session."
+msgstr ""
+"ប្រសិនបើ​បាន​ធីក ការ​សម្ងាត់ (ពាក្យសម្ងាត់ និង​ការ​អ៊ិនគ្រីប​​សោ) នឹង​ត្រូវ​បាន​រក្សាទុក​នៅ​ក្នុង​ប្រព័ន្ធ​ផ្ទុក ដែល​"
+"អនុញ្ញាត​ការ​តភ្ជាប់​ទៅកាន់​ការងារ​ដោយ​គ្មាន​សម័យ KDE ។"
+
+#. i18n: ectx: property (text), widget (QCheckBox, system)
+#: libs/ui/connection.ui:82
+msgid "&System connection"
+msgstr "ការ​តភ្ជាប់​ប្រព័ន្ធ​"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, pushButtonPermissions)
+#: libs/ui/connection.ui:95
+msgid "Edit advanced permissions for this connection"
+msgstr "កែសម្រួល​សិទ្ធិ​កម្រិតខ្ពស់​សម្រាប់​ការ​តភ្ជាប់​នេះ"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, pushButtonPermissions)
+#: libs/ui/connection.ui:98
+msgid ""
+"Fine-grained permissions editor for this connection. It lets you choose "
+"which users can activate/modify/delete this connection."
+msgstr ""
+"កម្មវិធី​កែសម្រួល​សិទ្ធិ Fine-grained សម្រាប់​ការ​តភ្ជាប់​នេះ ។ វា​អនុញ្ញាត​ឲ្យ​ជ្រើស​អ្នកប្រើ​ណាមួយ​ដែល​អាច​"
+"ធ្វើឲ្យ​សកម្ម/កែប្រែ/លុប​ការ​តភ្ជាប់​នេះ ។"
+
+#. i18n: ectx: property (text), widget (KPushButton, pushButtonPermissions)
+#: libs/ui/connection.ui:101
+msgid "Advanced Permissions"
+msgstr "សិទ្ធិ​កម្រិត​ខ្ពស់​​"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: libs/ui/connection.ui:110
+msgid "&Connection name:"
+msgstr "ឈ្មោះ​ក្នុង​ការ​តភ្ជាប់ ៖"
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, cmbZone)
+#: libs/ui/connection.ui:126
+msgid ""
+"The zone defines trust level of the connection. Default is not a regular "
+"zone, selecting it results in the use of the default zone set in the "
+"firewall. Only usable if firewalld is active."
+msgstr ""
+
+#: libs/ui/connectioneditor.cpp:70 libs/ui/connectioneditor.cpp:93
+msgctxt "Edit connection dialog caption"
+msgid "Edit Network Connection"
+msgstr "កែសម្រួល​ការ​តភ្ជាប់​បណ្ដាញ​"
+
+#: libs/ui/connectioneditor.cpp:125
+msgctxt "Add connection dialog caption"
+msgid "Add Network Connection"
+msgstr "បន្ថែម​ការ​ត​ភ្ជាប់​បណ្ដាញ​​"
+
+#: libs/ui/connectionsecretsjob.cpp:127
+#, kde-format
+msgctxt "@title:window for network secrets request"
+msgid "Secrets for %1"
+msgstr "សម្ងាត់​​ %1​"
+
+#: libs/ui/connectionwidget.cpp:83 libs/ui/wirelesspreferences.cpp:145
+msgid "New Wireless Connection"
+msgstr "ការ​តភ្ជាប់​ឥត​ខ្សែ​ថ្មី"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cboHmac)
+#: libs/ui/connectionwidget.cpp:125 libs/ui/connectionwidget.cpp:160
+#: libs/ui/connectionwidget.cpp:166 vpnplugins/openvpn/openvpnprop.ui:809
+msgid "Default"
+msgstr "លំនាំដើម"
+
+#: libs/ui/connectionwidget.cpp:145
+msgctxt "@title:window advanced permissions editor"
+msgid "Advanced Permissions Editor"
+msgstr "អ្នក​កែសម្រួល​សិទ្ធិ​កម្រិត​ខ្ពស់"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ShowAdvancedSettings)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: libs/ui/gsm.ui:26 settings/config/othersettings.ui:135
+msgid "Basic"
+msgstr "មូលដ្ឋាន"
+
+#. i18n: ectx: property (text), widget (KLineEdit, number)
+#: libs/ui/gsm.ui:51
+msgid "*99#"
+msgstr "*99#"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cboPrivateKeyPassOptions)
+#. i18n: ectx: property (text), item, widget (KComboBox, cboPinOptions)
+#. i18n: ectx: property (text), item, widget (QComboBox, cboUserPassOptions)
+#. i18n: ectx: property (text), item, widget (KComboBox, x509KeyPasswordStorage)
+#. i18n: ectx: property (text), item, widget (KComboBox, passPasswordStorage)
+#. i18n: ectx: property (text), item, widget (KComboBox, x509PassKeyPasswordStorage)
+#. i18n: ectx: property (text), item, widget (KComboBox, x509PassPasswordStorage)
+#. i18n: ectx: property (text), item, widget (KComboBox, proxyPasswordStorage)
+#. i18n: ectx: property (text), item, widget (KComboBox, cmbPasswordStorage)
+#. i18n: ectx: property (text), item, widget (QComboBox, cboGroupPassOptions)
+#. i18n: ectx: property (text), item, widget (KComboBox, passwordStorage)
+#. i18n: ectx: property (text), item, widget (KComboBox, pinStorage)
+#. i18n: ectx: property (text), item, widget (KComboBox, cmbPrivateKeyPasswordStorage)
+#: libs/ui/gsm.ui:93 libs/ui/gsm.ui:253
+#: libs/ui/security/eapmethodleapbase.ui:68
+#: libs/ui/security/eapmethodsimplebase.ui:56
+#: libs/ui/security/eapmethodtlsbase.ui:121 libs/ui/security/leap.ui:76
+#: vpnplugins/openvpn/openvpnprop.ui:181 vpnplugins/openvpn/openvpnprop.ui:391
+#: vpnplugins/openvpn/openvpnprop.ui:523 vpnplugins/openvpn/openvpnprop.ui:556
+#: vpnplugins/openvpn/openvpnprop.ui:1120 vpnplugins/pptp/pptpprop.ui:129
+#: vpnplugins/strongswan/strongswanprop.ui:164
+#: vpnplugins/strongswan/strongswanprop.ui:222
+#: vpnplugins/strongswan/strongswanprop.ui:275 vpnplugins/vpnc/vpncprop.ui:87
+#: vpnplugins/vpnc/vpncprop.ui:146
+msgid "Store"
+msgstr "ទុក​"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cboPrivateKeyPassOptions)
+#. i18n: ectx: property (text), item, widget (KComboBox, cboPinOptions)
+#. i18n: ectx: property (text), item, widget (QComboBox, cboUserPassOptions)
+#. i18n: ectx: property (text), item, widget (KComboBox, x509KeyPasswordStorage)
+#. i18n: ectx: property (text), item, widget (KComboBox, passPasswordStorage)
+#. i18n: ectx: property (text), item, widget (KComboBox, x509PassKeyPasswordStorage)
+#. i18n: ectx: property (text), item, widget (KComboBox, x509PassPasswordStorage)
+#. i18n: ectx: property (text), item, widget (KComboBox, proxyPasswordStorage)
+#. i18n: ectx: property (text), item, widget (KComboBox, cmbPasswordStorage)
+#. i18n: ectx: property (text), item, widget (QComboBox, cboGroupPassOptions)
+#. i18n: ectx: property (text), item, widget (KComboBox, passwordStorage)
+#. i18n: ectx: property (text), item, widget (KComboBox, pinStorage)
+#. i18n: ectx: property (text), item, widget (KComboBox, cmbPrivateKeyPasswordStorage)
+#: libs/ui/gsm.ui:98 libs/ui/gsm.ui:258
+#: libs/ui/security/eapmethodleapbase.ui:73
+#: libs/ui/security/eapmethodsimplebase.ui:61
+#: libs/ui/security/eapmethodtlsbase.ui:126 libs/ui/security/leap.ui:81
+#: vpnplugins/openvpn/openvpnprop.ui:176 vpnplugins/openvpn/openvpnprop.ui:386
+#: vpnplugins/openvpn/openvpnprop.ui:518 vpnplugins/openvpn/openvpnprop.ui:551
+#: vpnplugins/openvpn/openvpnprop.ui:1115 vpnplugins/pptp/pptpprop.ui:124
+#: vpnplugins/strongswan/strongswanprop.ui:159
+#: vpnplugins/strongswan/strongswanprop.ui:217
+#: vpnplugins/strongswan/strongswanprop.ui:270 vpnplugins/vpnc/vpncprop.ui:82
+#: vpnplugins/vpnc/vpncprop.ui:141
+msgid "Always Ask"
+msgstr "សួរ​ជានិច្ច​​​"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cboPrivateKeyPassOptions)
+#. i18n: ectx: property (text), item, widget (KComboBox, cboPinOptions)
+#. i18n: ectx: property (text), item, widget (QComboBox, cboUserPassOptions)
+#. i18n: ectx: property (text), item, widget (KComboBox, x509KeyPasswordStorage)
+#. i18n: ectx: property (text), item, widget (KComboBox, passPasswordStorage)
+#. i18n: ectx: property (text), item, widget (KComboBox, x509PassKeyPasswordStorage)
+#. i18n: ectx: property (text), item, widget (KComboBox, x509PassPasswordStorage)
+#. i18n: ectx: property (text), item, widget (KComboBox, cmbProxyType)
+#. i18n: ectx: property (text), item, widget (KComboBox, proxyPasswordStorage)
+#. i18n: ectx: property (text), item, widget (KComboBox, cmbPasswordStorage)
+#. i18n: ectx: property (text), item, widget (QComboBox, cboGroupPassOptions)
+#. i18n: ectx: property (text), item, widget (KComboBox, passwordStorage)
+#. i18n: ectx: property (text), item, widget (KComboBox, pinStorage)
+#. i18n: ectx: property (text), item, widget (KComboBox, cmbPrivateKeyPasswordStorage)
+#: libs/ui/gsm.ui:103 libs/ui/gsm.ui:263
+#: libs/ui/security/eapmethodleapbase.ui:78
+#: libs/ui/security/eapmethodsimplebase.ui:66
+#: libs/ui/security/eapmethodtlsbase.ui:131 libs/ui/security/leap.ui:86
+#: vpnplugins/openvpn/openvpnprop.ui:186 vpnplugins/openvpn/openvpnprop.ui:396
+#: vpnplugins/openvpn/openvpnprop.ui:528 vpnplugins/openvpn/openvpnprop.ui:561
+#: vpnplugins/openvpn/openvpnprop.ui:1014
+#: vpnplugins/openvpn/openvpnprop.ui:1125 vpnplugins/pptp/pptpprop.ui:134
+#: vpnplugins/strongswan/strongswanprop.ui:169
+#: vpnplugins/strongswan/strongswanprop.ui:227
+#: vpnplugins/strongswan/strongswanprop.ui:280 vpnplugins/vpnc/vpncprop.ui:92
+#: vpnplugins/vpnc/vpncprop.ui:151
+msgid "Not Required"
+msgstr "មិន​បាន​ទាមទារ​​"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ShowAdvancedSettings)
+#. i18n: ectx: property (text), widget (QPushButton, btnAdvanced)
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: libs/ui/gsm.ui:122 settings/config/othersettings.ui:140
+#: vpnplugins/pptp/pptpprop.ui:208 vpnplugins/vpnc/vpncprop.ui:193
+msgid "Advanced"
+msgstr "កម្រិត​ខ្ពស់"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: libs/ui/gsm.ui:131
+msgid "&APN:"
+msgstr "&APN:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblNetwork)
+#: libs/ui/gsm.ui:147
+msgid "Net&work:"
+msgstr "បណ្ដាញ ៖"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, type)
+#: libs/ui/gsm.ui:188
+msgid "3G (UMTS/HSPA)"
+msgstr "3G (UMTS/HSPA)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, type)
+#: libs/ui/gsm.ui:193
+msgid "2G (GPRS/EDGE)"
+msgstr "2G (GPRS/EDGE)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, type)
+#: libs/ui/gsm.ui:198
+msgid "Prefer 3G"
+msgstr "ពេញចិត្ត 3G"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, type)
+#: libs/ui/gsm.ui:203
+msgid "Prefer 2G"
+msgstr "ពេញចិត្ត 2G"
+
+#. i18n: ectx: property (text), widget (QLabel, lblBand)
+#: libs/ui/gsm.ui:211
+msgid "&Band:"
+msgstr "ក្រុម ៖"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: libs/ui/gsm.ui:234
+msgid "&PIN:"
+msgstr "PIN ៖"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkAllowRoaming)
+#: libs/ui/gsm.ui:273
+msgid "Allow Roaming"
+msgstr "អនុញ្ញាត​រ៉ូមីង"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkShowPass)
+#: libs/ui/gsm.ui:299
+msgid "&Show secrets"
+msgstr "បង្ហាញ​ការ​សម្ងាត់"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, SettingsIp4Config)
+#: libs/ui/ipv4.ui:14
+msgid "IPv4 Address"
+msgstr "អាសយដ្ឋាន IPv4​"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbSettingsMode)
+#. i18n: ectx: property (text), item, widget (KComboBox, cmbSettingsMode)
+#: libs/ui/ipv4.ui:39 libs/ui/ipv6.ui:39
+msgid "Basic settings"
+msgstr "ការ​កំណត់​ជា​មូលដ្ឋាន​"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbSettingsMode)
+#. i18n: ectx: property (text), item, widget (KComboBox, cmbSettingsMode)
+#: libs/ui/ipv4.ui:44 libs/ui/ipv6.ui:44
+msgid "Additional addresses"
+msgstr "អាសយដ្ឋាន​ដែល​បន្ថែម​"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbSettingsMode)
+#. i18n: ectx: property (text), item, widget (KComboBox, cmbSettingsMode)
+#: libs/ui/ipv4.ui:49 libs/ui/ipv6.ui:49
+msgid "Routes"
+msgstr "ផ្លូវ​"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: libs/ui/ipv4.ui:98 libs/ui/ipv6.ui:98
+msgid "Method:"
+msgstr "វិធីសាស្ត្រ ៖"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, method)
+#: libs/ui/ipv4.ui:112
+msgid "DHCP"
+msgstr "DHCP"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, method)
+#: libs/ui/ipv4.ui:117
+msgid "DHCP (only address)"
+msgstr "DHCP (អាសយដ្ឋាន​​តែមួយ​​)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, method)
+#: libs/ui/ipv4.ui:122 libs/ui/ipv6.ui:127
+msgid "Manual"
+msgstr "ដោយដៃ"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, method)
+#: libs/ui/ipv4.ui:127 libs/ui/ipv6.ui:132
+msgid "Link-Local"
+msgstr "មូលដ្ឋាន​ភ្ជាប់"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, method)
+#: libs/ui/ipv4.ui:132 libs/ui/ipv6.ui:137
+msgid "Shared"
+msgstr "បាន​ចែក​រំលែក​"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cboNatTraversal)
+#. i18n: ectx: property (text), item, widget (KComboBox, method)
+#. i18n: ectx: property (text), item, widget (KComboBox, privacy)
+#: libs/ui/ipv4.ui:137 libs/ui/ipv6.ui:142 libs/ui/ipv6.ui:341
+#: vpnplugins/vpnc/vpncprop.ui:282
+msgid "Disabled"
+msgstr "បាន​បិទ"
+
+#. i18n: ectx: property (text), widget (QLabel, addressLabel)
+#: libs/ui/ipv4.ui:145 libs/ui/ipv6.ui:150
+msgid "&IP Address:"
+msgstr "អាសយដ្ឋាន IP ៖"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, address)
+#: libs/ui/ipv4.ui:164 libs/ui/ipv6.ui:169
+msgid ""
+"Use this field to specify the IP address that should be used by this "
+"computer."
+msgstr "ប្រើ​វាល​នេះ​ដើម្បី​បញ្ជាក់​អាសយដ្ឋាន​ IP ដែល​គួរតែ​ត្រូវ​បាន​ប្រើ​ដោយ​​កុំព្យូទ័រ​នេះ​ ។"
+
+#. i18n: ectx: property (text), widget (QLabel, netMaskLabel)
+#: libs/ui/ipv4.ui:171 libs/ui/ipv6.ui:176
+msgid "Subnet &Mask:"
+msgstr "របាំង​បណ្ដាញ​រង​​ ៖​"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, netMask)
+#: libs/ui/ipv4.ui:190 libs/ui/ipv6.ui:195
+msgid ""
+"Use this field to specify the subnet that the above IP address belongs to."
+msgstr "ប្រើ​វាល​នេះ​ដើម្បី​បញ្ជាក់​​បណ្ដាញ​រង​ថា​ជា​របស់​​អាសយដ្ឋាន​​​ IP ខាងលើ​ ។​"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#. i18n: ectx: property (text), widget (QLabel, lbl_gateway)
+#. i18n: ectx: property (text), widget (QLabel, gatewayLabel)
+#: libs/ui/ipv4.ui:197 libs/ui/ipv6.ui:202
+#: vpnplugins/novellvpn/novellvpnprop.ui:26
+#: vpnplugins/openconnect/openconnectprop.ui:29
+#: vpnplugins/openvpn/openvpnprop.ui:32 vpnplugins/pptp/pptpprop.ui:34
+msgid "&Gateway:"
+msgstr "ផ្លូវ​ចេញចូល ៖"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, gateway)
+#: libs/ui/ipv4.ui:216 libs/ui/ipv6.ui:221
+msgid ""
+"Use this field to specify the IP address of the gateway for requests outside "
+"the local network."
+msgstr "ប្រើ​វាល​នេះ​ដើម្បី​បញ្ជាក់​អាសយដ្ឋាន​​ IP របស់​ផ្លូវ​ចេញចូល ​សម្រាប់​សំណើ​​ខាងក្រៅ​បណ្ដាញ​មូលដ្ឋាន ។"
+
+#. i18n: ectx: property (text), widget (QLabel, dnsLabel)
+#: libs/ui/ipv4.ui:223 libs/ui/ipv4widget.cpp:392 libs/ui/ipv6.ui:228
+#: libs/ui/ipv6widget.cpp:361
+#, fuzzy
+#| msgid "&DNS Servers:"
+msgctxt "@info"
+msgid "&DNS Servers:"
+msgstr "ម៉ាស៊ីន​បម្រើ DNS ៖"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, dns)
+#: libs/ui/ipv4.ui:253 libs/ui/ipv6.ui:258
+msgid ""
+"Use this field to specify the IP address(es) of one or more DNS servers. Use "
+"',' to separate entries."
+msgstr ""
+"ប្រើ​វាល​នេះ​ដើម្បី​បញ្ជាក់​អាសយដ្ឋាន​​ IP របស់​ម៉ាស៊ីន​បម្រើ​​ DNS មួយ​ ឬ​ច្រើន​ ។ ប្រើ​​សញ្ញា​ក្បៀស ',' ដើម្បី​"
+"បំបែក​ធាតុ​ ។"
+
+#. i18n: ectx: property (text), widget (KPushButton, dnsMorePushButton)
+#. i18n: ectx: property (text), widget (KPushButton, dnsSearchMorePushButton)
+#. i18n: ectx: property (text), widget (KPushButton, altSubjectMatchesMoreBtn)
+#. i18n: ectx: property (text), widget (KPushButton, connectToTheseServersMoreBtn)
+#: libs/ui/ipv4.ui:260 libs/ui/ipv4.ui:294 libs/ui/ipv6.ui:265
+#: libs/ui/ipv6.ui:299 libs/ui/security/eapmethodpeapbase.ui:120
+#: libs/ui/security/eapmethodpeapbase.ui:145
+#: libs/ui/security/eapmethodtlsbase.ui:171
+#: libs/ui/security/eapmethodtlsbase.ui:196
+#: libs/ui/security/eapmethodttlsbase.ui:88
+#: libs/ui/security/eapmethodttlsbase.ui:113
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (text), widget (QLabel, dnsSearchLabel)
+#: libs/ui/ipv4.ui:269 libs/ui/ipv4widget.cpp:393 libs/ui/ipv6.ui:274
+#: libs/ui/ipv6widget.cpp:362
+#, fuzzy
+#| msgid "&Search Domains:"
+msgctxt "@info"
+msgid "&Search Domains:"
+msgstr "ដែន​ស្វែងរក​​ ៖​"
+
+#. i18n: ectx: property (text), widget (QLabel, labelDhcpClientId)
+#: libs/ui/ipv4.ui:303
+msgid "DHCP &Client ID:"
+msgstr "លេខ​សម្គាល់​ម៉ាស៊ីន​ភ្ញៀវ​ DHCP ៖​"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, dhcpClientId)
+#: libs/ui/ipv4.ui:316
+msgid ""
+"Use this field to specify the DHCP client ID which is a string sent to the "
+"DHCP server to identify the local machine that the DHCP server may use to "
+"customize the DHCP lease and options."
+msgstr ""
+"ប្រើ​វាល​នេះ​ដើម្បី​បញ្ជាក់​​លេខ​សម្គាល់​ម៉ាស៊ីន​ភ្ញៀវ DHCP ​ដែល​ជា​ខ្សែ​អក្សរ​ផ្ញើ​ទៅកាន់​​ម៉ាស៊ីន​បម្រើ​ DHCP ​"
+"ដើម្បី​កំណត់​អត្ត​សញ្ញា​ម៉ាស៊ីន​មូលដ្ឋាន​ ដែល​ម៉ាស៊ីន​បម្រើ​ DHCP ​អាច​ប្រើ​​ដើម្បី​ប្ដូរ​ DHCP តាម​បំណង​កិច្ចសន្យា និង​"
+"ជម្រើស ។"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbMayFail)
+#: libs/ui/ipv4.ui:419
+msgid "IPv4 is required for this connection"
+msgstr "IPv4 is ត្រូវ​បាន​ទាមទារ​សម្រាប់​ការ​តភ្ជាប់​នេះ"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, RoutesIp4Config)
+#. i18n: ectx: property (windowTitle), widget (QWidget, AdvancedSettingsIp4Config)
+#. i18n: ectx: property (windowTitle), widget (QWidget, AdvancedSettingsIp6Config)
+#. i18n: ectx: property (windowTitle), widget (QWidget, RoutesIp6Config)
+#: libs/ui/ipv4advanced.ui:20 libs/ui/ipv4routes.ui:20
+#: libs/ui/ipv6advanced.ui:20 libs/ui/ipv6routes.ui:20
+msgid "Advanced IP Settings"
+msgstr "ការ​កំណត់​ IP កម្រិត​ខ្ពស់​​"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: libs/ui/ipv4advanced.ui:32 libs/ui/ipv6advanced.ui:32
+msgid "&Additional IP Addresses:"
+msgstr "អាសយដ្ឋាន IP ដែល​បន្ថែម​​"
+
+#. i18n: ectx: property (text), widget (QPushButton, pushButtonAdd)
+#: libs/ui/ipv4advanced.ui:107 libs/ui/ipv4routes.ui:107
+#: libs/ui/ipv6advanced.ui:107 libs/ui/ipv6routes.ui:107
+msgctxt "Insert a row"
+msgid "Add"
+msgstr "បន្ថែម​"
+
+#. i18n: ectx: property (text), widget (QPushButton, pushButtonRemove)
+#: libs/ui/ipv4advanced.ui:135 libs/ui/ipv4routes.ui:135
+#: libs/ui/ipv6advanced.ui:135 libs/ui/ipv6routes.ui:135
+msgctxt "Remove a selected row"
+msgid "R&emove"
+msgstr "យកចេញ​"
+
+#: libs/ui/ipv4advancedwidget.cpp:40 libs/ui/ipv4routeswidget.cpp:39
+msgctxt "Header text for IPv4 address"
+msgid "Address"
+msgstr "អាសយដ្ឋាន"
+
+#: libs/ui/ipv4advancedwidget.cpp:42 libs/ui/ipv4routeswidget.cpp:41
+msgctxt "Header text for IPv4 netmask"
+msgid "Netmask"
+msgstr "Netmask"
+
+#: libs/ui/ipv4advancedwidget.cpp:44 libs/ui/ipv4routeswidget.cpp:43
+msgctxt "Header text for IPv4 gateway"
+msgid "Gateway"
+msgstr "ផ្លូវ​ចេញ​ចូល​"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: libs/ui/ipv4routes.ui:32 libs/ui/ipv6routes.ui:32
+msgid "&Routes"
+msgstr "ផ្លូវ​​"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbIgnoreAutoRoutes)
+#: libs/ui/ipv4routes.ui:142 libs/ui/ipv6routes.ui:142
+msgid "Ignore &automatically obtained routes"
+msgstr "មិន​អើពើ​ផ្លូវ​ដែល​មាន​ដោយ​ស្វ័យ​ប្រវត្តិ​​​"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbNeverDefault)
+#: libs/ui/ipv4routes.ui:165 libs/ui/ipv6routes.ui:165
+msgid "Use &only for resources on this connection"
+msgstr "ប្រើ​ធនធាន​លើ​ការ​តភ្ជាប់​នេះ​តែ​ប៉ុណ្ណោះ​​"
+
+#: libs/ui/ipv4routeswidget.cpp:45
+msgctxt "Header text for IPv4 route metric"
+msgid "Metric"
+msgstr "នៃម៉ែត្រ"
+
+#: libs/ui/ipv4widget.cpp:69
+msgctxt "@item:inlistbox IPv4 settings configuration method"
+msgid "Automatic (VPN)"
+msgstr "ស្វ័យ​ប្រវត្តិ​​ (VPN)"
+
+#: libs/ui/ipv4widget.cpp:71
+msgctxt "@item:inlistbox IPv4 settings configuration method"
+msgid "Automatic (VPN) addresses only"
+msgstr "អាសយដ្ឋាន​​ (VPN) ស្វ័យ​ប្រវត្តិ​តែ​ប៉ុណ្ណោះ​​"
+
+#: libs/ui/ipv4widget.cpp:76
+msgctxt "@item:inlistbox IPv4 settings configuration method"
+msgid "Automatic (PPP)"
+msgstr "ស្វ័យ​ប្រវត្តិ​​ (PPP) "
+
+#: libs/ui/ipv4widget.cpp:78
+msgctxt "@item:inlistbox IPv4 settings configuration method"
+msgid "Automatic (PPP) addresses only"
+msgstr "អាសយដ្ឋាន​​ (PPP) ស្វ័យ​ប្រវត្តិ​តែ​ប៉ុណ្ណោះ​​​"
+
+#: libs/ui/ipv4widget.cpp:82
+msgctxt "@item:inlistbox IPv4 settings configuration method"
+msgid "Automatic (DSL)"
+msgstr "ស្វ័យ​ប្រវត្តិ (DSL)"
+
+#: libs/ui/ipv4widget.cpp:84
+msgctxt "@item:inlistbox IPv4 settings configuration method"
+msgid "Automatic (DSL) addresses only"
+msgstr "(DSL) ស្វ័យ​ប្រវត្តិ តែ​អាសយដ្ឋាន​ប៉ុណ្ណោះ​​"
+
+#: libs/ui/ipv4widget.cpp:88
+msgctxt "@item:inlistbox IPv4 settings configuration method"
+msgid "Automatic (DHCP)"
+msgstr "ស្វ័យ​ប្រវត្តិ​​ (DHCP) "
+
+#: libs/ui/ipv4widget.cpp:90
+msgctxt "@item:inlistbox IPv4 settings configuration method"
+msgid "Automatic (DHCP) addresses only"
+msgstr "អាសយដ្ឋាន​​ (DHCP) ស្វ័យ​ប្រវត្តិ​តែ​ប៉ុណ្ណោះ​​"
+
+#: libs/ui/ipv4widget.cpp:389 libs/ui/ipv6widget.cpp:358
+#, fuzzy
+#| msgid "&DNS Servers:"
+msgctxt "@info"
+msgid "Additional &DNS Servers:"
+msgstr "ម៉ាស៊ីន​បម្រើ DNS ៖"
+
+#: libs/ui/ipv4widget.cpp:390 libs/ui/ipv6widget.cpp:359
+#, fuzzy
+#| msgid "&Search Domains:"
+msgctxt "@info"
+msgid "Additional &Search Domains:"
+msgstr "ដែន​ស្វែងរក​​ ៖​"
+
+#: libs/ui/ipv4widget.cpp:493 libs/ui/ipv6widget.cpp:444
+msgid "Search domains"
+msgstr "ដែន​ស្វែងរក"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, SettingsIp6Config)
+#: libs/ui/ipv6.ui:14
+msgid "IPv6 Address"
+msgstr "អាសយដ្ឋាន​ IPv6​"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, method)
+#: libs/ui/ipv6.ui:117
+#, fuzzy
+#| msgctxt "@item:inlistbox IPv4 settings configuration method"
+#| msgid "Automatic (VPN) addresses only"
+msgid "Automatic (addresses only)"
+msgstr "អាសយដ្ឋាន​​ (VPN) ស្វ័យ​ប្រវត្តិ​តែ​ប៉ុណ្ណោះ​​"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, method)
+#: libs/ui/ipv6.ui:122
+#, fuzzy
+#| msgctxt "@item:inlistbox IPv4 settings configuration method"
+#| msgid "Automatic (DHCP)"
+msgid "Automatic (DHCP only)"
+msgstr "ស្វ័យ​ប្រវត្តិ​​ (DHCP) "
+
+#. i18n: ectx: property (text), item, widget (KComboBox, privacy)
+#: libs/ui/ipv6.ui:346
+msgid "Enabled (prefer public address)"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, privacy)
+#: libs/ui/ipv6.ui:351
+msgid "Enabled (prefer temporary addresses)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: libs/ui/ipv6.ui:359
+#, fuzzy
+#| msgid "Tray icons:"
+msgid "Privacy Extensions:"
+msgstr "រូប​តំណាង​ថាស​ ៖​"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbMayFail)
+#: libs/ui/ipv6.ui:430
+msgid "IPv6 is required for this connection"
+msgstr "IPv6 ត្រូវ​បាន​ទាមទារ​សម្រាប់​ការ​តភ្ជាប់​នេះ"
+
+#: libs/ui/ipv6advancedwidget.cpp:39 libs/ui/ipv6routeswidget.cpp:39
+msgctxt "Header text for IPv6 address"
+msgid "Address"
+msgstr "អាសយដ្ឋាន​"
+
+#: libs/ui/ipv6advancedwidget.cpp:41 libs/ui/ipv6routeswidget.cpp:41
+msgctxt "Header text for IPv6 netmask"
+msgid "Netmask"
+msgstr "Netmask"
+
+#: libs/ui/ipv6advancedwidget.cpp:43 libs/ui/ipv6routeswidget.cpp:43
+msgctxt "Header text for IPv6 gateway"
+msgid "Gateway"
+msgstr "ផ្លូវ​ចេញ​ចូល​​"
+
+#: libs/ui/ipv6routeswidget.cpp:45
+msgctxt "Header text for IPv6 route metric"
+msgid "Metric"
+msgstr "ម៉ែត្រ​"
+
+#: libs/ui/networkitemmodel.cpp:141
+#, kde-format
+msgctxt "@item:inlist signal strength percentage"
+msgid "%1%"
+msgstr "%1%"
+
+#: libs/ui/networkitemmodel.cpp:191
+msgctxt "@item:intable wireless network name"
+msgid "Name"
+msgstr "ឈ្មោះ​"
+
+#: libs/ui/networkitemmodel.cpp:193
+msgctxt "@item:intable wireless signal strength"
+msgid "Signal Strength"
+msgstr "កម្លាំង​​សញ្ញា​ "
+
+#: libs/ui/networkitemmodel.cpp:195
+msgctxt "@item:intable wireless encryption type"
+msgid "Encryption"
+msgstr "ការ​អ៊ិនគ្រីប"
+
+#: libs/ui/networkitemmodel.cpp:197
+msgctxt "@item:intable wireless band"
+msgid "Band"
+msgstr "ក្រុម"
+
+#: libs/ui/networkitemmodel.cpp:199
+msgctxt "@item:intable wireless channel"
+msgid "Channel"
+msgstr "ឆានែល"
+
+#: libs/ui/networkitemmodel.cpp:201
+msgctxt "@item:intable wireless access point hardware address"
+msgid "MAC Address"
+msgstr "អាសយដ្ឋាន MAC​"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, Ppp)
+#: libs/ui/ppp.ui:14
+msgid "PPP"
+msgstr "PPP"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. i18n: ectx: property (title), widget (QGroupBox, grp_authenfication)
+#. i18n: ectx: property (title), widget (QGroupBox, auth)
+#: libs/ui/ppp.ui:20 vpnplugins/novellvpn/novellvpnprop.ui:66
+#: vpnplugins/pptp/pptpadvanced.ui:17
+#: vpnplugins/strongswan/strongswanprop.ui:55
+msgid "Authentication"
+msgstr "ការ​ផ្ទៀង​ផ្ទាត់​ភាព​ត្រឹមត្រូវ​​"
+
+#. i18n: ectx: property (text), item, widget (QListWidget, listWidget)
+#. i18n: ectx: property (text), widget (QCheckBox, pap)
+#: libs/ui/ppp.ui:29 vpnplugins/pptp/pptpadvanced.ui:36
+msgid "PAP"
+msgstr "PAP"
+
+#. i18n: ectx: property (text), item, widget (QListWidget, listWidget)
+#. i18n: ectx: property (text), widget (QCheckBox, chap)
+#: libs/ui/ppp.ui:39 vpnplugins/pptp/pptpadvanced.ui:44
+msgid "CHAP"
+msgstr "CHAP"
+
+#. i18n: ectx: property (text), item, widget (QListWidget, listWidget)
+#. i18n: ectx: property (text), widget (QCheckBox, mschapv2)
+#: libs/ui/ppp.ui:49 vpnplugins/pptp/pptpadvanced.ui:60
+msgid "MSCHAPv2"
+msgstr "MSCHAPv2"
+
+#. i18n: ectx: property (text), item, widget (QListWidget, listWidget)
+#. i18n: ectx: property (text), widget (QCheckBox, mschap)
+#: libs/ui/ppp.ui:59 vpnplugins/pptp/pptpadvanced.ui:52
+msgid "MSCHAP"
+msgstr "MSCHAP"
+
+#. i18n: ectx: property (title), widget (QGroupBox, grp_cryptoAndCompression)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: libs/ui/ppp.ui:82 vpnplugins/pptp/pptpadvanced.ui:156
+msgid "Compression"
+msgstr "ការ​បង្ហាប់​"
+
+#. i18n: ectx: property (title), widget (QGroupBox, requiremppe)
+#: libs/ui/ppp.ui:91
+msgid "Point-to-Point-Encryption (MPPE)"
+msgstr "ការ​អ៊ិនគ្រីប​ពី​ចំណុច​ទៅ​ចំណុច (MPPE)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, requiremppe128)
+#: libs/ui/ppp.ui:106
+msgid "Require 128-bit encryption"
+msgstr "ត្រូវការ​ការ​អ៊ិនគ្រីប ១២៨ ប៊ីត​"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mppestateful)
+#: libs/ui/ppp.ui:113
+msgid "Stateful MPPE"
+msgstr "Stateful MPPE"
+
+#. i18n: ectx: property (text), widget (QCheckBox, bsdcomp)
+#: libs/ui/ppp.ui:123
+msgid "Allow BSD compression"
+msgstr "អនុញ្ញាត​ឲ្យ​ការ​បង្ហាប់ BSD"
+
+#. i18n: ectx: property (text), widget (QCheckBox, deflate)
+#: libs/ui/ppp.ui:133
+msgid "Allow Deflate compression"
+msgstr "អនុញ្ញាត​ការ​បង្ហាប់ Deflate"
+
+#. i18n: ectx: property (text), widget (QCheckBox, vjcomp)
+#: libs/ui/ppp.ui:143
+msgid "Use TCP header compression"
+msgstr "ប្រើ​ការ​បង្ហាប់​បឋមកថា​ TCP  "
+
+#. i18n: ectx: property (title), widget (QGroupBox, grp_echo)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: libs/ui/ppp.ui:156 vpnplugins/pptp/pptpadvanced.ui:199
+msgid "Echo"
+msgstr "Echo"
+
+#. i18n: ectx: property (text), widget (QCheckBox, pppecho)
+#: libs/ui/ppp.ui:162
+msgid "Send PPP echo packets"
+msgstr "ផ្ញើ​កញ្ចប់ PPP echo"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabPppoe)
+#. i18n: ectx: property (windowTitle), widget (QWidget, Pppoe)
+#: libs/ui/pppoe.ui:14 settings/config/manageconnectionwidget.ui:182
+msgid "DSL"
+msgstr "DSL"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: libs/ui/pppoe.ui:20
+msgid "&Service:"
+msgstr "សេវា ៖"
+
+#: libs/ui/pppoepreferences.cpp:42 libs/ui/pppoepreferences.cpp:60
+msgid "New DSL Connection"
+msgstr "ការ​តភ្ជាប់ DSL ថ្មី"
+
+#. i18n: ectx: property (text), widget (QLabel, m_interfaceLabel)
+#: libs/ui/scanwidget.ui:38
+msgid "Interface:"
+msgstr "ចំណុច​ប្រទាក់ ៖"
+
+#. i18n: ectx: property (text), widget (QLabel, m_viewLabel_2)
+#: libs/ui/scanwidget.ui:51
+msgid "View:"
+msgstr "ទិដ្ឋភាព ៖"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_view)
+#: libs/ui/scanwidget.ui:62
+msgid "Map"
+msgstr "ផែនទី"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_view)
+#: libs/ui/scanwidget.ui:67
+msgid "Details"
+msgstr "សេចក្ដី​លម្អិត"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_useBssid)
+#: libs/ui/scanwidget.ui:101
+msgid "Use the selected AP's BSSID in the connection settings"
+msgstr "ប្រើ​​ AP's BSSID ដែល​បាន​ជ្រើស​នៅ​ក្នុង​ការ​កំណត់​ការ​តភ្ជាប់​"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_useBssid)
+#: libs/ui/scanwidget.ui:104
+msgid ""
+"Automatically set the BSSID in the connection settings to the selected AP's "
+"BSSID. This is useful if multiple networks with the same SSID, but different "
+"BSSIDs exist."
+msgstr ""
+"កំណត់​ BSSID ដោយ​ស្វ័យ​ប្រវត្តិ​នៅ​ក្នុង​ការ​កំណត់​ការ​តភ្ជាប់​ទៅកាន់​ AP's BSSID ដែល​បាន​ជ្រើស ។ វា​មាន​"
+"ប្រយោជន៍​ ប្រសិនបើ​បណ្ដាញ​ជា​ច្រើន​មាន​ SSID ដូច​គ្នា​ ប៉ុន្តែ​មាន​ BSSIDs ខុសគ្នា ។"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_useBssid)
+#: libs/ui/scanwidget.ui:107
+msgid "Use the AP's BSSID"
+msgstr "ប្រើ​​ AP's BSSID"
+
+#: libs/ui/security/eapmethodinnerauth.cpp:34
+#: libs/ui/security/eapmethodinnerauth.cpp:42
+msgctxt "Label for inner auth combobox"
+msgid "&Inner Authentication:"
+msgstr "ការ​ផ្ទៀង​ផ្ទាត់​ភាព​ត្រឹមត្រូវ​ខាង​ក្នុង​ ៖"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, leUsername)
+#: libs/ui/security/eapmethodleapbase.ui:35
+msgid "User name on this network"
+msgstr "ឈ្មោះ​អ្នក​ប្រើ​នៅ​លើ​បណ្ដាញ​នេះ"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, lePassword)
+#: libs/ui/security/eapmethodleapbase.ui:57
+msgid "Password on this network"
+msgstr "ពាក្យ​សម្ងាត់​នៅ​លើ​បណ្ដាញ​នេះ"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: libs/ui/security/eapmethodpeapbase.ui:19
+#: libs/ui/security/eapmethodttlsbase.ui:19
+msgid "&Anonymous Identity:"
+msgstr "អត្តសញ្ញាណ​អនាមិក ៖"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: libs/ui/security/eapmethodpeapbase.ui:35
+#: libs/ui/security/eapmethodtlsbase.ui:55
+#: libs/ui/security/eapmethodttlsbase.ui:35
+msgid "CA Certi&ficate:"
+msgstr "វិញ្ញាបនប័ត្រ CA ៖"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkUseSystemCaCerts)
+#: libs/ui/security/eapmethodpeapbase.ui:51
+#: libs/ui/security/eapmethodtlsbase.ui:71
+#: libs/ui/security/eapmethodttlsbase.ui:51
+msgid "Use Syste&m CA Certs"
+msgstr "ប្រើ​វិញ្ញាបនប័ត្រ​​ CA ប្រព័ន្ធ​​"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: libs/ui/security/eapmethodpeapbase.ui:58
+msgid "PEAP &Version:"
+msgstr "កំណែ PEAP ៖​"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cboPeapVersion)
+#: libs/ui/security/eapmethodpeapbase.ui:77
+msgid "Version 0"
+msgstr "កំណែ ០"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cboPeapVersion)
+#: libs/ui/security/eapmethodpeapbase.ui:82
+msgid "Version 1"
+msgstr "កំណែ ១"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#. i18n: ectx: property (text), widget (QLabel, lblSubjectMatch)
+#: libs/ui/security/eapmethodpeapbase.ui:90
+#: libs/ui/security/eapmethodtlsbase.ui:141
+#: libs/ui/security/eapmethodttlsbase.ui:58
+#: vpnplugins/openvpn/openvpnprop.ui:881
+msgid "Subject Match:"
+msgstr "ការ​ផ្គូផ្គង​ប្រធានបទ ៖"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, leSubjectMatch)
+#: libs/ui/security/eapmethodpeapbase.ui:97
+msgid ""
+"Only connect to servers whose certificate subject matches this. For the "
+"syntax see the wpa_supplicant documentation."
+msgstr ""
+"តភ្ជាប់​ទៅកាន់​ម៉ាស៊ីន​បម្រើ​ណា​ដែល​ប្រធានបទ​វិញ្ញាបនបត្រ​របស់​វា​ផ្គូផ្គង​គ្នា​តែប៉ុណ្ណោះ ។ សម្រាប់​វាក្យសម្ពន្ធ "
+"សូម​មើល​ឯកសារ wpa_supplicant ។"
+
+#. i18n: ectx: property (text), widget (QLabel, lblAltSubjectMatches)
+#: libs/ui/security/eapmethodpeapbase.ui:104
+#: libs/ui/security/eapmethodtlsbase.ui:155
+#: libs/ui/security/eapmethodttlsbase.ui:72
+msgid "Alternative Subject Matches:"
+msgstr "ការ​ផ្គូផ្គង​ប្រធានបទ​​ដែល​ឆ្លាស់គ្នា ៖"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, leAltSubjectMatches)
+#: libs/ui/security/eapmethodpeapbase.ui:113
+msgid ""
+"Only connect to servers whose certificate contains at least one of the "
+"entries. For the syntax see the wpa_supplicant documentation. Use ',' to "
+"separate entries."
+msgstr ""
+"តភ្ជាប់​ទៅកាន់​ម៉ាស៊ីន​បម្រើ​ណា​ដែល​វិញ្ញាបនបត្រ​របស់​វា​មាន​ធាតុ​យ៉ាងហោចណាស់​មួយ​ក្នុង​ចំណោម​ធាតុ​ទាំងអស់ ។ សម្រាប់​"
+"វាក្យសម្ពន្ធ សូម​មើល​ឯកសារ wpa_supplicant ។ ប្រើ​សញ្ញា​ក្បៀស ',' ដើម្បី​បំបែក​ធាតុ ។"
+
+#. i18n: ectx: property (text), widget (QLabel, lblConnectToTheseServers)
+#: libs/ui/security/eapmethodpeapbase.ui:129
+#: libs/ui/security/eapmethodtlsbase.ui:180
+#: libs/ui/security/eapmethodttlsbase.ui:97
+msgid "Connect to these Servers:"
+msgstr "តភ្ជាប់​ទៅកាន់​ម៉ាស៊ីន​បម្រើ​ទាំងនេះ ៖"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, leConnectToTheseServers)
+#: libs/ui/security/eapmethodpeapbase.ui:138
+#: libs/ui/security/eapmethodtlsbase.ui:189
+#: libs/ui/security/eapmethodttlsbase.ui:106
+msgid "Only connect to these servers. Use ',' to separate entries."
+msgstr "តភ្ជាប់​ទៅកាន់​ម៉ាស៊ីន​បម្រើ​ទាំងនេះ​តែប៉ុណ្ណោះ​ ។ ប្រើ​សញ្ញា​ក្បៀស ',' ដើម្បី​បំបែក​ធាតុ​ ។"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, authalgLabel)
+#: libs/ui/security/eapmethodstackbase.ui:32 libs/ui/security/wep.ui:91
+msgid "&Authentication:"
+msgstr "ការ​ផ្ទៀង​ផ្ទាត់​ភាព​ត្រឹមត្រូវ​ ៖"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: libs/ui/security/eapmethodtlsbase.ui:19
+msgid "&Identity:"
+msgstr "អត្តសញ្ញាណ ៖"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: libs/ui/security/eapmethodtlsbase.ui:35
+#: vpnplugins/openconnect/openconnectprop.ui:97
+msgid "&User Certificate:"
+msgstr "វិញ្ញាបនប័ត្រ​អ្នក​ប្រើ​"
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, kurClientCert)
+#: libs/ui/security/eapmethodtlsbase.ui:48
+msgid ""
+"If your private key file is in PKCS12 format select it here and in the "
+"'Private Key' field below."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: libs/ui/security/eapmethodtlsbase.ui:78
+#: vpnplugins/openconnect/openconnectprop.ui:107
+msgid "Private &Key:"
+msgstr "សោ​ផ្ទាល់​ខ្លួន​ ៖​"
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, kurPrivateKey)
+#: libs/ui/security/eapmethodtlsbase.ui:91
+msgid ""
+"If your private key file is in PKCS12 format select it here and in the 'User "
+"Certificate' field above."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: libs/ui/security/eapmethodtlsbase.ui:98
+msgid "Private Key Pass&word:"
+msgstr "ពាក្យ​សម្ងាត់​​របស់​សោ​ផ្ទាល់​ខ្លួន​ ៖"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, leSubjectMatch)
+#: libs/ui/security/eapmethodtlsbase.ui:148
+#: libs/ui/security/eapmethodttlsbase.ui:65
+msgid ""
+"Only connect to servers whose certificate's subject matches this. For the "
+"syntax see the wpa_supplicant documentation."
+msgstr ""
+"តភ្ជាប់​ទៅកាន់​ម៉ាស៊ីន​បម្រើ​ណា​ដែល​ប្រធានបទ​វិញ្ញាបនបត្រ​របស់​វា​ផ្គូផ្គង​គ្នា​តែប៉ុណ្ណោះ ។ សម្រាប់​វាក្យសម្ពន្ធ "
+"សូម​មើល​ឯកសារ wpa_supplicant ។"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, leAltSubjectMatches)
+#: libs/ui/security/eapmethodtlsbase.ui:164
+#: libs/ui/security/eapmethodttlsbase.ui:81
+msgid ""
+"Only connect to servers whose certificate's alternative subject contains at "
+"least one of the entries. For the syntax see the wpa_supplicant "
+"documentation. Use ',' to separate entries."
+msgstr ""
+"តភ្ជាប់​ទៅកាន់​ម៉ាស៊ីន​បម្រើ​ណា​ដែល​ប្រធានបទ​ឆ្លាស់គ្នា​នៃ​វិញ្ញាបនបត្រ​របស់​វា​មាន​ធាតុ​យ៉ាងហោចណាស់​មួយ​ក្នុង​ចំណោម​"
+"ធាតុ​ទាំងអស់ ។ សម្រាប់​វាក្យសម្ពន្ធ សូម​មើល​ឯកសារ wpa_supplicant ។ ប្រើ​សញ្ញា​ក្បៀស ',' ដើម្បី​"
+"បំបែក​ធាតុ ។"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: libs/ui/security/leapauthwidget.cpp:65
+#: libs/ui/security/security8021xauth.cpp:58
+#: libs/ui/security/wpaauthwidget.cpp:65 vpnplugins/openvpn/openvpnauth.cpp:77
+#: vpnplugins/openvpn/openvpnauth.cpp:86 vpnplugins/openvpn/openvpnauth.ui:23
+#: vpnplugins/openvpn/openvpnprop.ui:363
+msgid "Password:"
+msgstr "ពាក្យ​សម្ងាត់ ៖"
+
+#: libs/ui/security/peapwidget.cpp:77 libs/ui/security/ttlswidget.cpp:84
+msgctxt "MSCHAPv2 inner auth method"
+msgid "MSCHAPv2"
+msgstr "MSCHAPv2"
+
+#: libs/ui/security/peapwidget.cpp:79 libs/ui/security/ttlswidget.cpp:90
+msgctxt "MD5 inner auth method"
+msgid "MD5"
+msgstr "MD5"
+
+#: libs/ui/security/peapwidget.cpp:81 libs/ui/security/ttlswidget.cpp:93
+msgctxt "GTC inner auth method"
+msgid "GTC"
+msgstr "GTC"
+
+#: libs/ui/security/peapwidget.cpp:192 libs/ui/security/tlswidget.cpp:297
+#: libs/ui/security/ttlswidget.cpp:194
+msgid "Alternative Subject Matches"
+msgstr "ការ​ផ្គូផ្គង​ប្រធានបទ​ឆ្លាស់គ្នា"
+
+#: libs/ui/security/peapwidget.cpp:193 libs/ui/security/tlswidget.cpp:298
+#: libs/ui/security/ttlswidget.cpp:195
+msgid ""
+"<qt>This entry must be one of:<ul><li>DNS: &lt;name or ip address&gt;</"
+"li><li>EMAIL: &lt;email&gt;</li><li>URI: &lt;uri, e.g. http://www.kde.org&gt;"
+"</li></ul></qt>"
+msgstr ""
+"<qt>ធាតុ​នេះ​ត្រូវតែ​ជា​ធាតុ​មួយ​ក្នុង​ចំណោម ៖<ul><li>DNS: &lt;ឈ្មោះ ឬ​អាសយដ្ឋាន ip&gt;</"
+"li><li>EMAIL: &lt;អ៊ីមែល&gt;</li><li>URI: &lt;uri, ឧ. http://www.kde.org&gt;</"
+"li></ul></qt>"
+
+#: libs/ui/security/peapwidget.cpp:205 libs/ui/security/tlswidget.cpp:310
+#: libs/ui/security/ttlswidget.cpp:207
+msgid "Connect to these Servers"
+msgstr "តភ្ជាប់​ទៅកាន់​ម៉ាស៊ីន​បម្រើ​ទាំងនេះ"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: libs/ui/security/security8021xauth.cpp:66
+#: vpnplugins/strongswan/strongswanprop.ui:130
+msgid "Private Key Password:"
+msgstr "ពាក្យ​សម្ងាត់​កូន​សោ​ឯកជន ៖"
+
+#: libs/ui/security/security8021xauth.cpp:74
+msgid "Phase 2 Private Key Password:"
+msgstr "ពាក្យ​សម្ងាត់​កូនសោ​ឯកជន​ដំណាក់​កាល​ទី ២​​ ៖"
+
+#: libs/ui/security/securityeap.cpp:56
+msgctxt "show passwords button"
+msgid "&Show Passwords"
+msgstr "បង្ហាញ​ពាក្យ​សម្ងាត់​"
+
+#: libs/ui/security/securityeap.cpp:62
+msgctxt "TLS auth type"
+msgid "TLS"
+msgstr "TLS"
+
+#: libs/ui/security/securityeap.cpp:66
+msgctxt "LEAP auth type"
+msgid "LEAP"
+msgstr "LEAP"
+
+#: libs/ui/security/securityeap.cpp:70
+msgctxt "Peap outer auth type"
+msgid "Protected EAP (PEAP)"
+msgstr "EAP ដែល​បាន​​ការពារ (PEAP)​"
+
+#: libs/ui/security/securityeap.cpp:73
+msgctxt "TTLS outer auth type"
+msgid "Tunnelled TLS (TTLS)"
+msgstr "TLS ដែល​មាន​ធ្យូនែល (TTLS) ​"
+
+#: libs/ui/security/securitywired8021x.cpp:42
+msgctxt "@title:tab wired 802.1x security"
+msgid "802.1x Security"
+msgstr "សុវត្ថិភាព​ 802.1x ​ "
+
+#: libs/ui/security/securitywired8021x.cpp:45
+msgctxt "@option:check enables/disables 802.1x auth on wired ethernet"
+msgid "Use &802.1x authentication"
+msgstr "ប្រើ​ការ​ផ្ទៀង​ផ្ទាត់​ភាព​ត្រឹមត្រូវ​​ &802.1x"
+
+#: libs/ui/security/ttlswidget.cpp:78
+msgctxt "PAP inner auth method"
+msgid "PAP"
+msgstr "PAP"
+
+#: libs/ui/security/ttlswidget.cpp:81
+msgctxt "MSCHAP inner auth method"
+msgid "MSCHAP"
+msgstr "MSCHAP"
+
+#: libs/ui/security/ttlswidget.cpp:87
+msgctxt "CHAP inner auth method"
+msgid "CHAP"
+msgstr "CHAP"
+
+#. i18n: ectx: property (text), widget (QLabel, keyTypeLabel)
+#: libs/ui/security/wep.ui:17
+msgid "Key type:"
+msgstr "ប្រភេទ​សោ ៖"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, keyType)
+#: libs/ui/security/wep.ui:31
+msgid "Passphrase (for 128 bit)"
+msgstr "ឃ្លា​សម្ងាត់ (សម្រាប់ ១២៨ ប៊ីត)"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, keyType)
+#: libs/ui/security/wep.ui:36
+msgid "Hex or Ascii Key (for 64 or 128 bit)"
+msgstr "Hex ឬ​ Ascii Key (សម្រាប់​ ៦៤ ឬ​ ១២៨ ប៊ីត​​)​"
+
+#. i18n: ectx: property (text), widget (QLabel, weptxkeyindexLabel)
+#: libs/ui/security/wep.ui:54
+msgid "&WEP index:"
+msgstr "លិបិក្រម​​ WEP ៖"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, weptxkeyindex)
+#: libs/ui/security/wep.ui:68
+msgid "1 (Default)"
+msgstr "១ (លំនាំដើម​​)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, weptxkeyindex)
+#: libs/ui/security/wep.ui:73
+msgid "2"
+msgstr "២"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, weptxkeyindex)
+#: libs/ui/security/wep.ui:78
+msgid "3"
+msgstr "៣"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, weptxkeyindex)
+#: libs/ui/security/wep.ui:83
+msgid "4"
+msgstr "៤"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, authalg)
+#: libs/ui/security/wep.ui:105
+msgid "Open System"
+msgstr "បើក​ប្រព័ន្ធ"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#. i18n: ectx: property (text), item, widget (KComboBox, authalg)
+#: libs/ui/security/wep.ui:110 vpnplugins/openvpn/openvpnprop.ui:217
+msgid "Shared Key"
+msgstr "សោ​ដែល​បាន​ចែករំលែក"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#. i18n: ectx: property (text), widget (QLabel, textLabel4_3)
+#. i18n: ectx: property (text), widget (QLabel, keyLabel)
+#: libs/ui/security/wep.ui:118 libs/ui/security/wepwidget.cpp:107
+#: vpnplugins/openvpn/openvpnprop.ui:140 vpnplugins/openvpn/openvpnprop.ui:914
+msgid "&Key:"
+msgstr "សោ​ ៖"
+
+#: libs/ui/security/wepauthwidget.cpp:81
+msgid "Passphrase:"
+msgstr "ឃ្លា​សម្ងាត់ ៖"
+
+#: libs/ui/security/wepauthwidget.cpp:97
+msgid "Key:"
+msgstr "សោ ៖"
+
+#: libs/ui/security/wepwidget.cpp:102
+msgid "&Passphrase:"
+msgstr "ឃ្លា​សម្ងាត់ ៖"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, WirelessSecurity)
+#: libs/ui/security/wirelesssecurity.ui:20
+msgid "Wireless Security"
+msgstr "សុវត្ថិភាព​ឥត​ខ្សែ​"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: libs/ui/security/wirelesssecurity.ui:41
+msgid "&Security:"
+msgstr "សុវត្ថិភាព ៖"
+
+#: libs/ui/security/wirelesssecurityauth.cpp:65
+#, fuzzy, kde-format
+#| msgid "Use hybrid authentication"
+msgctxt "@title:window"
+msgid "The network %1 requires authentication"
+msgstr "ប្រើ​ការ​ផ្ទៀង​ផ្ទាត់​ភាព​ត្រឹមត្រូវ​កូនកាត់"
+
+#: libs/ui/security/wirelesssecuritysettingwidget.cpp:178
+msgctxt "Label for no wireless security"
+msgid "None"
+msgstr "គ្មាន"
+
+#: libs/ui/security/wirelesssecuritysettingwidget.cpp:186
+msgctxt "Label for LEAP wireless security"
+msgid "LEAP"
+msgstr "LEAP"
+
+#: libs/ui/security/wirelesssecuritysettingwidget.cpp:196
+msgctxt "Label for Dynamic WEP wireless security"
+msgid "Dynamic WEP (802.1x)"
+msgstr "WEP ថាមវន្ត​ (802.1x) "
+
+#: libs/ui/security/wirelesssecuritysettingwidget.cpp:206
+msgctxt "Label for WEP wireless security"
+msgid "WEP"
+msgstr "WEP"
+
+#: libs/ui/security/wirelesssecuritysettingwidget.cpp:218
+msgctxt "Label for WPA-PSK wireless security"
+msgid "WPA/WPA2 Personal"
+msgstr "WPA/WPA2 ផ្ទាល់ខ្លួន"
+
+#: libs/ui/security/wirelesssecuritysettingwidget.cpp:229
+msgctxt "Label for WPA-EAP wireless security"
+msgid "WPA/WPA2 Enterprise"
+msgstr "ការ​ចាប់​ផ្ដើម​ធ្វើ​ WPA/WPA2 ​​"
+
+#: libs/ui/vpnpreferences.cpp:53 libs/ui/vpnpreferences.cpp:124
+msgid "New VPN Connection"
+msgstr "ការ​តភ្ជាប់ VPN ថ្មី"
+
+#: libs/ui/vpnuiplugin.cpp:36
+msgctxt "Error message in VPN import/export dialog"
+msgid "Operation not supported for this VPN type."
+msgstr "មិន​បាន​គាំទ្រ​ប្រតិបត្តិការ​សម្រាប់​ប្រភេទ VPN នេះ​ទេ ។"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, Settings8023Ethernet)
+#: libs/ui/wired.ui:20
+msgid "Ethernet"
+msgstr "អ៊ីសឺរណិត"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label)
+#: libs/ui/wired.ui:31
+msgid "Example: 11:22:33:44:55:66"
+msgstr "ឧទាហរណ៍ ៖ 11:22:33:44:55:66"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_2)
+#: libs/ui/wired.ui:63
+msgid "Maximum Transfer Unit (bytes)"
+msgstr "ឯកតា​​​​ផ្ទេរ​អតិបរមា (បៃ)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: libs/ui/wired.ui:66
+msgid "M&TU:"
+msgstr "MTU  ៖"
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, speed)
+#: libs/ui/wired.ui:111
+msgid "Use the specified speed"
+msgstr "ប្រើ​ល្បឿន​ដែល​បាន​បញ្ជាក់"
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, speed)
+#: libs/ui/wired.ui:114
+msgid "Request that the device use only the specified speed."
+msgstr "ស្នើ​ឧបករណ៍​ថា​ឲ្យ​ប្រើ​ល្បឿន​ដែល​បាន​បញ្ជាក់​តែប៉ុណ្ណោះ ។"
+
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, speed)
+#: libs/ui/wired.ui:123
+msgid " MBit/s"
+msgstr "មេកាប៊ីត​/វិ."
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, cmbDuplex)
+#: libs/ui/wired.ui:146
+msgid "Use the specified duplex mode"
+msgstr "ប្រើ​របៀប​ទ្វេ​ដែល​បាន​បញ្ជាក់"
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, cmbDuplex)
+#: libs/ui/wired.ui:149
+msgid ""
+"Request that the device use only the specified duplex mode. A device in full "
+"duplex mode can send and receive data at the same time, while a device in "
+"half duplex mode can either send or receive data, but not both at the same "
+"time."
+msgstr ""
+"ស្នើ​ឧបករណ៍​ថា​ឲ្យ​ប្រើ​ល្បឿន​ទ្វេ​ដែល​បាន​បញ្ជាក់​តែប៉ុណ្ណោះ ។ ឧបករណ៍​នៅ​ក្នុង​របៀប​ទ្វេ​ពេញលេញ អាច​ផ្ញើ និង​"
+"ទទួល​ទិន្នន័យ​ក្នុង​ពេល​តែមួយ​បាន ចំណែក​ឯ​ឧបករណ៍​ដែល​នៅ​ក្នុង​របៀប​ពាក់កណ្ដាល​ទ្វេ​វិញ គឺ​អាច​ផ្ញើ និង​ទទួល​ទិន្នន័យ​"
+"បាន​ដែរ ប៉ុន្តែ​មិន​មែន​ក្នុង​ពេល​តែមួយ​នោះ​ទេ ។"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cmbDuplex)
+#: libs/ui/wired.ui:156
+msgid "Half"
+msgstr "ពាក់កណ្ដាល"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cmbDuplex)
+#: libs/ui/wired.ui:161
+msgid "Full"
+msgstr "ពេញលេញ"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, chkAutoNegotiate)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkAutoNegotiate)
+#: libs/ui/wired.ui:217 libs/ui/wired.ui:220
+msgid "Allow auto-negotiation of port speed and duplex mode"
+msgstr "អនុញ្ញាត​ការ​ចរចា​ស្វ័យប្រវត្តិ​នៃ​ល្បឿន​ច្រក និង​របៀប​ទ្វេ"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkAutoNegotiate)
+#: libs/ui/wired.ui:226
+msgid "Autonegotiate"
+msgstr "ចរចា​ស្វ័យ​ប្រវត្តិ"
+
+#: libs/ui/wiredpreferences.cpp:50
+msgid "Shared Wired Connection"
+msgstr "ការ​តភ្ជាប់​ខ្សែ​ដែល​បាន​ចែករំលែក"
+
+#: libs/ui/wiredpreferences.cpp:53
+msgid "New Wired Connection"
+msgstr "ការ​តភ្ជាប់​ដាក់​ខ្សែ​ថ្មី​​"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: libs/ui/wireless.ui:19
+msgid "&ESSID:"
+msgstr "&ESSID:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: libs/ui/wireless.ui:35
+msgid "&Mode:"
+msgstr "របៀប ៖"
+
+#. i18n: ectx: property (inputMask), widget (KLineEdit, bssid)
+#. i18n: ectx: property (inputMask), widget (KLineEdit, macaddress)
+#: libs/ui/wireless.ui:79 libs/ui/wireless.ui:102
+msgid "HH:HH:HH:HH:HH:HH; "
+msgstr "HH:HH:HH:HH:HH:HH; "
+
+#. i18n: ectx: property (text), widget (KLineEdit, bssid)
+#: libs/ui/wireless.ui:82
+msgid ":::::"
+msgstr ":::::"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: libs/ui/wireless.ui:89
+msgid "MAC &address:"
+msgstr "អាសយដ្ឋាន MAC ៖"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: libs/ui/wireless.ui:109
+msgid "&MTU:"
+msgstr "&MTU ៖"
+
+#: libs/ui/wirelesspreferences.cpp:72
+#, fuzzy
+#| msgid "Shared_Wireless_Connection"
+msgctxt ""
+"ssid of the wifi connection. Use ASCII letters and underscore *only* (no "
+"spaces!). Leave it unstranslated if your language does not support ASCII "
+"characters"
+msgid "Shared_Wireless_Connection"
+msgstr "ការ​តភ្ជាប់​ឥត​ខ្សែ​ដែល​បាន​ចែករំលែក"
+
+#: libs/ui/wirelesspreferences.cpp:143
+msgid "Shared Wireless Connection"
+msgstr "ការ​តភ្ជាប់​ឥត​ខ្សែ​ដែល​បាន​ចែក​រំលែក"
+
+#: settings/config/addeditdeletebuttonset.cpp:40
+msgid "Add..."
+msgstr "បន្ថែម...​"
+
+#: settings/config/addeditdeletebuttonset.cpp:42
+msgid "Edit..."
+msgstr "កែសម្រួល...​"
+
+#: settings/config/addeditdeletebuttonset.cpp:48
+msgid "Import"
+msgstr "នាំចូល"
+
+#: settings/config/addeditdeletebuttonset.cpp:49
+msgid "Export"
+msgstr "នាំចេញ"
+
+#: settings/config/manageconnectionwidget.cpp:80
+#: settings/config/managetraywidget.cpp:47
+#, fuzzy
+#| msgid "Connections"
+msgid "Manage Connections"
+msgstr "ការ​តភ្ជាប់​​"
+
+#: settings/config/manageconnectionwidget.cpp:81
+#: settings/config/managetraywidget.cpp:48
+msgid "Manage Connections Control Panel Module"
+msgstr ""
+
+#: settings/config/manageconnectionwidget.cpp:82
+msgid "(c) 2008-2009 Will Stephenson<p>(c) 2011-2012 Lamarque V. Souza</p>"
+msgstr ""
+
+#: settings/config/manageconnectionwidget.cpp:84
+#: settings/config/managetraywidget.cpp:51
+msgid "Lamarque V. Souza"
+msgstr ""
+
+#: settings/config/manageconnectionwidget.cpp:84
+#: settings/config/managetraywidget.cpp:51
+msgid "Developer and Maintainer"
+msgstr ""
+
+#: settings/config/manageconnectionwidget.cpp:85
+#: settings/config/managetraywidget.cpp:52
+msgid "Ilia Kats"
+msgstr ""
+
+#: settings/config/manageconnectionwidget.cpp:85
+#: settings/config/manageconnectionwidget.cpp:86
+#: settings/config/manageconnectionwidget.cpp:87
+#: settings/config/manageconnectionwidget.cpp:88
+#: settings/config/managetraywidget.cpp:52
+#: settings/config/managetraywidget.cpp:53
+#: settings/config/managetraywidget.cpp:54
+#: settings/config/managetraywidget.cpp:55
+msgid "Developer"
+msgstr ""
+
+#: settings/config/manageconnectionwidget.cpp:86
+#: settings/config/managetraywidget.cpp:53
+msgid "Rajeesh K Nambiar"
+msgstr ""
+
+#: settings/config/manageconnectionwidget.cpp:87
+#: settings/config/managetraywidget.cpp:54 settings/configshell/main.cpp:37
+msgid "Will Stephenson"
+msgstr "Will Stephenson"
+
+#: settings/config/manageconnectionwidget.cpp:88
+#: settings/config/managetraywidget.cpp:55
+msgid "Sebastian Kügler"
+msgstr ""
+
+#: settings/config/manageconnectionwidget.cpp:113
+msgctxt "Like in 'add wired connection'"
+msgid "Wired"
+msgstr "មាន​ខ្សែ"
+
+#: settings/config/manageconnectionwidget.cpp:116
+#: settings/config/manageconnectionwidget.cpp:127
+msgctxt "Like in 'add shared connection'"
+msgid "Shared"
+msgstr "បាន​ចែក​រំលែក"
+
+#: settings/config/manageconnectionwidget.cpp:124
+msgctxt "Like in 'add wireless connection'"
+msgid "Wireless"
+msgstr "ឥត​ខ្សែ"
+
+#: settings/config/manageconnectionwidget.cpp:207
+#, kde-format
+msgctxt ""
+"Label for last used time for a network connection used in the last hour, as "
+"the number of minutes since usage"
+msgid "One minute ago"
+msgid_plural "%1 minutes ago"
+msgstr[0] "%1 នាទី​កន្លងទៅ"
+
+#: settings/config/manageconnectionwidget.cpp:214
+#, kde-format
+msgctxt ""
+"Label for last used time for a network connection used in the last day, as "
+"the number of hours since usage"
+msgid "One hour ago"
+msgid_plural "%1 hours ago"
+msgstr[0] "%1 ម៉ោង​កន្លង​ទៅ"
+
+#: settings/config/manageconnectionwidget.cpp:219
+msgctxt ""
+"Label for last used time for a network connection used the previous day"
+msgid "Yesterday"
+msgstr "ម្សិល​មិញ"
+
+#: settings/config/manageconnectionwidget.cpp:225
+msgctxt ""
+"Label for last used time for a network connection that has never been used"
+msgid "Never"
+msgstr "មិន​ដែល​​"
+
+#: settings/config/manageconnectionwidget.cpp:372
+msgctxt "Tooltip for disabled tab when no VPN plugins are installed"
+msgid "No VPN plugins were found"
+msgstr "រក​មិន​ឃើញ​កម្មវិធី​ជំនួយ VPN"
+
+#: settings/config/manageconnectionwidget.cpp:416
+msgctxt "File chooser dialog title for importing VPN"
+msgid "Import VPN connection settings"
+msgstr "នាំចូល​ការ​កំណត់​ការ​តភ្ជាប់​ VPN "
+
+#: settings/config/manageconnectionwidget.cpp:467
+#, kde-format
+msgid ""
+"None of the supported plugins implement importing operation for file %1."
+msgstr "គ្មាន​កម្មវិធី​ជំនួយ​ណាមួយ​ត្រូវ​បាន​អនុវត្ត​ដើម្បី​នាំចូល​ប្រតិបត្តិការ​សម្រាប់​ឯកសារ %1 ទេ ។"
+
+#: settings/config/manageconnectionwidget.cpp:467
+#: settings/config/manageconnectionwidget.cpp:472
+msgid "Error importing VPN connection settings"
+msgstr "កំហុស​ក្នុង​ការ​នាំចូល​ការ​កំណត់​ការ​តភ្ជាប់​ VPN "
+
+#: settings/config/manageconnectionwidget.cpp:498
+msgctxt "File chooser dialog title for exporting VPN"
+msgid "Export VPN"
+msgstr "នាំចេញ​ VPN"
+
+#: settings/config/manageconnectionwidget.cpp:505
+msgid "VPN connection successfully exported"
+msgstr "ការ​តភ្ជាប់​ VPN បាន​នាំចេញ​ដោយ​ជោគជ័យ​"
+
+#: settings/config/manageconnectionwidget.cpp:505
+msgid "Success"
+msgstr "ជោគជ័យ"
+
+#: settings/config/manageconnectionwidget.cpp:505
+msgid "Do not show again"
+msgstr "កុំ​បង្ហាញ​ម្តងទៀត"
+
+#: settings/config/manageconnectionwidget.cpp:507
+#, fuzzy
+#| msgid "Error importing VPN connection settings"
+msgid "Error exporting VPN connection settings"
+msgstr "កំហុស​ក្នុង​ការ​នាំចូល​ការ​កំណត់​ការ​តភ្ជាប់​ VPN "
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cmbLogLevel)
+#: settings/config/manageconnectionwidget.cpp:510
+#: settings/config/manageconnectionwidget.cpp:563
+#: vpnplugins/openconnect/openconnectauth.ui:133 vpnplugins/vpnc/vpnc.cpp:83
+msgid "Error"
+msgstr "កំហុស"
+
+#: settings/config/manageconnectionwidget.cpp:510
+msgid "Could not export VPN connection settings"
+msgstr "មិន​អាច​នាំ​ចេញ​ការ​កំណត់​ការ​តភ្ជាប់​​ VPN បាន​ឡើយ​"
+
+#: settings/config/manageconnectionwidget.cpp:546
+msgid ""
+"Connection edit option failed, make sure that NetworkManager is properly "
+"running."
+msgstr ""
+"បាន​បរាជ័យ​ជម្រើស​កែសម្រួល​ការ​តភ្ជាប់​ ​សូម​ប្រាកដ​ថា​​កម្មវិធី​គ្រប់គ្រង​បណ្ដាញ​កំពុង​ដំណើរការ​យ៉ាង​ត្រឹមត្រូវ ។"
+
+#: settings/config/manageconnectionwidget.cpp:586
+msgid "Connection create operation failed."
+msgstr "បាន​បរាជ័យ​ប្រតិបត្តិការ​បង្កើត​ការ​តភ្ជាប់ ។"
+
+#: settings/config/manageconnectionwidget.cpp:610
+#, kde-format
+msgctxt "Warning message on attempting to delete a connection"
+msgid "Do you really want to delete the connection '%1'?"
+msgstr "តើ​អ្នក​ពិត​ជា​ចង់​លុប​ការ​តភ្ជាប់ '%1' ឬ ?"
+
+#: settings/config/manageconnectionwidget.cpp:611
+msgid "Confirm Delete"
+msgstr "អះអាង​ការលុប"
+
+#: settings/config/manageconnectionwidget.cpp:771
+msgid "Connected"
+msgstr "បាន​តភ្ជាប់​​"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabWired)
+#: settings/config/manageconnectionwidget.ui:21
+msgid "Wired"
+msgstr "មាន​ខ្សែ"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, listWired)
+#. i18n: ectx: property (text), widget (QTreeWidget, listWireless)
+#. i18n: ectx: property (text), widget (QTreeWidget, listCellular)
+#. i18n: ectx: property (text), widget (QTreeWidget, listVpn)
+#. i18n: ectx: property (text), widget (QTreeWidget, listPppoe)
+#: settings/config/manageconnectionwidget.ui:43
+#: settings/config/manageconnectionwidget.ui:84
+#: settings/config/manageconnectionwidget.ui:122
+#: settings/config/manageconnectionwidget.ui:160
+#: settings/config/manageconnectionwidget.ui:198
+msgid "Connection"
+msgstr "ការ​តភ្ជាប់​"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, listWired)
+#. i18n: ectx: property (text), widget (QTreeWidget, listWireless)
+#. i18n: ectx: property (text), widget (QTreeWidget, listCellular)
+#. i18n: ectx: property (text), widget (QTreeWidget, listVpn)
+#. i18n: ectx: property (text), widget (QTreeWidget, listPppoe)
+#: settings/config/manageconnectionwidget.ui:48
+#: settings/config/manageconnectionwidget.ui:89
+#: settings/config/manageconnectionwidget.ui:127
+#: settings/config/manageconnectionwidget.ui:165
+#: settings/config/manageconnectionwidget.ui:203
+msgid "Last Used"
+msgstr "បាន​ប្រើ​ចុងក្រោយ"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, listWired)
+#. i18n: ectx: property (text), widget (QTreeWidget, listWireless)
+#. i18n: ectx: property (text), widget (QTreeWidget, listCellular)
+#. i18n: ectx: property (text), widget (QTreeWidget, listVpn)
+#. i18n: ectx: property (text), widget (QTreeWidget, listPppoe)
+#: settings/config/manageconnectionwidget.ui:53
+#: settings/config/manageconnectionwidget.ui:94
+#: settings/config/manageconnectionwidget.ui:132
+#: settings/config/manageconnectionwidget.ui:170
+#: settings/config/manageconnectionwidget.ui:208
+msgid "State"
+msgstr "ស្ថាន​ភាព"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabVpn)
+#: settings/config/manageconnectionwidget.ui:144
+msgid "VPN"
+msgstr "VPN"
+
+#: settings/config/managetraywidget.cpp:49
+msgid ""
+"(c) 2008-2009 Will Stephenson<p>(c) 2010 Sebastian Kügler</p><p>(c) "
+"2011-2012 Lamarque V. Souza</p>"
+msgstr ""
+
+#: settings/config/managetraywidget.cpp:83
+msgctxt "@info"
+msgid "Error switching storage type"
+msgstr ""
+
+#: settings/config/mobileconnectionwizard.cpp:52
+msgctxt "Mobile Connection Wizard"
+msgid "New Mobile Broadband Connection"
+msgstr "ការ​តភ្ជាប់​រលកអាកាស​​ចល័ត​ថ្មី​​"
+
+#: settings/config/mobileconnectionwizard.cpp:151
+#: settings/config/mobileconnectionwizard.cpp:167
+#: settings/config/mobileconnectionwizard.cpp:193
+#: settings/config/mobileconnectionwizard.cpp:525
+msgctxt "Mobile Connection Wizard"
+msgid "My plan is not listed..."
+msgstr "គម្រោង​របស់​ខ្ញុំ​​មិន​ត្រូវ​បាន​រាយ​បញ្ជី​​ឡើយ​..."
+
+#: settings/config/mobileconnectionwizard.cpp:156
+msgctxt "Mobile Connection Wizard"
+msgid "Unknown Provider"
+msgstr "មិន​ស្គាល់​ក្រុមហ៊ុន​ផ្ដល់​​"
+
+#: settings/config/mobileconnectionwizard.cpp:163
+msgctxt "Mobile Connection Wizard"
+msgid "Default"
+msgstr "​លំនាំដើម​"
+
+#: settings/config/mobileconnectionwizard.cpp:195
+#: settings/config/mobileconnectionwizard.cpp:203
+msgctxt "Mobile Connection Wizard"
+msgid "APN"
+msgstr "APN"
+
+#: settings/config/mobileconnectionwizard.cpp:248
+msgctxt "Mobile Connection Wizard"
+msgid "Set up a Mobile Broadband Connection"
+msgstr "រៀបចំ​ការ​តភ្ជាប់​រលកអាកាស​​​ចល័ត​"
+
+#: settings/config/mobileconnectionwizard.cpp:251
+msgctxt "Mobile Connection Wizard"
+msgid ""
+"This assistant helps you easily set up a mobile broadband connection to a "
+"cellular (3G) network."
+msgstr ""
+"ជំនួយ​ការ​នេះ​នឹង​ជួយ​សម្រួល​អ្នក​ក្នុង​ការ​រៀបចំ​ការ​តភ្ជាប់​រលក​អាកាស​​​ចល័ត​ទៅកាន់​បណ្ដាញ​​ទូរស័ព្ទ​ (3G) ។"
+
+#: settings/config/mobileconnectionwizard.cpp:255
+msgctxt "Mobile Connection Wizard"
+msgid "You will need the following information:"
+msgstr "អ្នក​ត្រូវ​ការ​ព័ត៌មាន​ដូច​ខាង​ក្រោម ។"
+
+#: settings/config/mobileconnectionwizard.cpp:259
+msgctxt "Mobile Connection Wizard"
+msgid "Your broadband provider's name"
+msgstr "ឈ្មោះ​របស់​ក្រុម​ហ៊ុន​ផ្ដល់​​រលក​អាកាស​របស់​អ្នក​​"
+
+#: settings/config/mobileconnectionwizard.cpp:260
+msgctxt "Mobile Connection Wizard"
+msgid "Your broadband billing plan name"
+msgstr "ឈ្មោះ​គម្រោង​ចេញ​វិក្កយបត្រ​រលកអាកាស​របស់​អ្នក"
+
+#: settings/config/mobileconnectionwizard.cpp:261
+msgctxt "Mobile Connection Wizard"
+msgid "(in some cases) Your broadband billing plan APN (Access Point Name)"
+msgstr "(ក្នុង​ករណី​ខ្លះ​) គម្រោង​ចេញ​វិក្កយបត្រ​រលកអាកាស​​​របស់​ APN (ឈ្មោះ​ចំណុច​ចូល​ដំណើរការ​)"
+
+#: settings/config/mobileconnectionwizard.cpp:265
+msgctxt "Mobile Connection Wizard"
+msgid "Create a connection for &this mobile broadband device:"
+msgstr "បង្កើត​ការ​តភ្ជាប់ ​សម្រាប់​ឧបករណ៍​រលកអាកាស​​​ចល័ត​នេះ​ ៖​"
+
+#: settings/config/mobileconnectionwizard.cpp:269
+#: settings/config/mobileconnectionwizard.cpp:395
+#, fuzzy
+#| msgctxt "Mobile Connection Wizard"
+#| msgid "Any device"
+msgctxt "Mobile Connection Wizard"
+msgid "Any GSM device"
+msgstr "ឧបករណ៍​មួយ​ចំនួន​​​"
+
+#: settings/config/mobileconnectionwizard.cpp:271
+#: settings/config/mobileconnectionwizard.cpp:397
+#, fuzzy
+#| msgctxt "Mobile Connection Wizard"
+#| msgid "Any device"
+msgctxt "Mobile Connection Wizard"
+msgid "Any CDMA device"
+msgstr "ឧបករណ៍​មួយ​ចំនួន​​​"
+
+#: settings/config/mobileconnectionwizard.cpp:324
+msgctxt "Mobile Connection Wizard"
+msgid "Installed GSM device"
+msgstr "បាន​ដំឡើង​ឧបករណ៍ GSM ​"
+
+#: settings/config/mobileconnectionwizard.cpp:328
+msgctxt "Mobile Connection Wizard"
+msgid "Installed CDMA device"
+msgstr "បាន​ដំឡើង​ឧបករណ៍​ CDMA ​​​​​​​​"
+
+#: settings/config/mobileconnectionwizard.cpp:410
+msgctxt "Mobile Connection Wizard"
+msgid "Choose your Provider's Country"
+msgstr "ជ្រើស​ប្រទេស​ក្រុមហ៊ុន​ផ្ដល់​របស់​អ្នក​​"
+
+#: settings/config/mobileconnectionwizard.cpp:413
+msgctxt "Mobile Connection Wizard"
+msgid "Country List:"
+msgstr "បញ្ជី​ឈ្មោះ​ប្រទេស​ ៖"
+
+#: settings/config/mobileconnectionwizard.cpp:417
+msgctxt "Mobile Connection Wizard"
+msgid "My country is not listed"
+msgstr "ប្រទេស​របស់​ខ្ញុំ​មិន​ត្រូវ​បាន​រាយ​បញ្ជី​​ឡើយ​"
+
+#: settings/config/mobileconnectionwizard.cpp:433
+msgctxt "Mobile Connection Wizard"
+msgid "Choose your Provider"
+msgstr "ជ្រើស​ក្រុមហ៊ុន​ផ្ដល់​របស់​អ្នក​​"
+
+#: settings/config/mobileconnectionwizard.cpp:436
+msgctxt "Mobile Connection Wizard"
+msgid "Select your provider from a &list:"
+msgstr "ជ្រើស​ក្រុមហ៊ុន​ផ្ដល់​របស់​អ្នក​ពី​បញ្ជី ៖"
+
+#: settings/config/mobileconnectionwizard.cpp:445
+msgctxt "Mobile Connection Wizard"
+msgid "I can't find my provider and I wish to enter it &manually:"
+msgstr "មិន​អាច​ស្វែងរក​ក្រុម​ហ៊ុន​ផ្ដល់​របស់​ខ្ញុំ​​ និង​បញ្ចូល​វា​ដោយ​ដៃ​បាន​ឡើយ ៖"
+
+#: settings/config/mobileconnectionwizard.cpp:487
+msgctxt "Mobile Connection Wizard"
+msgid "Choose your Billing Plan"
+msgstr "ជ្រើស​គម្រោង​ចេញ​វិក្កយបត្រ​របស់​អ្នក​​​"
+
+#: settings/config/mobileconnectionwizard.cpp:490
+msgctxt "Mobile Connection Wizard"
+msgid "&Select your plan:"
+msgstr "ជ្រើស​គម្រោង​របស់​អ្នក​ ៖​"
+
+#: settings/config/mobileconnectionwizard.cpp:497
+msgctxt "Mobile Connection Wizard"
+msgid "Selected plan &APN (Access Point Name):"
+msgstr "បាន​ជ្រើស​​គម្រោង &APN (ឈ្មោះ​ចំណុច​ចូល​ដំណើរការ​) ៖​"
+
+#: settings/config/mobileconnectionwizard.cpp:509
+msgctxt "Mobile Connection Wizard"
+msgid ""
+"Warning: Selecting an incorrect plan may result in billing issues for your "
+"broadband account or may prevent connectivity.\n"
+"\n"
+"If you are unsure of your plan please ask your provider for your plan's APN."
+msgstr ""
+"ព្រមាន​ ៖ ការ​ជ្រើស​គម្រោង​មិន​ត្រឹមត្រូវ​អាច​​​បង្ហាញ​លទ្ធផល​នៅ​ក្នុង​ការ​ចេញ​វិក្កយបត្រ​ សម្រាប់​គណនី​រលកអាកាស "
+"ឬ​អាច​រារាំង​ការ​តភ្ជាប់​របស់​អ្នក​បាន ។\n"
+"\n"
+"ប្រសិនបើ​​អ្នក​មិន​ប្រាកដ​ជាមួយ​គម្រោង​របស់​អ្នក​ទេ​ ​សូម​​សួរ​ក្រុម​ហ៊ុន​ផ្ដល់​​របស់​អ្នក​ អំពី​​គម្រោង APN របស់​អ្នក​ ។"
+
+#: settings/config/mobileconnectionwizard.cpp:546
+msgctxt "Mobile Connection Wizard"
+msgid "Confirm Mobile Broadband Settings"
+msgstr "អះអាង​ការកំណត់​រលកអាកាស​ចល័ត​"
+
+#: settings/config/mobileconnectionwizard.cpp:549
+msgctxt "Mobile Connection Wizard"
+msgid ""
+"Your mobile broadband connection is configured with the following settings:"
+msgstr "ការ​តភ្ជាប់​រលកអាកាស​​ចល័ត​របស់​អ្នក​ត្រូវ​បាន​កំណត់​រចនាសម្ព័ន្ធ​តាម​ការ​កំណត់​ដូច​ខាង​ក្រោម ៖"
+
+#: settings/config/mobileconnectionwizard.cpp:553
+msgctxt "Mobile Connection Wizard"
+msgid "Your Provider:"
+msgstr "ក្រុម​ហ៊ុន​ផ្ដល់​របស់​អ្នក​ ៖​"
+
+#: settings/config/mobileconnectionwizard.cpp:558
+msgctxt "Mobile Connection Wizard"
+msgid "Your Plan:"
+msgstr "គម្រោង​របស់​អ្នក​ ៖​"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: settings/config/othersettings.ui:17
+msgid "<b>Connection Secrets</b>"
+msgstr "<b>ការ​តភ្ជាប់​សម្ងាត់​​</b>​"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: settings/config/othersettings.ui:24
+msgid "&Store connection secrets: "
+msgstr "ទុក​​ការ​តភ្ជាប់​សម្ងាត់​ ៖​"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SecretStorageMode)
+#: settings/config/othersettings.ui:41
+msgid "Do not store (always prompt)"
+msgstr "មិន​ទុក​​ (ប្រអប់​បញ្ចូល​ជានិច្ច​ឡើយ​​)​"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SecretStorageMode)
+#: settings/config/othersettings.ui:46
+msgid "In file (unencrypted)"
+msgstr "ក្នុង​ឯក​សារ​ (ដែល​មិន​បាន​អ៊ិនគ្រីប​​)​"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SecretStorageMode)
+#: settings/config/othersettings.ui:51
+msgid "In secure storage (encrypted)"
+msgstr "​ផ្ទុក​​ដែល​មាន​សុវត្ថិភាព​​ (បាន​អ៊ិនគ្រីប​​​)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: settings/config/othersettings.ui:59
+msgid "<b>Display</b>"
+msgstr "<b>ទិដ្ឋភាព​</b>​"
+
+#. i18n: ectx: property (text), widget (QLabel, interfaceNamingLabel)
+#: settings/config/othersettings.ui:66 settings/config/traysettings.ui:21
+msgid "Show network interfaces using:"
+msgstr "បង្ហាញ​ការ​ប្រើ​ចំណុច​ប្រទាក់​​បណ្ដាញ ៖"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_InterfaceNamingStyle)
+#: settings/config/othersettings.ui:77 settings/config/traysettings.ui:29
+msgid "Descriptive Name"
+msgstr "ឈ្មោះ​ដែល​ពិពណ៌នា​​"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_InterfaceNamingStyle)
+#: settings/config/othersettings.ui:82 settings/config/traysettings.ui:34
+msgid "System Name"
+msgstr "ឈ្មោះ​ប្រព័ន្ធ​​"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_InterfaceNamingStyle)
+#: settings/config/othersettings.ui:87 settings/config/traysettings.ui:39
+msgid "Vendor's Name"
+msgstr "ឈ្មោះ​របស់​ក្រុម​ហ៊ុន​លក់​​"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_InterfaceNamingStyle)
+#: settings/config/othersettings.ui:92 settings/config/traysettings.ui:44
+msgid "Type Name"
+msgstr "ឈ្មោះ​ប្រភេទ​​"
+
+#. i18n: ectx: property (text), widget (QLabel, networkSpeedLabel)
+#: settings/config/othersettings.ui:100
+msgid "Show network speed in:"
+msgstr "បង្ហាញ​​ល្បឿន​បណ្ដាញ​នៅ​ក្នុង​ ៖​"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_NetworkSpeedUnit)
+#: settings/config/othersettings.ui:111
+msgid "KBytes/s"
+msgstr "គីឡូបៃ/វិ."
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_NetworkSpeedUnit)
+#: settings/config/othersettings.ui:116
+msgid "KBits/s"
+msgstr "គីឡូ​ប៊ីត/វិ."
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: settings/config/othersettings.ui:124
+msgid "Display settings as:"
+msgstr "បង្ហាញ​ការ​កំណត់​ជា ៖"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: settings/config/othersettings.ui:148
+msgid "<b>Events</b>"
+msgstr "<b>ព្រិត្តិការណ៍​</b>"
+
+#. i18n: ectx: property (text), widget (QLabel, askPinLabel)
+#: settings/config/othersettings.ui:155
+msgid "Ask for GSM Pin:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_AskForGsmPin)
+#: settings/config/othersettings.ui:166
+#, fuzzy
+#| msgid "Enable Dead &Peer Detection"
+msgid "On Modem Detection"
+msgstr "បិទ​​ការ​រក​ឃើញ​​ម៉ាស៊ីន​ដូចគ្នា​ខូច​​"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_AskForGsmPin)
+#: settings/config/othersettings.ui:171
+#, fuzzy
+#| msgctxt "network interface disconnecting state label"
+#| msgid "Deactivating connection"
+msgid "When Activating Connection"
+msgstr "ធ្វើឲ្យ​ការ​តភ្ជាប់​​អសកម្ម"
+
+#. i18n: ectx: property (text), widget (QPushButton, notificationsButton)
+#: settings/config/othersettings.ui:179
+msgid "Configure Notifications..."
+msgstr "កំណត់​រចនា​សម្ព័ន្ធ​ការ​ជូនដំណឹង​...​"
+
+#: settings/config/othersettingswidget.cpp:41
+#, kde-format
+msgctxt "Version text"
+msgid "<b>Version %1</b>"
+msgstr "<b>កំណែ %1</b>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Autostart)
+#: settings/config/traysettings.ui:54
+msgid "Show tray icon"
+msgstr "បង្ហាញ​រូប​តំណាង​ថាស​"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: settings/config/traysettings.ui:73
+msgid "Tray icons:"
+msgstr "រូប​តំណាង​ថាស​ ៖​"
+
+#. i18n: ectx: property (toolTip), widget (QListWidget, iconInterfaceList)
+#: settings/config/traysettings.ui:82
+msgid "Arrange interface types between icons with drag and drop"
+msgstr "រៀបចំ​ប្រភេទ​ចំណុច​ប្រទាក់​រវាង​រូបតំណាង​​ដោយ​​ជម្រុះ និង​ទម្លាក់​​​"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, pbAddIcon)
+#: settings/config/traysettings.ui:97
+msgid "Add another system tray icon"
+msgstr "បន្ថែម​រូប​តំណាង​ថាស​ប្រព័ន្ធ​​ផ្សេងទៀត​​"
+
+#. i18n: ectx: property (text), widget (QPushButton, pbAddIcon)
+#: settings/config/traysettings.ui:100
+msgid "&More Icons"
+msgstr "រូប​តំណាង​ច្រើន​​"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, pbRemoveIcon)
+#: settings/config/traysettings.ui:107
+msgid "Remove a system tray icon"
+msgstr "យក​រូប​តំណាង​ថាស​ប្រព័ន្ធ​ចេញ​​"
+
+#. i18n: ectx: property (text), widget (QPushButton, pbRemoveIcon)
+#: settings/config/traysettings.ui:110
+msgid "&Fewer Icons"
+msgstr "រូប​តំណាង​តិច​ជាង​​​"
+
+#: settings/configshell/bluetooth.cpp:55
+msgid "We support 'dun' and 'nap' services only."
+msgstr "យើង​គាំទ្រ​សេវាកម្ម 'dun' និង 'nap' តែប៉ុណ្ណោះ ។"
+
+#: settings/configshell/bluetooth.cpp:69
+msgid "Could not contact bluetooth manager (BlueZ)."
+msgstr "មិន​ទាក់ទង​កម្មវិធី​គ្រប់គ្រង​ប៊្លូធូស (BlueZ) បាន​ទេ ។"
+
+#: settings/configshell/bluetooth.cpp:78
+#, kde-format
+msgid "Default bluetooth adapter not found: %1"
+msgstr "រក​មិន​ឃើញ​អាដាប់ទ័រ​ប៊្លូធូស​លំនាំដើម ៖ %1"
+
+#: settings/configshell/bluetooth.cpp:142
+#, kde-format
+msgid "%1 (%2) does not support Dialup Networking (DUN)."
+msgstr "%1 (%2) មិន​គាំទ្រ Dialup Networking (DUN) ។"
+
+#: settings/configshell/bluetooth.cpp:148
+#, kde-format
+msgid "%1 (%2) does not support Network Access Point (NAP)."
+msgstr "%1 (%2) មិន​គាំទ្រ Network Access Point (NAP) ។"
+
+#: settings/configshell/bluetooth.cpp:175
+#, kde-format
+msgid "Error activating devices's serial port: %1"
+msgstr "កំហុស​ក្នុង​ការ​ធ្វើឲ្យ​ច្រក​សៀរៀល​របស់​ឧបករណ៍​សកម្ម ៖ %1"
+
+#: settings/configshell/bluetooth.cpp:200
+#, kde-format
+msgid "Device %1 is not the one we want (%2)"
+msgstr "ឧបករណ៍ %1 មិន​មែន​ជា​ឧបករណ៍​ដែល​យើង​ចង់បាន​ទេ (%2)"
+
+#: settings/configshell/bluetooth.cpp:202
+#, kde-format
+msgid "Device for serial port %1 (%2) not found."
+msgstr "រក​មិន​ឃើញ​ឧបករណ៍​សម្រាប់​ច្រក​សៀរៀល %1 (%2) ។"
+
+#: settings/configshell/main.cpp:31
+msgid "Network Management"
+msgstr "ការ​គ្រប់គ្រង​បណ្ដាញ"
+
+#: settings/configshell/main.cpp:33
+msgid "Create network connections standalone"
+msgstr "បង្កើត​ការ​តភ្ជាប់​បណ្ដាញ​តែ​ឯង"
+
+#: settings/configshell/main.cpp:35
+msgid "(c) 2008 Will Stephenson"
+msgstr "រក្សាសិទ្ធិ​ឆ្នាំ ២០០៨ ដោយ Will Stephenson"
+
+#: settings/configshell/main.cpp:42
+msgid "Connection ID to edit"
+msgstr "កែ​សម្រួល​​លេខ​សម្គាល់​ការ​តភ្ជាប់​​"
+
+#: settings/configshell/main.cpp:43
+msgid "Connect to a hidden wireless network"
+msgstr "តភ្ជាប់​ទៅកាន់​បណ្ដាញ​ឥត​ខ្សែ​ដែល​លាក់​​"
+
+#: settings/configshell/main.cpp:44
+msgid ""
+"Connection type to create, must be one of '802-3-ethernet', '802-11-"
+"wireless', 'pppoe', 'vpn', 'cellular', 'bluetooth'"
+msgstr ""
+"ប្រភេទ​តភ្ជាប់​ត្រូវ​បង្កើត ត្រូវតែ​ជា '802-3-ethernet', '802-11-wireless', 'pppoe', "
+"'vpn', 'cellular', 'bluetooth'"
+
+#: settings/configshell/main.cpp:45
+msgid ""
+"Space-separated connection type-specific arguments, may be either 'gsm' or "
+"'cdma' for cellular connections,\n"
+"'openvpn' or 'vpnc' for vpn connections,\n"
+"interface and AP identifiers for wireless connections,\n"
+"bluetooth mac address and service ('dun' or 'nap') for bluetooth "
+"connections.\n"
+"\n"
+"You can also pass the serial device (i.e. 'rfcomm0') instead of service for "
+"dun bluetooth connections,\n"
+"in that case this program will block waiting for that device to be "
+"registered in ModemManager."
+msgstr ""
+"អាគុយម៉ង់​ប្រភេទ​ជាក់លាក់​នៃ​ការ​តភ្ជាប់​ដែល​បំបែក​ដោយ​ដកឃ្លា អាច​ជា 'gsm' ឬ 'cdma' សម្រាប់​ការ​តភ្ជាប់​"
+"ទូរស័ព្ទ​ចល័ត\n"
+"'openvpn' ឬ 'vpnc' សម្រាប់​ការ​តភ្ជាប់ vpn\n"
+"ចំណុច​ប្រទាក់​គ្រឿង​សម្គាល់ AP សម្រាប់​ការ​តភ្ជាប់​ឥត​ខ្សែ\n"
+"ប៊្លូធូស​អាសយដ្ឋាន mac​ និង​សេវាកម្ម ('dun' ឬ 'nap') សម្រាប់​ការ​តភ្ជាប់​ប៊្លូធូស​ ។​\n"
+"\n"
+"អ្នក​អាច​ចម្លង​ឧបករណ៍​សៀរៀល​បាន​ផង​ដែរ ​(ឧ. 'rfcomm0') ជំនួសឲ្យ​សេវា​​សម្រាប់​​ការ​តភ្ជាប់​ប៊្លូធូស​ dun \n"
+"ក្នុង​ករណី​នោះ​កម្មវិធី​នេះ​នឹង​ត្រូវ​បាន​ទប់ស្កាត់​​​ការ​រង់ចាំ​ឧបករណ៍​ដែល​ត្រូវ​បាន​ចុះ​ឈ្មោះ​​នៅ​ក្នុង​កម្មវិធី​គ្រប់គ្រង​"
+"ម៉ូដឹម ។"
+
+#: settings/configshell/main.cpp:46
+msgid "Operation mode, may be either 'create' or 'edit'"
+msgstr "របៀប​ប្រតិបត្តិការ អាច​ជា 'បង្កើត' ឬ​'កែសម្រួល'"
+
+#: settings/configshell/main.cpp:97
+#, kde-format
+msgid "Expected two specific args, found %1: %2"
+msgstr "បាន​រក​ឃើញ​អាគុយម៉ង់​ដែល​រំពឹង​ពីរ %1: %2"
+
+#: settings/configshell/manageconnection.cpp:83
+msgid "unknown error"
+msgstr "កំហុស​ដែល​មិន​ស្គាល់"
+
+#: settings/configshell/manageconnection.cpp:87
+#, kde-format
+msgid "Error adding connection: %1"
+msgstr "កំហុស​ក្នុង​ការ​បន្ថែម​ការ​តភ្ជាប់ ៖ %1"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: vpnplugins/novellvpn/novellvpnadvancedprop.ui:17
+msgid "&DH Group"
+msgstr "ក្រុម​ DH"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rbDh1)
+#: vpnplugins/novellvpn/novellvpnadvancedprop.ui:23
+msgid "768 bits (DH&1)"
+msgstr "៧៦៨ ប៊ីត (DH&1)​"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rbDh2)
+#: vpnplugins/novellvpn/novellvpnadvancedprop.ui:33
+msgid "1024 bits (DH&2)"
+msgstr "១០២៤ ប៊ីត ​(DH&2)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: vpnplugins/novellvpn/novellvpnadvancedprop.ui:43
+msgid "&PFS Group"
+msgstr "ក្រុម​ PFS"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rbPfOff)
+#: vpnplugins/novellvpn/novellvpnadvancedprop.ui:49
+msgid "&Off"
+msgstr "បិទ​"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rbPf1)
+#: vpnplugins/novellvpn/novellvpnadvancedprop.ui:59
+msgid "&768 bits (PF1)"
+msgstr "៧៦៨​ ប៊ីត (PF1)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rbPf2)
+#: vpnplugins/novellvpn/novellvpnadvancedprop.ui:66
+msgid "102&4 bits (PF2)"
+msgstr "១០២៤​ ប៊ីត (PF2)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbDisableSplit)
+#: vpnplugins/novellvpn/novellvpnadvancedprop.ui:76
+msgid "Disable &split tunnel"
+msgstr "បិទ​ធ្យូនែល​ពុះ​"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, NovellVpnWidget)
+#: vpnplugins/novellvpn/novellvpnprop.ui:14
+msgid "Novell VPN"
+msgstr "VPN ណូវែល​"
+
+#. i18n: ectx: property (title), widget (QGroupBox, grp_general)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: vpnplugins/novellvpn/novellvpnprop.ui:20
+#: vpnplugins/openconnect/openconnectprop.ui:20 vpnplugins/pptp/pptpprop.ui:26
+#: vpnplugins/vpnc/vpncprop.ui:24
+msgid "General"
+msgstr "ជា​ទូទៅ"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: vpnplugins/novellvpn/novellvpnprop.ui:39
+msgid "Gate&way Type:"
+msgstr "ប្រភេទ​ផ្លូវ​ចេញ​ចូល​ ៖"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbGwType)
+#: vpnplugins/novellvpn/novellvpnprop.ui:50
+msgid "Nortel"
+msgstr "Nortel"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbGwType)
+#: vpnplugins/novellvpn/novellvpnprop.ui:55
+msgid "Standard Gateway"
+msgstr "ផ្លូវ​ចេញ​ចូល​ស្តង់​ដារ​​"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbAuthType)
+#: vpnplugins/novellvpn/novellvpnprop.ui:83
+msgid "XAUTH"
+msgstr "XAUTH"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbAuthType)
+#: vpnplugins/novellvpn/novellvpnprop.ui:88
+msgid "X.509"
+msgstr "X.509"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: vpnplugins/novellvpn/novellvpnprop.ui:116
+msgid "&Group Name:"
+msgstr "ឈ្មោះ​ក្រុម​ ៖"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: vpnplugins/novellvpn/novellvpnprop.ui:129
+msgid "U&ser Password:"
+msgstr "ពាក្យ​សម្ងាត់​របស់​អ្នក​ប្រើ ៖"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: vpnplugins/novellvpn/novellvpnprop.ui:146
+msgid "G&roup Password:"
+msgstr "ពាក្យសម្ងាត់ក្រុម​ ៖​"
+
+#. i18n: ectx: property (text), widget (QLabel, label_13)
+#: vpnplugins/novellvpn/novellvpnprop.ui:167
+msgid "Certificate &file:"
+msgstr "ឯកសារ​វិញ្ញាបនប័ត្រ ៖"
+
+#. i18n: ectx: property (text), widget (QLabel, label_14)
+#: vpnplugins/novellvpn/novellvpnprop.ui:180
+msgid "Certificate &password:"
+msgstr "ពាក្យ​សម្ងាត់​វិញ្ញាបនបត្រ​​ ៖​​"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbShowPasswords)
+#. i18n: ectx: property (text), widget (QCheckBox, chkShowPasswords)
+#: vpnplugins/novellvpn/novellvpnprop.ui:201
+#: vpnplugins/openvpn/openvpnprop.ui:590
+msgid "&Show Passwords"
+msgstr "បង្ហាញ​ពាក្យ​សម្ងាត់"
+
+#. i18n: ectx: property (text), widget (KPushButton, btnAdvanced)
+#: vpnplugins/novellvpn/novellvpnprop.ui:208
+msgid "Ad&vanced..."
+msgstr "កម្រិត​ខ្ពស់​​..."
+
+#: vpnplugins/novellvpn/novellvpnwidget.cpp:63
+msgctxt "@window:title NovellVPN advanced connection options"
+msgid "NovellVPN advanced options"
+msgstr "ជម្រើស​កម្រិត​ខ្ពស់​របស់ NovellVPN"
+
+#: vpnplugins/openconnect/openconnectauth.cpp:269
+msgid "Contacting host, please wait..."
+msgstr "កំពុង​ទាក់ទង​ទៅ​ម៉ាស៊ីន សូម​រង់ចាំ..."
+
+#: vpnplugins/openconnect/openconnectauth.cpp:449
+msgid "Login"
+msgstr "ចូល​"
+
+#: vpnplugins/openconnect/openconnectauth.cpp:497
+#, kde-format
+msgid ""
+"Check failed for certificate from VPN server \"%1\".\n"
+"Reason: %2\n"
+"Accept it anyway?"
+msgstr ""
+"បាន​បរាជ័យ​ក្នុង​ការ​ពិនិត្យមើល​វិញ្ញាបនបត្រ​ពី​ម៉ាស៊ីន​បម្រើ VPN \"%1\" ។\n"
+"មូលហេតុ ៖ %2\n"
+"អញ្ចឹង​ព្រម​ទទួល​វា​​ដែរ ឬទេ ?"
+
+#: vpnplugins/openconnect/openconnectauth.cpp:570
+msgid "Connection attempt was unsuccessful."
+msgstr "បាន​ជោគជ័យ​ក្នុង​ការ​ប៉ុនប៉ង​តភ្ជាប់ ។"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, OpenconnectAuth)
+#: vpnplugins/openconnect/openconnectauth.ui:20
+msgid "OpenConnect VPN Authentication"
+msgstr "ការ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ OpenConnect VPN"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: vpnplugins/openconnect/openconnectauth.ui:40
+msgid "VPN Host"
+msgstr "ម៉ាស៊ីន VPN"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, btnConnect)
+#: vpnplugins/openconnect/openconnectauth.ui:56
+msgid "Connect"
+msgstr "តភ្ជាប់​​"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkAutoconnect)
+#: vpnplugins/openconnect/openconnectauth.ui:77
+msgid "Automatically start connecting next time"
+msgstr "ចាប់ផ្ដើម​ការ​តភ្ជាប់​នៅ​ពេល​បន្ទាប់​ដោយ​ស្វ័យប្រវត្តិ"
+
+#. i18n: ectx: property (text), widget (QCheckBox, viewServerLog)
+#: vpnplugins/openconnect/openconnectauth.ui:112
+msgid "View Log"
+msgstr "កំណត់ហេតុ​ទិដ្ឋភាព"
+
+#. i18n: ectx: property (text), widget (QLabel, lblLogLevel)
+#: vpnplugins/openconnect/openconnectauth.ui:122
+msgid "Log Level:"
+msgstr "កម្រិត​កំណត់ហេតុ ៖"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cmbLogLevel)
+#: vpnplugins/openconnect/openconnectauth.ui:138
+msgid "Info"
+msgstr "ព័ត៌មាន"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cmbLogLevel)
+#: vpnplugins/openconnect/openconnectauth.ui:143
+msgid "Debug"
+msgstr "បំបាត់​កំហុស"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cmbLogLevel)
+#: vpnplugins/openconnect/openconnectauth.ui:148
+msgid "Trace"
+msgstr "ដាន"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, OpenconnectProp)
+#: vpnplugins/openconnect/openconnectprop.ui:14
+msgid "OpenConnect Settings"
+msgstr "ការ​កំណត់ OpenConnect"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: vpnplugins/openconnect/openconnectprop.ui:42
+msgid "&CA Certificate:"
+msgstr "វិញ្ញាបនបត្រ CA ៖"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: vpnplugins/openconnect/openconnectprop.ui:55
+msgid "&Proxy:"
+msgstr "ប្រូស៊ី ៖"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: vpnplugins/openconnect/openconnectprop.ui:68
+msgid "CSD &Wrapper Script:"
+msgstr "ស្គ្រីប​កម្មវិធី​ខ្ចប់ CSD ៖"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkAllowTrojan)
+#: vpnplugins/openconnect/openconnectprop.ui:78
+msgid "Allow Cisco Secure Desktop &trojan"
+msgstr "អនុញ្ញាត trojan ផ្ទៃតុ​សុវត្ថិភាព Cisco"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: vpnplugins/openconnect/openconnectprop.ui:91
+msgid "Certificate Authentication"
+msgstr "ការ​ផ្ទៀង​ផ្ទាត់​ភាព​ត្រឹមត្រូវ​វិញ្ញាបនបត្រ"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkUseFsid)
+#: vpnplugins/openconnect/openconnectprop.ui:123
+msgid "Use &FSID for key passphrase"
+msgstr "ប្រើ FSID សម្រាប់​កូនសោ​ឃ្លា​សម្ងាត់"
+
+#: vpnplugins/openvpn/openvpn.cpp:165
+msgid "Could not open file"
+msgstr "មិន​អាច​បើក​ឯកសារ"
+
+#: vpnplugins/openvpn/openvpn.cpp:210 vpnplugins/openvpn/openvpn.cpp:231
+#: vpnplugins/openvpn/openvpn.cpp:421
+#, kde-format
+msgid "Unknown option: %1"
+msgstr "ជម្រើស​មិន​ស្គាល់ ៖ %1"
+
+#: vpnplugins/openvpn/openvpn.cpp:214 vpnplugins/openvpn/openvpn.cpp:235
+#: vpnplugins/openvpn/openvpn.cpp:253 vpnplugins/openvpn/openvpn.cpp:267
+#: vpnplugins/openvpn/openvpn.cpp:285 vpnplugins/openvpn/openvpn.cpp:359
+#: vpnplugins/openvpn/openvpn.cpp:412 vpnplugins/openvpn/openvpn.cpp:443
+#, kde-format
+msgid "Invalid number of arguments (expected 1) in option: %1"
+msgstr "លេខ​របស់​អាគុយម៉ង់​មិន​ត្រឹមត្រូវ (បាន​រំពឹង 1) នៅ​ក្នុង​ជម្រើស ៖ %1"
+
+#: vpnplugins/openvpn/openvpn.cpp:249 vpnplugins/openvpn/openvpn.cpp:263
+#, kde-format
+msgid "Invalid size (should be between 0 and 0xFFFF) in option: %1"
+msgstr "ទំហំ​មិន​ត្រឹមត្រូវ (គួរតែ​នៅ​ចន្លោះ​រវាង 0 និង 0xFFFF) នៅ​ក្នុង​ជម្រើស ៖ %1"
+
+#: vpnplugins/openvpn/openvpn.cpp:281
+#, kde-format
+msgid "Invalid size (should be between 0 and 604800) in option: %1"
+msgstr "ទំហំ​មិន​ត្រឹមត្រូវ (គួរតែ​នៅ​ចន្លោះ​រវាង 0 និង 604800) នៅ​ក្នុង​ជម្រើស ៖ %1"
+
+#: vpnplugins/openvpn/openvpn.cpp:333
+#, kde-format
+msgid "Invalid proxy option: %1"
+msgstr "ជម្រើស​ប្រូកស៊ី​មិន​ត្រឹមត្រូវ ៖ %1"
+
+#: vpnplugins/openvpn/openvpn.cpp:356
+#, kde-format
+msgid "Invalid port (should be between 1 and 65535) in option: %1"
+msgstr "ច្រក​មិន​ត្រឹមត្រូវ (គួរតែ​នៅ​ចន្លោះ​រវាង 1 និង 65535) នៅ​ក្នុង​ជម្រើស ៖ %1"
+
+#: vpnplugins/openvpn/openvpn.cpp:431
+#, kde-format
+msgid "Invalid number of arguments (expected 2) in option: %1"
+msgstr "លេខ​របស់​អាគុយម៉ង់​មិន​ត្រឹមត្រូវ (បាន​រំពឹង 2) នៅ​ក្នុង​ជម្រើស ៖ %1"
+
+#: vpnplugins/openvpn/openvpn.cpp:455
+#, kde-format
+msgid "File %1 is not a valid OpenVPN's client configuration file"
+msgstr "ឯកសារ %1 មិន​មែន​ជា​ឯកសារ​ការ​កំណត់​រចនាសម្ព័ន្ធ​ម៉ាស៊ីន​ភ្ញៀវ​របស់ OpenVPN ដែល​ត្រឹមត្រូវ​ទេ"
+
+#: vpnplugins/openvpn/openvpn.cpp:460
+#, kde-format
+msgid "File %1 is not a valid OpenVPN configuration (no remote)."
+msgstr "ឯកសារ %1 មិន​មែន​ជា​ការ​កំណត់​រចនាសម្ព័ន្ធ OpenVPN ត្រឹមត្រូវ​ទេ (គ្មាន​ពី​ចម្ងាយ) ។"
+
+#: vpnplugins/openvpn/openvpn.cpp:511
+msgid "Could not open file for writing"
+msgstr "មិន​អាច​បើក​ឯកសារ​សម្រាប់​ការ​សរសេរ​បាន​ទេ"
+
+#: vpnplugins/openvpn/openvpnauth.cpp:69 vpnplugins/openvpn/openvpnauth.cpp:95
+msgid "Key Password:"
+msgstr "ពាក្យ​សម្ងាត់​សោ ៖"
+
+#. i18n: ectx: property (text), widget (QLabel, label_15)
+#: vpnplugins/openvpn/openvpnauth.cpp:106
+#: vpnplugins/openvpn/openvpnprop.ui:1085
+msgid "Proxy Password:"
+msgstr "ពាក្យសម្ងាត់​ប្រូកស៊ី ៖​"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, OpenVPNAuthenticationWidget)
+#: vpnplugins/openvpn/openvpnauth.ui:14
+msgid "OpenVPNAuthentication"
+msgstr "OpenVPNAuthentication"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, OpenVPNProp)
+#: vpnplugins/openvpn/openvpnprop.ui:14
+msgid "OpenVPN"
+msgstr "OpenVPN"
+
+#. i18n: ectx: attribute (title), widget (QWidget, TabPage)
+#: vpnplugins/openvpn/openvpnprop.ui:24
+msgid "Required Settings"
+msgstr "ការ​កំណត់​ដែល​បាន​ទាមទារ​​"
+
+#. i18n: ectx: property (text), widget (QLabel, labelConnectionType)
+#: vpnplugins/openvpn/openvpnprop.ui:51
+msgid "Connection &type:"
+msgstr "ប្រភេទ​នៃ​ការ​តភ្ជាប់ ៖"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cmbConnectionType)
+#: vpnplugins/openvpn/openvpnprop.ui:74
+msgid "X.509 Certificates"
+msgstr "វិញ្ញាបនប័ត្រ X.509"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cmbConnectionType)
+#: vpnplugins/openvpn/openvpnprop.ui:79
+msgid "Pre-shared Key"
+msgstr "សោ​បាន​ចែករំលែក​ជា​មុន​"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cmbConnectionType)
+#: vpnplugins/openvpn/openvpnprop.ui:89
+msgid "X.509 With Password"
+msgstr "X.509 មាន​ពាក្យ​សម្ងាត់"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: vpnplugins/openvpn/openvpnprop.ui:108
+msgid "C&A file:"
+msgstr "ឯកសារ CA ៖"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
+#: vpnplugins/openvpn/openvpnprop.ui:124
+msgid "&Certificate:"
+msgstr "វិញ្ញាបនប័ត្រ​"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: vpnplugins/openvpn/openvpnprop.ui:156
+msgid "Key password:"
+msgstr "ពាក្យ​សម្ងាត់​សោ ៖"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel6)
+#: vpnplugins/openvpn/openvpnprop.ui:233
+msgid "Local IP"
+msgstr "IP មូលដ្ឋាន"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel7)
+#: vpnplugins/openvpn/openvpnprop.ui:249
+msgid "Remote IP"
+msgstr "IP ពី​ចម្ងាយ"
+
+#. i18n: ectx: property (text), widget (QLabel, label_16)
+#: vpnplugins/openvpn/openvpnprop.ui:269
+msgid "Key Direction"
+msgstr "ទិស​កូនសោ​ ៖"
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, cmbKeyDirection)
+#: vpnplugins/openvpn/openvpnprop.ui:282
+msgid ""
+"If key direction is used, it must be the opposite of that used on the VPN "
+"peer."
+msgstr "ប្រសិនបើ​បាន​ប្រើ​ទិស​កូនសោ វា​ត្រូវតែ​ជា​ភាព​ផ្ទុយគ្នា​នៃ​ម៉ាស៊ីន VPN ដូចគ្នា​ដែល​បាន​ប្រើ ។"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cmbKeyDirection)
+#. i18n: ectx: property (text), item, widget (KComboBox, cboHmac)
+#. i18n: ectx: property (text), item, widget (KComboBox, cboDirection)
+#. i18n: ectx: property (text), item, widget (QComboBox, cboEncryptionMethod)
+#: vpnplugins/openvpn/openvpnprop.ui:286 vpnplugins/openvpn/openvpnprop.ui:814
+#: vpnplugins/openvpn/openvpnprop.ui:948 vpnplugins/vpnc/vpncprop.ui:242
+msgid "None"
+msgstr "គ្មាន"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cmbKeyDirection)
+#: vpnplugins/openvpn/openvpnprop.ui:291
+msgid "0"
+msgstr "០"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cmbKeyDirection)
+#: vpnplugins/openvpn/openvpnprop.ui:296
+msgid "1"
+msgstr "១"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel8)
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: vpnplugins/openvpn/openvpnprop.ui:325 vpnplugins/vpnc/vpncprop.ui:178
+msgid "CA File:"
+msgstr "ឯកសារ CA ៖"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel9)
+#: vpnplugins/openvpn/openvpnprop.ui:344
+msgid "Username:"
+msgstr "ឈ្មោះ​អ្នកប្រើ ៖"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#: vpnplugins/openvpn/openvpnprop.ui:427
+msgid "CA file"
+msgstr "ឯកសារ CA"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2_2)
+#: vpnplugins/openvpn/openvpnprop.ui:443
+msgid "Certificate"
+msgstr "វិញ្ញាបនប័ត្រ"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4_2)
+#: vpnplugins/openvpn/openvpnprop.ui:459
+msgid "Key"
+msgstr "សោ"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: vpnplugins/openvpn/openvpnprop.ui:475
+msgid "Key password"
+msgstr "ពាក្យ​សម្ងាត់​របស់​សោ​"
+
+#. i18n: ectx: attribute (title), widget (QWidget, TabPage2)
+#: vpnplugins/openvpn/openvpnprop.ui:611
+msgid "Optional Settings"
+msgstr "ការ​កំណត់​ជា​ជម្រើស​"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: vpnplugins/openvpn/openvpnprop.ui:619
+msgid "Gateway &Port:"
+msgstr "ច្រក​ផ្លូវ​ចេញ​ចូល​ ៖"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: vpnplugins/openvpn/openvpnprop.ui:643
+msgid "Tunnel MTU"
+msgstr "ធ្យូនែល MTU"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: vpnplugins/openvpn/openvpnprop.ui:667
+msgid "UDP fragment size"
+msgstr "ទំហំ​បំណែក UDP"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkUseCustomReneg)
+#: vpnplugins/openvpn/openvpnprop.ui:691
+msgid "Use custom renegotiation interval"
+msgstr "ប្រើ​ចន្លោះ​ពេល​ការ​ចរចា​ឡើងវិញ​ផ្ទាល់ខ្លួន"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkUseLZO)
+#: vpnplugins/openvpn/openvpnprop.ui:710
+msgid "Use LZO compression"
+msgstr "ប្រើការ​បង្ហាប់ LZO"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkUseTCP)
+#: vpnplugins/openvpn/openvpnprop.ui:717
+msgid "Use TCP connection"
+msgstr "ប្រើ​ការ​តភ្ជាប់ TCP"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkUseTAP)
+#: vpnplugins/openvpn/openvpnprop.ui:724
+msgid "Use TAP device"
+msgstr "ប្រើ​ឧបករណ៍ TAP"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkMssRestrict)
+#: vpnplugins/openvpn/openvpnprop.ui:731
+msgid "Restrict TCP maximum segment size (MSS)"
+msgstr "ដាក់​កម្រិត TCP maximum segment size (MSS)"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: vpnplugins/openvpn/openvpnprop.ui:752
+msgid "Optional &Security"
+msgstr "សុវត្ថិភាព​ជា​ជម្រើស"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: vpnplugins/openvpn/openvpnprop.ui:760
+msgid "&Cipher:"
+msgstr "សរសេរ​សម្ងាត់​ ៖"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cboCipher)
+#: vpnplugins/openvpn/openvpnprop.ui:780
+msgid "Obtaining available ciphers..."
+msgstr "កំពុង​​សរសេរ​សម្ងាត់​ដែល​មាន​​​​..."
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: vpnplugins/openvpn/openvpnprop.ui:792
+msgid "&HMAC Authentication:"
+msgstr "ការ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ​ ​HMAC ៖"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cboHmac)
+#: vpnplugins/openvpn/openvpnprop.ui:819
+msgid "MD-5"
+msgstr "MD-5"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cboHmac)
+#: vpnplugins/openvpn/openvpnprop.ui:824
+msgid "SHA-1"
+msgstr "SHA-1"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cboHmac)
+#: vpnplugins/openvpn/openvpnprop.ui:829
+msgid "SHA-224"
+msgstr "SHA-224"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cboHmac)
+#: vpnplugins/openvpn/openvpnprop.ui:834
+msgid "SHA-256"
+msgstr "SHA-256"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cboHmac)
+#: vpnplugins/openvpn/openvpnprop.ui:839
+msgid "SHA-384"
+msgstr "SHA-384"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cboHmac)
+#: vpnplugins/openvpn/openvpnprop.ui:844
+msgid "SHA-512"
+msgstr "SHA-512"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cboHmac)
+#: vpnplugins/openvpn/openvpnprop.ui:849
+msgid "RIPEMD-160"
+msgstr "RIPEMD-160"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: vpnplugins/openvpn/openvpnprop.ui:873
+msgid "Optional TLS Settings"
+msgstr "ការ​កំណត់​ TLS ​ជា​ជម្រើស​"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, subjectMatch)
+#: vpnplugins/openvpn/openvpnprop.ui:891
+msgid ""
+"Connect only to servers whose certificate matches the given subject. "
+"Example: /CN=myvpn.company.com"
+msgstr ""
+"តភ្ជាប់​ទៅកាន់​ម៉ាស៊ីន​បម្រើ​ដែល​វិញ្ញាបនបត្រ​របស់​វា​ផ្គូផ្គង​នឹង​ប្រធានបទ​ដែល​បាន​ផ្ដល់ឲ្យ​តែប៉ុណ្ណោះ ។ ឧទាហរណ៍ "
+"៖ /CN=myvpn.company.com"
+
+#. i18n: ectx: property (title), widget (QGroupBox, useExtraTlsAuth)
+#: vpnplugins/openvpn/openvpnprop.ui:900
+msgid "Use additional TLS authentication"
+msgstr "ប្រើ​ការ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ​ TLS ដែល​បន្ថែម"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: vpnplugins/openvpn/openvpnprop.ui:934
+msgid "Key Direction:"
+msgstr "ទិស​សោ​ ៖"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cboDirection)
+#: vpnplugins/openvpn/openvpnprop.ui:953
+msgid "Server (0)"
+msgstr "ម៉ាស៊ីន​បម្រើ​ (០)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cboDirection)
+#: vpnplugins/openvpn/openvpnprop.ui:958
+msgid "Client (1)"
+msgstr "ម៉ាស៊ីន​ភ្ញៀវ (១)"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: vpnplugins/openvpn/openvpnprop.ui:985
+msgid "Proxies"
+msgstr "ប្រូកស៊ី"
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: vpnplugins/openvpn/openvpnprop.ui:994
+msgid "Proxy Type:"
+msgstr "ប្រភេទ​ប្រូកស៊ី ៖"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cmbProxyType)
+#: vpnplugins/openvpn/openvpnprop.ui:1019
+msgid "HTTP"
+msgstr "HTTP"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cmbProxyType)
+#: vpnplugins/openvpn/openvpnprop.ui:1024
+msgid "SOCKS"
+msgstr "SOCKS"
+
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#: vpnplugins/openvpn/openvpnprop.ui:1032
+msgid "Server Address:"
+msgstr "អាសយដ្ឋាន​ម៉ាស៊ីន​បម្រើ ៖"
+
+#. i18n: ectx: property (text), widget (QLabel, label_13)
+#: vpnplugins/openvpn/openvpnprop.ui:1045
+msgid "Port:"
+msgstr "ច្រក ៖"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkProxyRetry)
+#: vpnplugins/openvpn/openvpnprop.ui:1068
+msgid "Retry indefinitely when errors occur"
+msgstr "ព្យាយាម​ដោយ​គ្មាន​ដែន​កំណត់​នៅ​ពេល​មាន​កំហុស​កើតឡើង"
+
+#. i18n: ectx: property (text), widget (QLabel, label_14)
+#: vpnplugins/openvpn/openvpnprop.ui:1075
+msgid "Proxy Username:"
+msgstr "ឈ្មោះ​អ្នកប្រើ​ប្រូកស៊ី ៖"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkProxyShowPassword)
+#: vpnplugins/openvpn/openvpnprop.ui:1095
+msgid "Show Password"
+msgstr "បង្ហាញ​ពាក្យ​សម្ងាត់"
+
+#: vpnplugins/openvpn/openvpnwidget.cpp:127
+#: vpnplugins/openvpn/openvpnwidget.cpp:151
+msgctxt "@item:inlist Item added when OpenVPN cipher lookup failed"
+msgid "OpenVPN cipher lookup failed"
+msgstr "បាន​បរាជ័យ​ក្នុង​ការ​រក​សរសេរ​សម្ងាត់​ OpenVPN"
+
+#: vpnplugins/openvpn/openvpnwidget.cpp:134
+msgctxt "@item::inlist Default openvpn cipher item"
+msgid "Default"
+msgstr "លំនាំដើម"
+
+#: vpnplugins/openvpn/openvpnwidget.cpp:148
+msgctxt "@item:inlist Item added when OpenVPN cipher lookup failed"
+msgid "No OpenVPN ciphers found"
+msgstr "រក​មិន​ឃើញ​​សរសេរ​សម្ងាត់​ OpenVPN"
+
+#. i18n: ectx: property (text), widget (QLabel, lbl_auth)
+#: vpnplugins/pptp/pptpadvanced.ui:25
+msgid "Allow following &authentication methods:"
+msgstr "អនុញ្ញាត​បំពេញ​តាម​វិធីសាស្ត្រ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ​ ៖​"
+
+#. i18n: ectx: property (toolTip), widget (QGroupBox, gb_MPPE)
+#: vpnplugins/pptp/pptpadvanced.ui:84
+msgid "Use Microsoft Point-to-Point Encryption"
+msgstr "ប្រើ​ការ​អ៊ិនគ្រី​ប​ពី​ចំណុច​ទៅ​ចំណុច​ម៉ៃ​ក្រូសូហ្វ​​"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gb_MPPE)
+#: vpnplugins/pptp/pptpadvanced.ui:87
+msgid "Use &MPPE Encryption"
+msgstr "ប្រើ​ការ​អ៊ិនគ្រីប​ MPPE ​​"
+
+#. i18n: ectx: property (text), widget (QLabel, lbl_MMPEcrypto)
+#: vpnplugins/pptp/pptpadvanced.ui:109
+msgid "&Crypto:"
+msgstr "&Crypto ៖"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cb_MPPECrypto)
+#: vpnplugins/pptp/pptpadvanced.ui:125
+msgid "128 bit"
+msgstr "១២៨ ប៊ីត​​"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cb_MPPECrypto)
+#: vpnplugins/pptp/pptpadvanced.ui:130
+msgid "40 bit"
+msgstr "៤០​ ប៊ីត​"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cb_statefulEncryption)
+#: vpnplugins/pptp/pptpadvanced.ui:144
+msgid "Use &stateful encryption"
+msgstr "ប្រើ​ការ​អ៊ិនគ្រីបដែល​មាន​ភាព​ពេញ​លេញ​​"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cb_BSD)
+#: vpnplugins/pptp/pptpadvanced.ui:164
+msgid "Allow &BSD compression"
+msgstr "អនុញ្ញាត​​ការ​បង្ហាប់​ BSD ​​"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cb_deflate)
+#: vpnplugins/pptp/pptpadvanced.ui:174
+msgid "Allow &Deflate compression"
+msgstr "អនុញ្ញាត​​ឲ្យ​ការ​បង្ហាប់​ Deflate"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cb_TCPheaders)
+#: vpnplugins/pptp/pptpadvanced.ui:184
+msgid "Allow &TCP header compression"
+msgstr "អនុញ្ញាត​ការ​បង្ហាប់​បឋមកថា​​ TCP ​​"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cb_sendEcho)
+#: vpnplugins/pptp/pptpadvanced.ui:205
+msgid "Send PPP &echo packets "
+msgstr "ផ្ញើ​កញ្ចប់ ​PPP &echo​"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, PptpAuthenticationWidget)
+#: vpnplugins/pptp/pptpauth.ui:14
+msgid "PPTPAuthentication"
+msgstr "ការ​ផ្ទៀង​ផ្ទាត់​ភាព​ត្រឹមត្រូវ​ PPTP"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, PptpProp)
+#: vpnplugins/pptp/pptpprop.ui:14
+msgid "PPTP Settings"
+msgstr "ការ​កំណត់ ​PPTP "
+
+#. i18n: ectx: property (title), widget (QGroupBox, grp_additional)
+#: vpnplugins/pptp/pptpprop.ui:52
+msgid "Additional"
+msgstr "ដែល​បន្ថែម​"
+
+#. i18n: ectx: property (text), widget (QLabel, lbl_login)
+#: vpnplugins/pptp/pptpprop.ui:74
+msgid "&Login:"
+msgstr "ចូល​ ៖"
+
+#. i18n: ectx: property (text), widget (QLabel, lbl_ntdomain)
+#: vpnplugins/pptp/pptpprop.ui:165
+msgid "&NT Domain:"
+msgstr "ដែន​ NT ៖"
+
+#: vpnplugins/strongswan/strongswanauth.cpp:70
+msgctxt "@label:textbox password label for private key password"
+msgid "Private Key Password:"
+msgstr "ពាក្យ​សម្ងាត់​កូន​សោ​ឯកជន ៖"
+
+#: vpnplugins/strongswan/strongswanauth.cpp:72
+msgctxt "@label:textbox password label for smartcard pin"
+msgid "PIN:"
+msgstr "PIN ៖"
+
+#: vpnplugins/strongswan/strongswanauth.cpp:74
+msgctxt "@label:textbox password label for EAP password"
+msgid "Password:"
+msgstr "ពាក្យ​សម្ងាត់ ៖"
+
+#: vpnplugins/strongswan/strongswanauth.cpp:111
+msgid ""
+"Configuration uses ssh-agent for authentication, but no ssh-agent found "
+"running."
+msgstr ""
+"ការ​កំណត់​រចនាសម្ព័ន្ធ​ប្រើ ssh-agent សម្រាប់​ការ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ ប៉ុន្តែ​រក​មិន​ឃើញ ssh-agent "
+"ដែល​កំពុង​ដំណើរការ​ទេ ។"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, StrongswanProp)
+#. i18n: ectx: property (windowTitle), widget (QWidget, StrongswanAuth)
+#: vpnplugins/strongswan/strongswanauth.ui:14
+#: vpnplugins/strongswan/strongswanprop.ui:14
+msgid "Strong Swan VPN"
+msgstr "Swan VPN មាំមួន​​"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbShowPasswords)
+#. i18n: ectx: property (text), widget (QCheckBox, chkShowPass)
+#: vpnplugins/strongswan/strongswanauth.ui:37
+#: vpnplugins/strongswan/strongswanprop.ui:304 vpnplugins/vpnc/vpncauth.ui:79
+#: vpnplugins/vpnc/vpncprop.ui:161
+msgid "&Show passwords"
+msgstr "បង្ហាញ​ពាក្យ​សម្ងាត់"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: vpnplugins/strongswan/strongswanprop.ui:20
+msgid "Gateway"
+msgstr "ផ្លូវ​ចេញ​ចូល"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: vpnplugins/strongswan/strongswanprop.ui:26 vpnplugins/vpnc/vpncprop.ui:30
+msgid "Gateway:"
+msgstr "ផ្លូវ​ចេញ​ចូល​ ៖"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: vpnplugins/strongswan/strongswanprop.ui:42
+#: vpnplugins/strongswan/strongswanprop.ui:110
+#: vpnplugins/strongswan/strongswanprop.ui:183
+msgid "Certificate:"
+msgstr "វិញ្ញាបនបត្រ ៖"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbMethod)
+#: vpnplugins/strongswan/strongswanprop.ui:71
+msgid "Certificate/private key"
+msgstr "វិញ្ញាបនបត្រ/កូនសោ​ឯកជន"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbMethod)
+#: vpnplugins/strongswan/strongswanprop.ui:76
+msgid "Certificate/ssh-agent"
+msgstr "វិញ្ញាបនបត្រ/ssh-agent"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbMethod)
+#: vpnplugins/strongswan/strongswanprop.ui:81
+msgid "Smartcard"
+msgstr "Smartcard"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: vpnplugins/strongswan/strongswanprop.ui:120
+msgid "Private key:"
+msgstr "កូនសោ​ឯកជន ៖"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: vpnplugins/strongswan/strongswanprop.ui:197
+msgid "PIN:"
+msgstr "PIN ៖"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: vpnplugins/strongswan/strongswanprop.ui:290
+msgid "User &Password"
+msgstr "ពាក្យ​សម្ងាត់​របស់​អ្នក​ប្រើ"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: vpnplugins/strongswan/strongswanprop.ui:317
+msgid "Options"
+msgstr "ជម្រើស"
+
+#. i18n: ectx: property (text), widget (QCheckBox, innerIP)
+#: vpnplugins/strongswan/strongswanprop.ui:326
+msgid "Request an inner IP address"
+msgstr "ស្នើ​អាសយដ្ឋាន​ IP ខាងក្នុង​​"
+
+#. i18n: ectx: property (text), widget (QCheckBox, udpEncap)
+#: vpnplugins/strongswan/strongswanprop.ui:339
+msgid "Enforce UDP encapsulation"
+msgstr "បង្ខំ​ដាក់​ក្នុង​​ UDP"
+
+#. i18n: ectx: property (text), widget (QCheckBox, ipComp)
+#: vpnplugins/strongswan/strongswanprop.ui:346
+msgid "Use IP compression"
+msgstr "ប្រើ​​ការ​បង្ហាប់​ IP"
+
+#: vpnplugins/vpnc/vpnc.cpp:83
+msgid "Error decrypting the obfuscated password"
+msgstr "កំហុស​ក្នុង​ការ​ឌិគ្រីប​​ពាក្យ​សម្ងាត់​ដែល​ពិបាក​យល់"
+
+#: vpnplugins/vpnc/vpnc.cpp:138
+#, kde-format
+msgid "File %1 could not be opened."
+msgstr "មិន​អាច​បើក​ឯកសារ %1 បាន​ទេ ។"
+
+#: vpnplugins/vpnc/vpnc.cpp:148
+msgid "Needed executable cisco-decrypt could not be found."
+msgstr "រក​មិន​ឃើញ cisco-decrypt ប្រតិបត្តិ​ដែល​ត្រូវការ​ទេ ។"
+
+#: vpnplugins/vpnc/vpnc.cpp:264
+#, kde-format
+msgid ""
+"The VPN settings file '%1' specifies that VPN traffic should be tunneled "
+"through TCP which is currently not supported in the vpnc software.\n"
+"\n"
+"The connection can still be created, with TCP tunneling disabled, however it "
+"may not work as expected."
+msgstr ""
+"ឯកសារ​ការ​កំណត់ VPN '%1' បញ្ជាក់​ថា​ចរាចរ​​ VPN គួរតែ​ត្រូវ​បាន​ធ្យូណែល​តាម​ TCP ដែល​ពេល​បច្ចុប្បន្ន​​មិន​"
+"ត្រូវ​បាន​គាំទ្រ​នៅ​ក្នុង​កម្មវិធី​ vpnc ។\n"
+"\n"
+"ការ​តភ្ជាប់​នៅ​តែ​អាច​ត្រូវ​បាន​បង្កើត ទោះបីជា​ធ្យូណែល​តាម​ TCP ត្រូវ​បាន​បិទ​ក៏ដោយ​ ប៉ុន្តែ​វា​អាច​មិន​ដំណើរការ​"
+"ដូច​ដែល​រំពឹង​ទុក​ទេ ។"
+
+#: vpnplugins/vpnc/vpnc.cpp:264
+msgid "Not supported"
+msgstr "មិន​បាន​គាំទ្រឡើយ​"
+
+#: vpnplugins/vpnc/vpnc.cpp:291
+#, kde-format
+msgid "%1: file format error."
+msgstr "%1 ៖ កំហុស​ទ្រង់ទ្រាយ​ឯកសារ ។"
+
+#: vpnplugins/vpnc/vpnc.cpp:311
+#, fuzzy, kde-format
+#| msgid "File %1 could not be opened."
+msgid "%1: file could not be created"
+msgstr "មិន​អាច​បើក​ឯកសារ %1 បាន​ទេ ។"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, VpncAuth)
+#: vpnplugins/vpnc/vpncauth.ui:14
+msgid "VPNCAuthentication"
+msgstr "VPNCAuthentication"
+
+#. i18n: ectx: property (text), widget (QLabel, userPasswordLabel)
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: vpnplugins/vpnc/vpncauth.ui:23 vpnplugins/vpnc/vpncprop.ui:59
+msgid "User &Password:"
+msgstr "ពាក្យ​សម្ងាត់​របស់​អ្នក​ប្រើ ៖"
+
+#. i18n: ectx: property (text), widget (QLabel, groupPasswordLabel)
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: vpnplugins/vpnc/vpncauth.ui:36 vpnplugins/vpnc/vpncprop.ui:118
+msgid "&Group Password:"
+msgstr "ពាក្យ​សម្ងាត់​ក្រុម​ ៖​"
+
+#. i18n: ectx: property (text), widget (QLabel, groupNameLabel)
+#. i18n: ectx: property (text), widget (QLabel, labelGroup)
+#: vpnplugins/vpnc/vpncauth.ui:106 vpnplugins/vpnc/vpncprop.ui:102
+msgid "Group name:"
+msgstr "ឈ្មោះ​ក្រុម​ ៖​"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, VpncProp)
+#: vpnplugins/vpnc/vpncprop.ui:14
+msgid "Cisco VPN"
+msgstr "Cisco VPN"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbUseHybridAuth)
+#: vpnplugins/vpnc/vpncprop.ui:171
+msgid "Use hybrid authentication"
+msgstr "ប្រើ​ការ​ផ្ទៀង​ផ្ទាត់​ភាព​ត្រឹមត្រូវ​កូនកាត់"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: vpnplugins/vpnc/vpncprop.ui:202
+msgid "&Domain:"
+msgstr "ដែន ៖"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: vpnplugins/vpnc/vpncprop.ui:215
+msgid "&Encryption Method:"
+msgstr "វិធីសាស្ត្រ​ក្នុង​ការ​អ៊ិនគ្រីប ៖"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cboEncryptionMethod)
+#: vpnplugins/vpnc/vpncprop.ui:232
+msgid "Secure"
+msgstr "ដែល​មាន​សុវត្ថិភាព"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cboEncryptionMethod)
+#: vpnplugins/vpnc/vpncprop.ui:237
+msgid "Weak"
+msgstr "ខ្សោយ​​"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: vpnplugins/vpnc/vpncprop.ui:250
+msgid "&NAT Traversal:"
+msgstr "&NAT Traversal:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cboNatTraversal)
+#: vpnplugins/vpnc/vpncprop.ui:267
+msgid "NAT-T (if available)"
+msgstr "NAT-T (ប្រសិនបើ​មាន)"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cboNatTraversal)
+#: vpnplugins/vpnc/vpncprop.ui:272
+msgid "Force NAT-T"
+msgstr "បង្ខំ NAT-T"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cboNatTraversal)
+#: vpnplugins/vpnc/vpncprop.ui:277
+msgid "Cisco UDP"
+msgstr "Cisco UDP"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: vpnplugins/vpnc/vpncprop.ui:290
+msgid "&IKE DH Group"
+msgstr "ក្រុម &IKE DH"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cboDHGroup)
+#. i18n: ectx: property (text), item, widget (KComboBox, cboPerfectForwardSecrecy)
+#: vpnplugins/vpnc/vpncprop.ui:310 vpnplugins/vpnc/vpncprop.ui:358
+msgid "DH Group 1"
+msgstr "DH ក្រុម ១"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cboDHGroup)
+#: vpnplugins/vpnc/vpncprop.ui:315
+msgid "DH Group 2 (default)"
+msgstr "DH ក្រុម ២ (លំនាំដើម)"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cboDHGroup)
+#. i18n: ectx: property (text), item, widget (KComboBox, cboPerfectForwardSecrecy)
+#: vpnplugins/vpnc/vpncprop.ui:320 vpnplugins/vpnc/vpncprop.ui:368
+msgid "DH Group 5"
+msgstr "DH ក្រុម ៥"
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: vpnplugins/vpnc/vpncprop.ui:328
+msgid "&Perfect Forward Secrecy:"
+msgstr "ការ​សម្ងាត់​បញ្ជូន​បន្ត​ដែល​ល្អឥតខ្ចោះ ៖"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cboPerfectForwardSecrecy)
+#: vpnplugins/vpnc/vpncprop.ui:348
+msgid "No PFS"
+msgstr "គ្មាន PFS"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cboPerfectForwardSecrecy)
+#: vpnplugins/vpnc/vpncprop.ui:353
+msgid "Server (default)"
+msgstr "ម៉ាស៊ីន​បម្រើ​ (លំនាំដើម)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cboPerfectForwardSecrecy)
+#: vpnplugins/vpnc/vpncprop.ui:363
+msgid "DH Group 2"
+msgstr "DH ក្រុម ២"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: vpnplugins/vpnc/vpncprop.ui:376
+msgid "&Vendor:"
+msgstr "ក្រុមហ៊ុន​លក់ ៖"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cboVendor)
+#: vpnplugins/vpnc/vpncprop.ui:393
+msgid "Cisco (default)"
+msgstr "Cisco (លំនាំដើម​​)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cboVendor)
+#: vpnplugins/vpnc/vpncprop.ui:398
+msgid "Netscreen"
+msgstr "Netscreen"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: vpnplugins/vpnc/vpncprop.ui:406
+msgid "&Application Version:"
+msgstr "កំណែ​កម្មវិធី ៖"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkDeadPeerDetection)
+#: vpnplugins/vpnc/vpncprop.ui:419
+msgid "Enable Dead &Peer Detection"
+msgstr "បិទ​​ការ​រក​ឃើញ​​ម៉ាស៊ីន​ដូចគ្នា​ខូច​​"
+
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#: vpnplugins/vpnc/vpncprop.ui:429
+msgid "&Local Port:"
+msgstr "ច្រក​មូលដ្ឋាន ៖"
+
+#. i18n: ectx: property (text), widget (QLabel, label_13)
+#: vpnplugins/vpnc/vpncprop.ui:480
+msgid "&Cisco UDP Encapsulation Port:"
+msgstr "ច្រក​ក្នុង​ការ​ដាក់​នៅ​ក្នុង &Cisco UDP ។"
